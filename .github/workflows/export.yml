@@ -23,5 +23,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: ${{ matrix.course }}-scorm1.2
-        path: |
-          *.zip
+        path: ${{ steps.export.outputs.output-file }}
