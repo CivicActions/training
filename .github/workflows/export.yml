@@ -11,11 +11,12 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     
-    - name: Export ${{ matrix.course }} to ${{ matrix.format }}
-      uses: ./
+    - name: Export ${{ matrix.course }} to SCORM 1.2
+      uses: grugnog/LiaScript-Exporter@master
       with:
         input-file: '${{ matrix.course }}/README.md'
         format: scorm1.2
+        scorm-organization: CivicActions
         output-name: '${{ matrix.course }}-scorm1.2'
     
     - name: Upload artifacts
