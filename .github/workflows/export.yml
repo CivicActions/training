@@ -12,6 +12,7 @@ jobs:
     - uses: actions/checkout@v4
     
     - name: Export ${{ matrix.course }} to SCORM 1.2
+      id: export
       uses: grugnog/LiaScript-Exporter@master
       with:
         input-file: '${{ matrix.course }}/README.md'
