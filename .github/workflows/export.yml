@@ -13,7 +13,7 @@ jobs:
     
     - name: Export ${{ matrix.course }} to SCORM 1.2
       id: export
-      uses: grugnog/LiaScript-Exporter@master
+      uses: grugnog/LiaScript-Exporter@github-actions
       with:
         input-file: '${{ matrix.course }}/README.md'
         format: scorm1.2
