@@ -1,27 +1,134 @@
 name: Export All Courses
-on: [push]
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  release:
+    types: [ published ]
 
 jobs:
-  export:
+  generate-matrix:
+    runs-on: ubuntu-latest
+    outputs:
+      courses: ${{ steps.set-matrix.outputs.courses }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Generate course matrix
+        id: set-matrix
+        run: |
+          # Find all directories in repo root (excluding hidden dirs)
+          courses=$(find . -maxdepth 1 -type d ! -name ".*" ! -path "." -exec basename {} \; | jq -R -s -c 'split("\n") | map(select(length > 0))')
+          echo "courses=$courses" >> $GITHUB_OUTPUT
+          echo "Found courses: $courses"
+
+  export-scorm:
+    needs: generate-matrix
+    runs-on: ubuntu-latest
+    continue-on-error: false
+    strategy:
+      fail-fast: false
+      matrix:
+        course: ${{ fromJson(needs.generate-matrix.outputs.courses) }}
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Generate artifact name
+        id: artifact-name
+        run: |
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            echo "name=PR${{ github.event.number }}-${{ matrix.course }}-scorm1.2" >> $GITHUB_OUTPUT
+          elif [ "${{ github.event_name }}" = "release" ]; then
+            echo "name=${{ github.event.release.tag_name }}-${{ matrix.course }}-scorm1.2" >> $GITHUB_OUTPUT
+          else
+            echo "name=${{ github.ref_name }}-${{ github.sha }}-${{ matrix.course }}-scorm1.2" >> $GITHUB_OUTPUT
+          fi
+      
+      - name: Export ${{ matrix.course }} to SCORM 1.2
+        id: export
+        uses: LiaScript/LiaScript-Exporter@v2.6.46
+        with:
+          input-file: '${{ matrix.course }}/README.md'
+          format: scorm1.2
+          scorm-organization: CivicActions
+          output-name: '${{ matrix.course }}-scorm1.2'
+      
+      - name: Upload SCORM package
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ steps.artifact-name.outputs.name }}
+          path: ${{ steps.export.outputs.output-file }}
+          retention-days: ${{ github.event_name == 'release' && 90 || 30 }}
+
+  update-release-description:
+    if: github.event_name == 'release'
+    needs: export-scorm
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Append to release description
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const fs = require('fs');
+            const path = require('path');
+            
+            // Get the current release
+            const release = await github.rest.repos.getRelease({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              release_id: ${{ github.event.release.id }}
+            });
+            
+            // Read the template file
+            const templatePath = path.join(process.env.GITHUB_WORKSPACE, '.github/templates/release-description.md');
+            let templateContent = fs.readFileSync(templatePath, 'utf8');
+            
+            // Replace template variables
+            const releaseDate = new Date('${{ github.event.release.created_at }}').toLocaleDateString('en-US', {
+              year: 'numeric',
+              month: 'long',
+              day: 'numeric'
+            });
+            templateContent = templateContent.replace(/{{RELEASE_DATE}}/g, releaseDate);
+            
+            // Combine existing body with new content
+            const existingBody = release.data.body || '';
+            const newBody = existingBody + '\n\n' + templateContent;
+            
+            await github.rest.repos.updateRelease({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              release_id: ${{ github.event.release.id }},
+              body: newBody
+            });
+
+  upload-to-release:
+    if: github.event_name == 'release'
+    needs: [generate-matrix, export-scorm]
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        course: ['test']
+        course: ${{ fromJson(needs.generate-matrix.outputs.courses) }}
     
     steps:
-    - uses: actions/checkout@v4
-    
-    - name: Export ${{ matrix.course }} to SCORM 1.2
-      id: export
-      uses: grugnog/LiaScript-Exporter@github-actions
-      with:
-        input-file: '${{ matrix.course }}/README.md'
-        format: scorm1.2
-        scorm-organization: CivicActions
-        output-name: '${{ matrix.course }}-scorm1.2'
-    
-    - name: Upload artifacts
-      uses: actions/upload-artifact@v4
-      with:
-        name: ${{ matrix.course }}-scorm1.2
-        path: ${{ steps.export.outputs.output-file }}
+      - name: Download SCORM artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: ${{ github.event.release.tag_name }}-${{ matrix.course }}-scorm1.2
+          path: ./downloads/
+      
+      - name: Upload to release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: ./downloads/${{ matrix.course }}-scorm1.2.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
