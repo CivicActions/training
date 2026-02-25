@@ -126,9 +126,13 @@ jobs:
           name: ${{ github.event.release.tag_name }}-${{ matrix.course }}-scorm1.2
           path: ./downloads/
       
+      - name: Rename file with release tag
+        run: |
+          mv ./downloads/${{ matrix.course }}-scorm1.2.zip ./downloads/${{ matrix.course }}-scorm1.2-${{ github.event.release.tag_name }}.zip
+      
       - name: Upload to release
         uses: softprops/action-gh-release@v1
         with:
-          files: ./downloads/${{ matrix.course }}-scorm1.2.zip
+          files: ./downloads/${{ matrix.course }}-scorm1.2-${{ github.event.release.tag_name }}.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
