@@ -7,7 +7,7 @@ narrator: US English Female
 -->
 
 # Company-Managed Laptop
-    ## Pre-Order + Setup Training (7 Minutes)
+    ## Pre-Order + Setup Training
 
 We're excited to ship your company-managed laptop 🎉
 
@@ -50,7 +50,7 @@ Recommended format:
 
 - A memorable phrase
 OR
-- Four random words separated by hyphens
+- Four random words separated by symbols
 
 Example:
 `river-harbor-glass-map`
