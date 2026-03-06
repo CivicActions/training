@@ -16,7 +16,7 @@ This ensures accurate shipping, smooth enrollment, and a clean setup experience.
 
 ---
 
-# Step 1: Complete the Company Managed Device Rollout Form (Required)
+# Step 1: Complete the Company Managed Device Rollout Form
 
 Please complete the rollout form:
 
@@ -156,7 +156,15 @@ During setup, select:
 - Accessibility Options
 - Connect to WiFi
 
+![Setup](IT-Laptop/assets/it-laptop-setup.png)
+
+**Do not migrate from a personal device or backup.**
+
 > You can always access the docs about this process on [Confluence](https://civicactions.atlassian.net/wiki/x/AoCAHw)--no need to remember everything.
+
+
+
+
 
 ---
 
@@ -179,7 +187,7 @@ On the Migration Assistant screen:
 - [[ ]] Restore from Time Machine
 - [[ ]] Use iCloud
 
-**Do not migrate from a personal device or backup.**
+
 
 ---
 
