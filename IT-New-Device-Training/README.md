@@ -88,7 +88,7 @@ What triggers your laptop order?
 - [[ ]] Completing the training only
 - [[ ]] Submitting the form only
 - [[x]] Posting in Slack and creating a ticket from that message
-- [[ ]] Emailing IT ]
+- [[ ]] Emailing IT
 
 ---
 
@@ -130,7 +130,7 @@ You do **not** need to keep the box.
 - [[ ]] Store it indefinitely
 - [[x]] Reuse or recycle it
 - [[ ]] Ship it back
-- [[ ]] Ship it to Henry with his gift cards ]
+- [[ ]] Ship it to Henry with his gift cards
 
 ---
 
@@ -177,7 +177,7 @@ On the Migration Assistant screen:
 - [[ ]] Restore from personal Mac
 - [[x]] Click “Not Now” or "Setup as New Machine"
 - [[ ]] Restore from Time Machine
-- [[ ]] Use iCloud ]
+- [[ ]] Use iCloud
 
 **Do not migrate from a personal device or backup.**
 
@@ -232,7 +232,7 @@ Do NOT sync:
 - [[ ]] It is slower
 - [[x]] It can expose secrets
 - [[ ]] It breaks Zoom
-- [[ ]] It is not allowed by Sammy ]
+- [[ ]] It is not allowed by Sammy
 
 
 ---
@@ -268,7 +268,7 @@ Whose responsibility is it to keep "Direct Install" or Homebrew apps updated?
 - [[ ]] IT (via a magic background script)
 - [[ ]] My Project Lead
 - [[x]] Me (the user)
-- [[ ]] Sammy the CivicActions Sea Otter ]
+- [[ ]] Sammy the CivicActions Sea Otter
 
 *******************************************************************************
 
@@ -277,7 +277,7 @@ Whose responsibility is it to keep "Direct Install" or Homebrew apps updated?
 - [[ ]] Ignore it; Kandji will catch it eventually.
 - [[ ]] Delete the app and reinstall it next year.
 - [[x]] Manually check for and install the update immediately.
- - [[ ]] Open an IT ticket for them to update it for me. ]
+- [[ ]] Open an IT ticket for them to update it for me.
 
 *******************************************************************************
 
