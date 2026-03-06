@@ -1,3 +1,10 @@
+<!--
+author:              CivicActions Internal Compliance Team
+language:            en
+comment:             This CivicActions internal training course is updated and maintained by CivicActions.
+controlled_document: CP7052 ISO 9001 Training
+-->
+
 # Quality Management System Training
 ?[Welcome.webm](https://github.com/user-attachments/assets/b0792c02-cb7b-4970-a3cb-10931a144a47)
 

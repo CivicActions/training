@@ -1,3 +1,11 @@
+<!--
+author:              CivicActions Accessibility Team
+email:               accessibility@civicactions.com
+language:            en
+comment:             This CivicActions internal training course is updated and maintained by CivicActions.
+controlled_document: AC7042 Accessibility Foundations
+-->
+
 # Accessibility Training
 ?[axwelcome.webm](https://github.com/user-attachments/assets/718b78d3-4583-4b51-9098-a474d760d57e)
 

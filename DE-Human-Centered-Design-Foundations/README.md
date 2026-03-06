@@ -1,3 +1,10 @@
+<!--
+author:              CivicActions Design Team
+language:            en
+comment:             This CivicActions internal training course is updated and maintained by CivicActions.
+controlled_document: DE7055 Human Centered Design Foundations
+-->
+
 # Human-Centered Design Training
 ?[HCDwelcome.webm](https://github.com/user-attachments/assets/ea26fbe0-2228-4271-bdfe-ab8e233970bd)
 
