@@ -156,6 +156,8 @@ During setup, select:
 - Accessibility Options
 - Connect to WiFi
 
+> You can always access the docs about this process on [Confluence](https://civicactions.atlassian.net/wiki/x/AoCAHw)--no need to remember everything.
+
 ---
 
 ## Remote Management
@@ -235,28 +237,52 @@ Do NOT sync:
 
 ---
 
-## Kandji Self Service
+## Kandji Self Service & Additional Apps
 
-Use Kandji Self Service to:
+Use **Kandji Self Service** for a "one-click" install of approved tools. If an app is available here, IT handles the heavy lifting for updates.
 
-- Install role-specific apps
-- Install macOS updates
+* **Role-Specific Apps:** Find tools tailored to your department.
+* **macOS Updates:** Install these via the Kandji menu bar icon (look for the red dot 🔴).
+* **The 14-Day Rule:** Updates have a 14-day grace period. **If you don't update manually, Kandji will force the install—even in the middle of a meeting!**
 
-You may receive macOS upgrade prompts in the first few days.
-Install them when convenient (for example, during lunch or at end of day).
+![Kandji Update Notification](it/images/new-device-kandji-update.png)
 
-Updates are avaliable when the Kandji logo in your toolbar has a red dot.
-![Kandji Update](it/images/new-device-kandji-update.png)
+### The "App Support" Breakdown
 
-> Updates normally have a 14 day grace period for installation. **If you do not update within that time window, Kandji will enforce the upgrade at any point in time, no matter if you are in a meeting or not.**
+Not every app on your machine is managed by IT. It is crucial to understand who is in the driver's seat for updates. While Security reviews all installed apps, **it remains your responsibility to keep non-Kandji apps updated and secure.**
+
+![IT Security Reminder & App Ownership Breakdown](it/images/it-app-ownership-infographic.png)
+
+| App Source | Who Updates It? | IT Support Level |
+| :--- | :--- | :--- |
+| **Kandji / Pre-installed** | **Automatic (Kandji)** | Full Support |
+| **CivicBrew (Homebrew)** | **You** (`brew upgrade`) | Community / Self-Help |
+| **Direct Downloads** | **You** (Manual) | Security Review Only |
+
+> **Note:** For direct installs (e.g., specific client-provided tools), limit these to only what is required.
+
+### Knowledge Check: Ownership
+
+Whose responsibility is it to keep "Direct Install" or Homebrew apps updated?
+
+[( ) IT (via a magic background script)
+ ( ) My Project Lead
+ (x) Me (the user)
+ ( ) Sammy the CivicActions Sea Otter ]
+
+*******************************************************************************
+
+**Scenario:** You downloaded a design tool directly from a vendor's website. A security patch is released. What is the correct move?
+
+[( ) Ignore it; Kandji will catch it eventually.
+ ( ) Delete the app and reinstall it next year.
+ (x) Manually check for and install the update immediately.
+ ( ) Open an IT ticket for them to update it for me. ]
+
+*******************************************************************************
 
 ---
 
-## When should you perform upgrades?
-
-[( ) Never, let Kandji do it
-( ) Whenever IT sends me angry slack messages
-(x)] Before the deadline
 
 # Final Check
 
