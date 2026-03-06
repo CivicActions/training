@@ -143,12 +143,12 @@ Once IT says it is safe to power on your device, you can begin the setup process
 ## Power & Basics
 
 1. Plug into wall power
-![Plug](IT-New-Device/assets/new-device-plug.jpg)
+![Plug](IT-Laptop/assets/new-device-plug.jpg)
 2. Press the power button (top right)
 
 During setup, select:
 
-![Setup](IT-New-Device/assets/new-device-screen.jpg)
+![Setup](IT-Laptop/assets/new-device-screen.jpg)
 
 - Language
 - Region
@@ -245,13 +245,13 @@ Use **Kandji Self Service** for a "one-click" install of approved tools. If an a
 * **macOS Updates:** Install these via the Kandji menu bar icon (look for the red dot 🔴).
 * **The 14-Day Rule:** Updates have a 14-day grace period. **If you don't update manually, Kandji will force the install—even in the middle of a meeting!**
 
-![Kandji Update Notification](IT-New-Device/assets/new-device-kandji-update.png)
+![Kandji Update Notification](IT-Laptop/assets/new-device-kandji-update.png)
 
 ### The "App Support" Breakdown
 
 Not every app on your machine is managed by IT. It is crucial to understand who is in the driver's seat for updates. While Security reviews all installed apps, **it remains your responsibility to keep non-Kandji apps updated and secure.**
 
-![IT Security Reminder & App Ownership Breakdown](IT-New-Device/assets/it-app-ownership-infographic.png)
+![IT Security Reminder & App Ownership Breakdown](IT-Laptop/assets/it-app-ownership-infographic.png)
 
 | App Source | Who Updates It? | IT Support Level |
 | :--- | :--- | :--- |
