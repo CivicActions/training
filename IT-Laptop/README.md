@@ -59,7 +59,7 @@ You can update your password anytime via your [Google Account page](https://myac
 
 ---
 
-# Step 3: Deployment Readiness Confirmation (Required)
+# Step 3: Deployment Readiness Confirmation
 
 Once you have:
 
