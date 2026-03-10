@@ -335,3 +335,5 @@ Once:
 
 Your laptop is ready for use and you can begin customizing it to fit your needs. Once the laptop is operational, you can close the Laptop Deployment ticket.
 
+> To complete this training, close this browser tab.
+
