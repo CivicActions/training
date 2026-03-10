@@ -41,21 +41,22 @@ jobs:
         id: artifact-name
         run: |
           if [ "${{ github.event_name }}" = "pull_request" ]; then
-            echo "name=PR${{ github.event.number }}-${{ matrix.course }}-scorm1.2" >> $GITHUB_OUTPUT
+            echo "name=PR${{ github.event.number }}-${{ matrix.course }}-scorm" >> $GITHUB_OUTPUT
           elif [ "${{ github.event_name }}" = "release" ]; then
-            echo "name=${{ github.event.release.tag_name }}-${{ matrix.course }}-scorm1.2" >> $GITHUB_OUTPUT
+            echo "name=${{ github.event.release.tag_name }}-${{ matrix.course }}-scorm" >> $GITHUB_OUTPUT
           else
-            echo "name=${{ github.ref_name }}-${{ github.sha }}-${{ matrix.course }}-scorm1.2" >> $GITHUB_OUTPUT
+            echo "name=${{ github.ref_name }}-${{ github.sha }}-${{ matrix.course }}-scorm" >> $GITHUB_OUTPUT
           fi
       
-      - name: Export ${{ matrix.course }} to SCORM 1.2
+      - name: Export ${{ matrix.course }} to SCORM
         id: export
         uses: LiaScript/LiaScript-Exporter@v2.6.46
         with:
           input-file: '${{ matrix.course }}/README.md'
-          format: scorm1.2
+          format: scorm2004
+          scorm-iframe: true
           scorm-organization: CivicActions
-          output-name: '${{ matrix.course }}-scorm1.2'
+          output-name: '${{ matrix.course }}-scorm'
       
       - name: Upload SCORM package
         uses: actions/upload-artifact@v4
@@ -123,16 +124,16 @@ jobs:
       - name: Download SCORM artifact
         uses: actions/download-artifact@v4
         with:
-          name: ${{ github.event.release.tag_name }}-${{ matrix.course }}-scorm1.2
+          name: ${{ github.event.release.tag_name }}-${{ matrix.course }}-scorm
           path: ./downloads/
       
       - name: Rename file with release tag
         run: |
-          mv ./downloads/${{ matrix.course }}-scorm1.2.zip ./downloads/${{ matrix.course }}-scorm1.2-${{ github.event.release.tag_name }}.zip
+          mv ./downloads/${{ matrix.course }}-scorm.zip ./downloads/${{ matrix.course }}-${{ github.event.release.tag_name }}-scorm.zip
       
       - name: Upload to release
         uses: softprops/action-gh-release@v1
         with:
-          files: ./downloads/${{ matrix.course }}-scorm1.2-${{ github.event.release.tag_name }}.zip
+          files: ./downloads/${{ matrix.course }}-${{ github.event.release.tag_name }}-scorm.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
