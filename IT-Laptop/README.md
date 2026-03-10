@@ -66,9 +66,18 @@ Once you have:
 - [ ] Submitted the rollout form
 - [ ] Reviewed this training
 
-Go to [**#it-laptops-wave-2**](https://civicactions.slack.com/archives/C0A72LVNVNZ) in Slack and post this message:
+Go to your laptop deployment wave Slack channel and post this message:
 
 > I am ready to deploy my laptop and have completed the Company Managed Device Rollout form and required training.
+
+You can find your laptop wave channel here:
+
+
+- [**#it-laptops-wave-2**](https://civicactions.slack.com/archives/C0A72LVNVNZ)
+- [**#it-laptops-wave-3**](https://civicactions.slack.com/archives/C0A79MJDX7W)
+- [**#it-laptops-wave-4**](https://civicactions.slack.com/archives/C0A6ZNB255Z)
+
+
 
 After posting:
 
