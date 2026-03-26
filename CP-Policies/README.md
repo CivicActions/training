@@ -11,7 +11,7 @@ This project converts CivicActions' 17 security and compliance policies into six
   1. [Security Awareness Essentials](https://liascript.github.io/course/?https://raw.githubusercontent.com/CivicActions/training/policies/CP-Policies/drafts/01-security-awareness-essentials/README.md#1)
   2. [CUI Awareness & Handling](https://liascript.github.io/course/?https://raw.githubusercontent.com/CivicActions/training/policies/CP-Policies/drafts/02-cui-awareness-handling/README.md#1)
   3. [IT Operations: Change, Configuration & Patch Management](https://liascript.github.io/course/?https://raw.githubusercontent.com/CivicActions/training/policies/CP-Policies/drafts/03-it-ops-change-config-patch/README.md#1)
-  4. [Incident Response for Responders](ttps://liascript.github.io/course/?https://raw.githubusercontent.com/CivicActions/training/policies/CP-Policies/drafts/04-incident-response-responders/README.md#1)
+  4. [Incident Response for Responders](https://liascript.github.io/course/?https://raw.githubusercontent.com/CivicActions/training/policies/CP-Policies/drafts/04-incident-response-responders/README.md#1)
   5. [Secure Development & Supply Chain](https://liascript.github.io/course/?https://raw.githubusercontent.com/CivicActions/training/policies/CP-Policies/drafts/05-secure-dev-supply-chain/README.md#1)
   6. [Access Governance, Risk & Supplier Oversight](https://liascript.github.io/course/?https://raw.githubusercontent.com/CivicActions/training/policies/CP-Policies/drafts/06-access-governance-risk-supplier/README.md#1)
 
