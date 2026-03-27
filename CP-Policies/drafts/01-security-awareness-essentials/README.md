@@ -466,7 +466,7 @@ Understanding risk doesn't have to be complicated:
 
 > **Example:** You notice that a tool your team uses doesn't support SSO. You can't just decide "that's fine" and keep using it with a local password. A risk like that needs to be formally documented in the Jira Risk Register and approved by the appropriate authority — the CISO for higher risks, or a System Owner for lower ones.
 
-### DR Communication Hierarchy
+### Disaster Recovery Communications
 
 During a major outage, normal communication tools might be down. Here's the backup plan:
 
