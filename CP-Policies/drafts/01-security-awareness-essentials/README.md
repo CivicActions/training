@@ -34,7 +34,7 @@ Your laptop and workspace are the front line of security. This module covers wha
 
 ### Managed Devices
 
-CivicActions issues you a **managed laptop**. This laptop comes pre-configured with:
+CivicActions issues you a [**managed laptop**](https://civicactions.atlassian.net/wiki/spaces/ITSM/pages/161087491/CivicActions+Laptops). This laptop comes pre-configured with:
 
 - **Full-disk encryption** (FDE) — so your data stays protected if the device is lost or stolen
 - **Endpoint detection and response** (EDR) software
@@ -51,7 +51,7 @@ CivicActions issues you a **managed laptop**. This laptop comes pre-configured w
 Not all software is safe to use. CivicActions maintains an **Approved Software Catalog** and a **Prohibited Hardware and Software** list.
 
 - Only install software from the Approved Catalog
-- If you need something new, submit a request through the access and authorization workflow
+- If you need something new, submit a request through the [access and authorization workflow](https://civicactions.atlassian.net/wiki/spaces/ITSM/pages/1026719753/Approval+Process+for+Software+and+Services)
 - MDM (Mobile Device Management) will block software that isn't approved
 
 Think of it this way: if it's not on the approved list, don't install it.
@@ -129,7 +129,7 @@ Your digital identity is how CivicActions verifies that *you* are *you*. This mo
 - **Never use personal accounts** (like a personal Gmail) for CivicActions work
 - CivicActions uses a `firstname.lastname@civicactions.com` naming convention — IT sets this up when you onboard. If your name matches someone else's, IT adds a middle initial or variation.
 
-> **Example:** When you join, PeopleOps verifies your identity through Rippling. IT then creates your Google Workspace account, assigns you to the right groups and Slack channels, and issues your YubiKeys — all before your first day.
+> **Example:** When you join, PeopleOps verifies your identity through Rippling. IT then creates your Google Workspace account, assigns you to the right groups and Slack channels, and issues your YubiKey — all before your first day.
 
 ### SSO and MFA
 
@@ -139,13 +139,15 @@ Your digital identity is how CivicActions verifies that *you* are *you*. This mo
 
 **Multi-Factor Authentication (MFA)** adds a second layer of proof that you are who you say you are.
 
-- Enroll **two FIDO2/WebAuthn hardware keys** (like YubiKeys) — one primary, one backup
+- Enroll your [**YubiKey as a Passkey**](https://civicactions.atlassian.net/wiki/spaces/ITSM/pages/732856328/Yubikey+Passkey+Setup+Process) for quick authentication to CivicActions Google Workspace
 - **Phishing-resistant MFA** (hardware keys) is preferred over SMS codes or authenticator apps
 - SMS and TOTP (app-based codes) are fallbacks, not the first choice
 
-> **Why hardware keys?** They can't be phished. Even if someone tricks you into entering your password on a fake site, they can't intercept a hardware key.
+> **Why a hardware key?** They can't be phished. Even if someone tricks you into entering your password on a fake site, they can't intercept a hardware key.
 
-> **Tip:** Keep one YubiKey on your keychain and store the backup in a secure spot at home. If you lose a key, report it immediately to security@civicactions.com — IT will disable the lost key, verify your identity, and bind a replacement.
+If you lose your YubiKey, report it immediately to security@civicactions.com - IT will disable the lost key, verify your identity, and send you a replacement. If you are locked out of your laptop or Google Account, follow the procedure for [Internal Technical Support](https://guidebook.civicactions.com/en/latest/common-practices-tools/software-and-support/#emergency-locked-out) in the Guidebook
+
+> **Tip:** Consider buying a second YubiKey and keep one on your keychain and store the backup in a secure spot at home.
 
 ### Password Standards
 
@@ -155,7 +157,9 @@ Strong passwords are your first line of defense:
 - **Memorize** your primary password and use a **password manager** for everything else
 - **Never reuse passwords** across different services — if one gets compromised, they all do
 
-> **Example:** Use your password manager (like 1Password) to generate and store unique passwords for any service that doesn't support Google SSO. Your Google Workspace password is the one you memorize — make it long, unique, and keep it out of your password manager so a single breach can't unlock everything.
+> **Example:** Use your password manager to generate and store unique, strong passwords for any service that doesn't support Google SSO. Your Google Workspace password is the one you memorize — make it long, unique, and keep it out of your password manager so a single breach can't unlock everything.
+
+> **Tip:** LastPass, 1Password, BitWarden and Proton Pass are some of the best known password managers.
 
 ### Access Requests
 
@@ -247,7 +251,7 @@ Sharing data the wrong way is one of the most common security mistakes:
 The general rule: **avoid both** whenever possible.
 
 - If you must print something, **secure it and shred it the same day**
-- If you use removable media (USB drives, etc.), **encrypt it**
+- Do not use removable media - this includes USB drives - without express permission from CISO or CTO.
 
 ### DLP and Monitoring
 
@@ -299,7 +303,7 @@ Some things are never OK:
 
 AI can be a powerful productivity tool, but it comes with real risks. Here are the ground rules:
 
-1. **Use only CivicActions-approved AI tools** with IT-managed accounts
+1. **Use only [CivicActions-approved AI tools](https://civicactions.atlassian.net/wiki/spaces/MGPOL/pages/582418435/AI+Usage+Policy)** with IT-managed accounts
 2. **Never input sensitive, confidential, or client-internal data** into any AI tool — even approved ones
 3. **Human oversight is required** for all AI-generated output
 4. **Peer-review AI content** before sharing it externally
@@ -433,7 +437,7 @@ You don't need to be a compliance expert, but you do need to understand the big 
 
 CivicActions has a layered policy structure:
 
-- The **Information Security Policy** is the umbrella — it sets the overall direction
+- The [**Information Security Policy**](https://civicactions.atlassian.net/wiki/spaces/MGPOL/pages/703725569/Information+Security+Policy) is the umbrella — it sets the overall direction
 - It delegates specifics to **subordinate policies**: Acceptable Use, Access Control, Incident Response, Data Security, and more
 - All policies are accessible to you — know where to find them if you need them
 
@@ -466,9 +470,8 @@ Understanding risk doesn't have to be complicated:
 
 During a major outage, normal communication tools might be down. Here's the backup plan:
 
-1. **Primary:** Slack chat, Zoom video
-2. **Secondary:** Google Chat
-3. **Tertiary:** Slack video, Zoom chat
+1. **Primary:** Slack chat, Slack huddle, Zoom video
+2. **Secondary:** Google Chat, Google Meet, telephone
 
 Clients and partners are notified only if the outage impacts deliverables.
 
@@ -476,7 +479,7 @@ Clients and partners are notified only if the outage impacts deliverables.
 
 Want to suggest a change to a policy or controlled document?
 
-- Submit through the **Compliance Jira board**
+- Submit an [**internal IT support request**](https://civicactions.atlassian.net/wiki/spaces/ITSM/pages/607584257/Atlassian+Assist)
 - Controlled Documents are **reviewed annually**
 - Access to documents is managed via **security groups**
 
@@ -486,7 +489,7 @@ Want to suggest a change to a policy or controlled document?
 
 You don't need to manage these programs — but you should know they exist:
 
-- CivicActions IT manages **configuration management**, **change enablement**, **vulnerability scanning**, and **patch management**
+- CivicActions IT manages [**configuration management**](https://civicactions.atlassian.net/wiki/spaces/MGPOL/pages/767983618/Configuration+Management+Policy), [**change enablement**](https://civicactions.atlassian.net/wiki/spaces/MGPOL/pages/768114689/Change+Enablement+Policy), [**vulnerability and patch management**](https://civicactions.atlassian.net/wiki/spaces/MGPOL/pages/768344065/Vulnerability+and+Patch+Management+Policy)
 - Think of these as **guardrails, not gates** — they run in the background to keep everything secure
 - Your part: install updates when prompted and report anything that seems off
 
