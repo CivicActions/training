@@ -431,7 +431,7 @@ You receive a suspicious email with an attachment claiming to be an invoice. Wha
 
 ## Module F — Governance, Risk, and Compliance
 
-You don't need to be a compliance expert, but you do need to understand the big picture. This module gives you a quick overview of how CivicActions policies are organized, what frameworks they align to, and what you can do to support them.
+You don't need to be a compliance expert, but it helps to understand the big picture. This module gives you a quick overview of how CivicActions policies are organized, what frameworks they align to, and what you can do to support them.
 
 ### Policy Structure
 
@@ -439,7 +439,7 @@ CivicActions has a layered policy structure:
 
 - The [**Information Security Policy**](https://civicactions.atlassian.net/wiki/spaces/MGPOL/pages/703725569/Information+Security+Policy) is the umbrella — it sets the overall direction
 - It delegates specifics to **subordinate policies**: Acceptable Use, Access Control, Incident Response, Data Security, and more
-- All policies are accessible to you — know where to find them if you need them
+- All policies are accessible to you — [know where to find them](https://civicactions.atlassian.net/wiki/spaces/MGPOL/overview?homepageId=309068052) if you need them
 
 > **Example:** Wondering what the rules are for using USB drives? You'd look at the Data Security and Handling Policy. Not sure about your MFA requirements? Check the Identification Policy. The Information Security Policy is the table of contents — it points you to the right place.
 
@@ -500,7 +500,7 @@ CivicActions works with outside vendors and partners. Here's what you should kno
 - **No supplier** may be procured or granted system access until due diligence is complete
 - If you have concerns about a vendor's security practices, **report them to IT**
 
-> **Example:** A project lead wants to try a new design collaboration tool. Before signing up, it needs to go through supplier intake — CIAX scoring for SaaS, SSO/MFA validation, data residency review. Even a free-tier tool that touches CivicActions data must be vetted first.
+> **Example:** A project lead wants to try a new design collaboration tool. Before signing up, it needs to go through supplier intake and Confidentiality, Integrity, Availability, and eXpense (CIAX) scoring for SaaS, SSO/MFA validation, data residency review. Even a free-tier tool that touches CivicActions data must be vetted first.
 
 ### Module F Quiz
 
@@ -512,7 +512,7 @@ During a major SaaS outage, Slack is unavailable. What is the secondary communic
 - [( )] Wait until Slack comes back
 ***
 
-**Right!** The DR communication hierarchy is: Primary (Slack/Zoom), Secondary (Google Chat), Tertiary (Slack video/Zoom chat). Knowing these backups means you can stay connected and coordinated even when the primary tools are down.
+**Right!** The DR communication hierarchy is: Primary (Slack/Zoom), Secondary (Google Chat/Meet or telephone). Knowing these backups means you can stay connected and coordinated even when the primary tools are down.
 
 ***
 
