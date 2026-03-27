@@ -464,7 +464,7 @@ Understanding risk doesn't have to be complicated:
 - **3×3 risk scale:** Likelihood (Low/Medium/High) × Impact (Low/Medium/High)
 - **Risk acceptance** must be explicit and approved by the right people — you can't just decide to accept a risk on your own
 
-> **Example:** You notice that a tool your team uses doesn't support SSO. You can't just decide "that's fine" and keep using it with a local password. A risk like that needs to be formally documented in the Jira Risk Register and approved by the appropriate authority — the CISO for higher risks, or a System Owner for lower ones.
+> **Example:** You notice that a tool your team uses doesn't support SSO. You can't just decide "that's fine" and keep using it with a local password. A risk like that needs to be formally documented in the Jira Risk Register and approved by the appropriate authority — the CISO or CTO for higher risks, or an IT team member for lower ones.
 
 ### Disaster Recovery Communications
 
