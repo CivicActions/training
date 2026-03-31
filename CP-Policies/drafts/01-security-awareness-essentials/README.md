@@ -207,8 +207,8 @@ CivicActions uses four levels of data classification:
 |-------|---------------|----------|
 | **Public** | Safe for anyone to see | Published blog posts, open-source code |
 | **Internal** | For CivicActions team members only | Internal meeting notes, project plans |
-| **Confidential** | Sensitive — limited access | Client contracts, financial data, PII |
-| **Restricted** | Highest sensitivity — strict controls | CUI, regulated data, security credentials |
+| **Confidential** | Sensitive — limited access | Client contracts, financial data, Federal Contract Information (FCI), Controlled Unclassified Information (CUI) |
+| **Restricted** | Highest sensitivity — strict controls | Personally Identifiable Information (PII), Personal Health Information (PHI), security credentials, regulated data |
 
 > **Default rule:** All data is treated as **Internal** until someone explicitly classifies it otherwise.
 
@@ -219,6 +219,7 @@ Each classification level has specific rules for sharing, storage, and transmiss
 - **Public:** No special handling needed
 - **Internal:** Keep within CivicActions systems; don't post externally
 - **Confidential/Restricted:** Must be **encrypted in transit and at rest**; access on a need-to-know basis only
+  - Controlled Unclassified Information (CUI) has [additional handling controls](../02-cui-awareness-handling/README.md#1) over other Confidential data
 
 When in doubt, treat data as Confidential and ask your manager or IT.
 

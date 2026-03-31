@@ -37,11 +37,12 @@ Before you can handle CUI properly, you need to understand what it is, who can a
 
 ### CUI Defined
 
-**CUI** stands for **Controlled Unclassified Information**. It's government-created or government-owned information that requires safeguarding under federal regulation — specifically **32 CFR Part 2002**.
+**CUI** stands for **Controlled Unclassified Information**. It's government-created or government-owned information that requires safeguarding under federal regulation — specifically [**32 CFR Part 2002**](https://www.ecfr.gov/current/title-32/subtitle-B/chapter-XX/part-2002).
 
 CUI isn't classified (like "Secret" or "Top Secret"), but it's still sensitive. At CivicActions, examples of CUI include:
 
 - **Vulnerability scan results** from federal systems
+- **Any document marked** "CUI" or "Controlled Unclassified Information"
 - **Contractor bids and proposals**
 - **Non-public contract data**
 
