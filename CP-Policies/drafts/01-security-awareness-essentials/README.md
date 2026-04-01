@@ -219,7 +219,7 @@ Each classification level has specific rules for sharing, storage, and transmiss
 - **Public:** No special handling needed
 - **Internal:** Keep within CivicActions systems; don't post externally
 - **Confidential/Restricted:** Must be **encrypted in transit and at rest**; access on a need-to-know basis only
-  - Controlled Unclassified Information (CUI) has [additional handling controls](https://liascript.github.io/course/?url=../02-cui-awareness-handling/README.md#1) over other Confidential data
+  - **Controlled Unclassified Information (CUI)** has additional handling controls over other Confidential data
 
 When in doubt, treat data as Confidential and ask your manager or IT.
 
