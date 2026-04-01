@@ -234,6 +234,8 @@ Where you store data matters:
 
 If it's work data, it belongs on work systems — period.
 
+> **General rule:** All work related information should be stored in the cloud in the appropriate CivicActions Google Shared Drive or in GitHub/GitLab.
+
 > **Example:** You're drafting a proposal and want to save it locally "just in case." Don't — sync it to your CivicActions Google Drive instead. That way it's backed up, access-controlled, and covered by DLP monitoring. If something happens to your laptop, the file is still safe in the cloud.
 
 ### Sharing Safely
