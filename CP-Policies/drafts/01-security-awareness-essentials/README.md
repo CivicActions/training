@@ -203,12 +203,12 @@ Not all data is created equal. CivicActions classifies data into levels so every
 
 CivicActions uses four levels of data classification:
 
-| Level | What it means | Examples |
-|-------|---------------|----------|
-| **Public** | Safe for anyone to see | Published blog posts, open-source code |
-| **Internal** | For CivicActions team members only | Internal meeting notes, project plans |
-| **Confidential** | Sensitive — limited access | Client contracts, financial data, Federal Contract Information (FCI), Controlled Unclassified Information (CUI) |
-| **Restricted** | Highest sensitivity — strict controls | Personally Identifiable Information (PII), Personal Health Information (PHI), security credentials, regulated data |
+| Level | What it means | If mishandled |
+|-------|---------------|---------------|
+| **Public** | Approved for release — website content, published marketing materials, open-source code. Anyone in the organization can access and share this data. | Minimal risk. |
+| **Internal** | Non-sensitive internal procedures — meeting notes, project timelines, internal process documents. Should not be shared outside the organization. | Minor operational disruptions, but no severe compliance consequences. |
+| **Confidential** | High-stakes data — client contracts, Federal Contract Information (FCI), Controlled Unclassified Information (CUI), client technical drawings, sensitive contract details. Access limited to those with a legitimate business need. | Could jeopardize contract eligibility or lead to regulatory penalties. |
+| **Restricted** | The most sensitive data — payroll records, login credentials, Social Security Numbers, Personal Health Information (PHI). Access strictly controlled and monitored. | Severe harm, including legal action or significant financial loss. |
 
 > **Default rule:** All data is treated as **Internal** until someone explicitly classifies it otherwise.
 
@@ -237,6 +237,8 @@ If it's work data, it belongs on work systems — period.
 > **General rule:** All work related information should be stored in the cloud in the appropriate CivicActions Google Shared Drive or in GitHub/GitLab.
 
 > **Example:** You're drafting a proposal and want to save it locally "just in case." Don't — sync it to your CivicActions Google Drive instead. That way it's backed up, access-controlled, and covered by DLP monitoring. If something happens to your laptop, the file is still safe in the cloud.
+
+> **Tip:** Learn to spot labeled files in Google Workspace — look for banners, filename tags (like `[CUI]` or `[Confidential]`), or workspace labels on documents and folders. If a file contains sensitive information but doesn't have any of these markers, flag it to your manager or IT so it can be properly labeled before anyone shares it further.
 
 ### Sharing Safely
 
