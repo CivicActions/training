@@ -60,13 +60,14 @@ When designing systems, keep these principles in mind:
 
 This one is simple but critical:
 
-- **Never use real PII or Confidential data** in test or development environments
+- **Never use real PII, Confidential, or CUI data** in test or development environments
 - **Do not export PII from SaaS platforms** for testing purposes
-- **Use synthetic or anonymized data** instead
+- **Use synthetic or masked datasets** instead — and submit masking scripts for review and approval before use
+- **Store test data only in approved environments** — never on personal devices or unapproved platforms
 
 Production data in a test environment is a breach waiting to happen. Synthetic data gives you what you need without the risk.
 
-> **Example:** You're building a feature that displays user profiles. Instead of exporting real user data from Rippling or Google Workspace, you generate synthetic records with fake names, emails, and roles. The feature works the same way — but if the test environment gets compromised, no real PII is exposed.
+> **Example:** You're building a feature that displays user profiles. Instead of exporting real user data from Rippling or Google Workspace, you generate synthetic records with fake names, emails, and roles using an approved masking script. The script gets peer-reviewed to make sure it actually strips sensitive fields. The feature works the same way, but if the test environment gets compromised, no real PII is exposed.
 
 ### Code Review Obligations
 

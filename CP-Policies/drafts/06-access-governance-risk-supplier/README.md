@@ -232,6 +232,26 @@ Don't skip this because of time pressure. A vendor without due diligence is an u
 
 > **Example:** A project lead wants to start using a new SaaS collaboration tool next week. You walk them through the process: submit the intake form (business owner, data classification, intended use), then evidence review (does the vendor have SOC 2 or ISO 27001 certification?). For a Medium-tier tool, a SIG Lite questionnaire is also required. The tool doesn't get deployed until this is done — no exceptions, even with a deadline.
 
+### Protecting Commercial Data in Supplier Relationships
+
+Before granting any supplier or partner access to project data, treat the data correctly:
+
+- **Proposals, RFPs, and technical diagrams** are **Confidential by default** — store them only in designated Shared Drives or authorized CUI enclaves, never on personal devices or unapproved platforms
+- **Brief subcontractors and partners on data handling requirements before granting access** — don't rely on contract clauses alone; walk them through what's expected
+- **Confirm understanding** — get written acknowledgment that the partner knows the rules before they touch project data
+
+> **Example:** A subcontractor is joining your federal project next week. Before you approve their access to the project Shared Drive, schedule a 15-minute briefing: where CUI lives, what can and can't be shared externally, and how to report a mistake. Have them confirm they understand. Skipping this step is one of the most common ways sensitive data ends up in the wrong place.
+
+### Data Minimization as a Management Responsibility
+
+As a manager, you set the standard for how much data your team collects and retains:
+
+- **Collect only what's necessary** — if your team doesn't need a data element to do the work, don't collect it
+- **Grant access strictly on a need-to-know basis** — even within your own team, not everyone needs everything
+- **Verify that project data stays in approved locations** — spot-check that team members aren't storing files locally or in personal cloud accounts
+
+> **Example:** Your team is starting a new engagement and setting up a project Shared Drive. Before populating it, think about what's actually needed — don't copy over an entire folder of data from a previous project "just in case." Share only the documents required for the current scope, and limit access to the team members who need them.
+
 ### Required Contract Clauses
 
 Every supplier contract must include specific security clauses:

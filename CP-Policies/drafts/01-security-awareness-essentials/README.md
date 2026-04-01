@@ -246,6 +246,7 @@ Sharing data the wrong way is one of the most common security mistakes:
 - **Confidential files sent externally:** Use a **password-protected AES-256 archive** with a **20+ character passphrase**
 - **Send the passphrase through a separate channel** (e.g., share the file by email, send the password via Slack)
 - **Never use email for Confidential or Restricted data** — use Google Drive sharing instead
+- **Slack is for coordination, not data transfer** — never paste or upload Confidential or Restricted data (including technical diagrams, credentials, or CUI) in Slack channels or DMs
 
 > **Example:** A partner organization needs a Confidential deliverable but doesn't have access to your Google Drive. Create a password-protected ZIP archive with a 20+ character passphrase, email the archive, and then send the passphrase via Slack DM — never in the same email.
 

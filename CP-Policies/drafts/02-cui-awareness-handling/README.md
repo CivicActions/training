@@ -266,6 +266,17 @@ For documents that stay **within the CUI Shared Drive** (i.e., they don't leave 
 
 > **Example:** You're drafting a proposal response in the CUI Shared Drive. Even though the Drive itself is marked "CUI" and Google auto-tags the document, adding "CUI" to the header is a good habit. If that document is ever exported, printed, or shared outside the boundary, the marking is already in place.
 
+### Handling Unmarked CUI
+
+Sometimes you'll come across a file that looks like CUI but doesn't have the right markings. Don't ignore it — follow these four steps:
+
+1. **Identify** — notice that the file appears sensitive (e.g., a technical drawing from a client or vulnerability data) but lacks a "CUI" header or label
+2. **Report** — notify your manager or compliance officer about the unmarked data immediately
+3. **Ensure correct marking** — work with the responsible party to apply the correct electronic labels, banners, or filename tags before any further storage or sharing
+4. **Store and share securely** — once labeled, keep the data only within approved CUI boundaries (e.g., the designated CUI Shared Drive)
+
+> **Example:** A teammate drops a client's infrastructure diagram into the general project folder. It has no "CUI" marking, but it clearly contains sensitive technical details about a federal system. Don't just move it yourself — flag it to your manager, get it properly labeled, and then store it in the CUI Shared Drive where it belongs.
+
 ### Module D Quiz
 
 You need to share a document containing CUI with a federal client. Which marking must appear in the document header?
