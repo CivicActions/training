@@ -1,6 +1,6 @@
 # Security Training Program
 
-This project converts CivicActions' 17 security and compliance policies into six role-based training courses delivered as interactive LiaScript modules.
+This project pulls 193 learning outcomes from the 17 security related [CivicActions Company-wide Policies](https://civicactions.atlassian.net/wiki/spaces/MGPOL/overview) and generates six role-based training courses that cover those outcomes. The resulting trainings are delivered as interactive LiaScript modules.
 
 ## Directory structure
 
