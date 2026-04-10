@@ -120,6 +120,7 @@ For writing source code, **GitHub Copilot is the only approved AI tool**:
 AI-generated code is **untrusted input** until you've verified it:
 
 - **Carefully review** all AI suggestions for correctness and security before committing
+  - **You are responsible** for the code you commit
 - **Test** AI-generated code just like you'd test any code — unit tests, integration tests, security scans
 - Never assume AI output is correct just because it looks reasonable
 
@@ -165,12 +166,13 @@ Every open-source library you add to a project is a dependency — and a potenti
 
 ### FOSS as Suppliers
 
-CivicActions treats open-source libraries and containers the same way we treat commercial vendors — as **suppliers**:
+CivicActions treats open-source libraries and containers the same way we treat commercial vendors — as **suppliers** with risk scored on:
 
-- Require **SBOMs** (Software Bills of Materials) for third-party components
+- **Data touched** and required privileges
+- **Security posture** (SBOM, disclosure policy, signed releases), and vendor trust/community health.
+- **Assess maintainer health** — is the project actively maintained? How many contributors does it have? What is the update/patch velocity?
 - **Triage known vulnerabilities** before adding a dependency
 - **Verify license compliance** — some licenses have restrictions that may conflict with client contracts
-- **Assess maintainer health** — is the project actively maintained? How many contributors does it have?
 
 > **Example:** Before adding a new npm package to your project, you check: Does it have an SBOM? Are there any known CVEs? What's its license — is it compatible with the client's contract? When was the last commit? If the package has 1 contributor, no releases in 8 months, and 30 open security issues, that's a red flag — even if the API is exactly what you need.
 
@@ -179,12 +181,13 @@ CivicActions treats open-source libraries and containers the same way we treat c
 Your CI/CD pipeline should include automated security scanning:
 
 - **SCA** (Software Composition Analysis) checks third-party dependencies for known vulnerabilities
+  - CI/CD pipelines enforce **SBOM refresh** — the SBOM is updated on each release
 - **SAST** (Static Application Security Testing) scans your code for common flaws
 - **DAST** (Dynamic Application Security Testing) tests running applications
 - Results feed into **Dependency-Track** for centralized visibility
 - **Remediate Critical and High vulnerabilities before release** — these are blockers, not nice-to-haves
 
-> **Example:** Your CI pipeline runs Dependabot for dependency scanning and feeds results into Dependency-Track. On a Friday afternoon, a PR triggers a Critical vulnerability alert in a transitive dependency. It's tempting to merge and fix it Monday — but Critical and High findings are release blockers. You update the dependency, re-run the pipeline, and the alert clears before the PR is merged.
+> **Example:** Your CI pipeline runs Syft for dependency scanning and feeds results into Dependency-Track. On a Friday afternoon, a PR triggers a Critical vulnerability alert in a transitive dependency. It's tempting to merge and fix it Monday — but Critical and High findings are release blockers. You update the dependency, re-run the pipeline, and the alert clears before the PR is merged.
 
 ### Unmaintained Components
 
@@ -196,19 +199,11 @@ An open-source library that nobody is maintaining is a ticking time bomb:
 
 > **Example:** Your project uses a Node.js logging library that hasn't had a release in 14 months. No CVEs have been filed against it — yet. But per policy, it needs to be assessed. You check the repo: the sole maintainer hasn't responded to issues in months. The team decides to replace it with a well-maintained alternative rather than waiting for a vulnerability to surface.
 
-### SBOM Requirements
-
-SBOMs are central to supply chain security:
-
-- **SBOM required at intake** for all third-party software
-- CI/CD pipelines enforce **SBOM refresh** — the SBOM is updated on each release
-- This gives CivicActions (and clients) a clear picture of what's in the software
-
 ### Prohibited Technologies
 
 Before adding any new dependency or tool:
 
-- **Screen it against the prohibited technology list**
+- **Screen it against the [prohibited technology list](https://guidebook.civicactions.com/en/latest/company-policies/prohibited-hardware-and-software/)**
 - Check for **DFARS restrictions** — some technologies are not permitted on DoD-related projects
 - Do this at intake, not after you've already integrated it
 
