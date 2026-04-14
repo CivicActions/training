@@ -46,7 +46,7 @@ CivicActions issues employees a [**managed laptop**](https://civicactions.atlass
 
 > **Example:** Your CivicActions Laptop comes with the Iru Mobile Device Management (MDM) system that manages FileVault encryption, security scanning, firewall, and patching out of the box. You don't need to configure any of this yourself — IT handles it before your laptop ships to you.
 
-> **Tip:** It's smart to keeo your personal devices protected with a strong password, an idle screen lock and attention to security updates. Also, use multi-factor authentication (MFA) whereever possible and stay alert to avoid phishing scams. More tips [here](https://ssd.eff.org/).
+> **Tip:** It's smart to keep your personal devices protected with a strong password, an idle screen lock and attention to security updates. Also, use multi-factor authentication (MFA) whereever possible and stay alert to avoid phishing scams. More tips [here](https://ssd.eff.org/).
 
 ### Software Rules
 
