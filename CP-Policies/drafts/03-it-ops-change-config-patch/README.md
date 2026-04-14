@@ -47,7 +47,7 @@ CivicActions formally tracks five classes of **Configuration Items (CIs)**:
 
 If it falls into one of these classes, it's under formal configuration control.
 
-> **Example:** Think about the Kandji MDM profiles that enforce FileVault encryption and auto-lock on every CivicActions laptop. Those profiles are CIs under "Managed endpoints." The Google Workspace SAML configuration that provides SSO across the company? That's a "Production SaaS configuration." Both are formally tracked.
+> **Example:** Think about the Iru MDM profiles that enforce FileVault encryption and auto-lock on every CivicActions laptop. Those profiles are CIs under "Managed endpoints." The Google Workspace SAML configuration that provides SSO across the company? That's a "Production SaaS configuration." Both are formally tracked.
 
 ### Configuration-as-Code
 
@@ -67,7 +67,7 @@ Every system starts from a **secure baseline**:
 
 > **Think of a baseline as the "factory settings" for security.** It's the known-good starting point that everything else builds from.
 
-> **Example:** A new CivicActions laptop starts from a Kandji baseline — FileVault enabled, EDR installed, host firewall on, auto-lock at 15 minutes, and automated patching configured. That's the known-good state. If an engineer disables the firewall to troubleshoot a network issue and forgets to re-enable it, drift detection will catch it.
+> **Example:** A new CivicActions laptop starts from a Iru baseline — FileVault enabled, EDR installed, host firewall on, auto-lock at 15 minutes, and automated patching configured. That's the known-good state. If an engineer disables the firewall to troubleshoot a network issue and forgets to re-enable it, drift detection will catch it.
 
 ### Drift Detection
 
@@ -80,7 +80,7 @@ Sometimes systems drift away from their baseline — a setting gets changed, a p
 
 Ignoring drift isn't an option.
 
-> **Example:** Kandji detects that a developer's laptop no longer has the required EDR agent running. A Jira ticket is automatically created. The Service Desk triages it within two business days and finds the agent crashed after an OS update. They reinstall the agent, confirm compliance in Kandji, and close the ticket — reconciled back to baseline.
+> **Example:** Iru detects that a developer's laptop no longer has the required EDR agent running. A Jira ticket is automatically created. The Service Desk triages it within two business days and finds the agent crashed after an OS update. They reinstall the agent, confirm compliance in Iru, and close the ticket — reconciled back to baseline.
 
 ### Evidence and Audit
 
@@ -124,7 +124,7 @@ CivicActions categorizes changes into four classes, each with different rules:
 
 > **Rule of thumb:** The bigger the blast radius, the more review it needs.
 
-> **Example:** Monthly OS patch waves pushed through Kandji? That's a **Standard** change — automated, pre-approved, no manual sign-off needed. A developer opening a PR to update a service's Terraform config? **Normal** — peer review plus CI tests. Changing the Google Workspace password policy for all CivicActions users? **Significant** — you need a formal Change Record, Change Authority approval, and a rollback plan. Revoking a compromised API key during an active incident? **Emergency** — the Incident Commander authorizes it now, and the team does a full retrospective within 72 hours.
+> **Example:** Monthly OS patch waves pushed through Iru? That's a **Standard** change — automated, pre-approved, no manual sign-off needed. A developer opening a PR to update a service's Terraform config? **Normal** — peer review plus CI tests. Changing the Google Workspace password policy for all CivicActions users? **Significant** — you need a formal Change Record, Change Authority approval, and a rollback plan. Revoking a compromised API key during an active incident? **Emergency** — the Incident Commander authorizes it now, and the team does a full retrospective within 72 hours.
 
 ### Change Record Content
 
@@ -156,7 +156,7 @@ Changes don't happen whenever you feel like it:
 - There's also a **monthly company calendar slot** for broader changes
 - Changes outside these windows require **justification and additional approval**
 
-> **Example:** Each user-facing service — Google Workspace, Slack, Kandji — has its own weekly maintenance window published on the company calendar. If you need to push a Significant change outside that window (say, a time-sensitive security configuration), you'll need to justify the timing and get additional approval.
+> **Example:** Each user-facing service — Google Workspace, Slack, Iru — has its own weekly maintenance window published on the company calendar. If you need to push a Significant change outside that window (say, a time-sensitive security configuration), you'll need to justify the timing and get additional approval.
 
 ### Post-Implementation Review
 
@@ -202,7 +202,7 @@ We find vulnerabilities through multiple channels:
 - **Vendor advisories** for SaaS platforms we use
 - **Approved lists** for browser extensions, IDE plugins, and SaaS add-ons
 
-> **Example:** Kandji continuously monitors laptops for missing OS patches and outdated software. Dependabot and Dependency-Track flag vulnerable libraries in your repos through pull requests. When a vendor like Atlassian publishes a security advisory for Confluence, the security team assesses it against our environment. These channels all feed into the same vulnerability management process.
+> **Example:** Iru continuously monitors laptops for missing OS patches and outdated software. Dependabot and Dependency-Track flag vulnerable libraries in your repos through pull requests. When a vendor like Atlassian publishes a security advisory for Confluence, the security team assesses it against our environment. These channels all feed into the same vulnerability management process.
 
 ### Prioritization
 
@@ -237,7 +237,7 @@ Patches don't go straight to everyone at once:
 
 This staged approach catches problems before they affect the whole organization.
 
-> **Example:** A new macOS security update is released. Kandji pushes it to the alpha group first — a small set of volunteer IT and engineering staff. They run it for a few days to catch compatibility issues. If nothing breaks, it goes to the beta group (a broader cross-section of teams). Only after beta validation does it roll out company-wide. If the alpha group hits a problem — say, the update breaks a VPN client — the rollout pauses before it affects anyone else.
+> **Example:** A new macOS security update is released. Iru pushes it to the alpha group first — a small set of volunteer IT and engineering staff. They run it for a few days to catch compatibility issues. If nothing breaks, it goes to the beta group (a broader cross-section of teams). Only after beta validation does it roll out company-wide. If the alpha group hits a problem — say, the update breaks a VPN client — the rollout pauses before it affects anyone else.
 
 ### Anti-Malware
 
@@ -282,7 +282,7 @@ If you need admin-level access, you must use **separate accounts**:
 
 Before requesting elevated access, apply the **six-question privilege test** — basically, ask yourself: "Do I truly need this level of access, and is there a less-privileged way to accomplish the task?"
 
-> **Example:** You use your standard @civicactions.com account for Slack, email, and Google Docs all day. When you need to make changes in the Google Workspace Admin Console or push a Kandji configuration profile, you switch to your separate admin account. If your everyday account gets phished, the attacker can read your email — but they can't touch admin settings.
+> **Example:** You use your standard @civicactions.com account for Slack, email, and Google Docs all day. When you need to make changes in the Google Workspace Admin Console or push a Iru configuration profile, you switch to your separate admin account. If your everyday account gets phished, the attacker can read your email — but they can't touch admin settings.
 
 ### NPI (Non-Person Identity) Management
 
@@ -351,7 +351,7 @@ Outages are classified by severity so we know how urgently to respond:
 CivicActions has documented recovery procedures for each critical system. You should know the **primary and fallback communication channels** and the **organizational actions** for the systems you manage, including:
 
 - Google Workspace, Slack, Zoom
-- Kandji/Iru (MDM)
+- Iru (MDM)
 - Atlassian (Jira/Confluence)
 - Unanet, GitHub, GitLab
 - Rippling, Culture Amp

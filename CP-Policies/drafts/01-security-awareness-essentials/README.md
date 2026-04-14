@@ -16,7 +16,7 @@ comment:  Security Awareness Essentials — the foundational security
 
 Welcome to **Security Awareness Essentials** — the foundational security training for every CivicActions team member.
 
-This course covers the core behaviors and responsibilities you need to protect CivicActions systems, data, and clients. Whether it's keeping your laptop secure, handling data correctly, or reporting something suspicious — this training has you covered.
+This course covers the core behaviors and responsibilities you need to protect CivicActions systems, data, and clients. Whether its keeping your laptop secure, handling data correctly, or reporting something suspicious — this training has you covered.
 
 **Who takes this?** Everyone — full-time staff, contractors, interns, and any third party with access to CivicActions systems.
 
@@ -30,53 +30,55 @@ Let's get started!
 
 ## Module A — Your Devices and Workspace
 
-Your laptop and workspace are the front line of security. This module covers what you need to know about your CivicActions-managed device, the software you install, and how to stay secure — whether you're at home, at a coffee shop, or on the road.
+Your laptop and workspace are the front line of security. This module covers what you need to know about your CivicActions-managed laptop, the software you install, and how to stay secure — whether you're at home, at a coffee shop, or on the road.
 
 ### Managed Devices
 
-CivicActions issues you a [**managed laptop**](https://civicactions.atlassian.net/wiki/spaces/ITSM/pages/161087491/CivicActions+Laptops). This laptop comes pre-configured with:
+CivicActions issues employees a [**managed laptop**](https://civicactions.atlassian.net/wiki/spaces/ITSM/pages/161087491/CivicActions+Laptops). This laptop comes pre-configured with:
 
-- **Full-disk encryption** (FDE) — so your data stays protected if the device is lost or stolen
-- **Endpoint detection and response** (EDR) software
+- **Full-disk encryption** — so your data stays protected if the device is lost or stolen
+- **Scanning software** that checks for any security issues or viruses
 - **Firewall** enabled by default
 - **Auto-lock** — your screen locks automatically after a short idle period
 - **Automatic patching** — your OS and security software stay up to date
 
-> **Important:** You must use your CivicActions-managed laptop for all work involving Internal, Confidential, or client data. Personal (BYOD) mobile devices can only be used for MFA prompts and communication apps — and even then, they need an MDM profile for isolation.
+> **Important:** You must use your CivicActions laptop for all work involving Internal, Confidential, or client data. Personal (BYOD) mobile devices can only be used for MFA prompts and communication apps
 
-> **Example:** Your CivicActions MacBook comes with Kandji (MDM) managing FileVault encryption, EDR, firewall, and patching out of the box. You don't need to configure any of this yourself — IT handles it before your laptop ships to you.
+> **Example:** Your CivicActions Laptop comes with the Iru Mobile Device Management (MDM) system that manages FileVault encryption, security scanning, firewall, and patching out of the box. You don't need to configure any of this yourself — IT handles it before your laptop ships to you.
+
+> **Tip:** It's smart to keeo your personal devices protected with a strong password, an idle screen lock and attention to security updates. Also, use multi-factor authentication (MFA) whereever possible and stay alert to avoid phishing scams. More tips [here](https://ssd.eff.org/).
 
 ### Software Rules
 
-Not all software is safe to use. CivicActions maintains an **Approved Software Catalog** and a **Prohibited Hardware and Software** list.
+Not all software is safe to use. CivicActions maintains an [**Approved Software Catalog**](https://docs.google.com/spreadsheets/d/1yy7xSeTmTBCCaG5B-oJI3dwMN3r7tFPQ-lw79zOAdFE/edit?gid=852934818#gid=852934818) and a [**Prohibited Hardware and Software**](https://guidebook.civicactions.com/en/latest/company-policies/prohibited-hardware-and-software/) list.
 
 - Only install software from the Approved Catalog
 - If you need something new, submit a request through the [access and authorization workflow](https://civicactions.atlassian.net/wiki/spaces/ITSM/pages/1026719753/Approval+Process+for+Software+and+Services)
-- MDM (Mobile Device Management) will block software that isn't approved
+- Iru will block software that isn't approved
 
 Think of it this way: if it's not on the approved list, don't install it.
 
-> **What's approved?** Tools like Google Workspace, Slack, Zoom, Jira, Confluence, GitHub, and GitLab are all on the catalog. What's prohibited? Huawei/ZTE devices, TikTok, Kaspersky, consumer "free VPN" apps, and ad-ware — Kandji will block these automatically if you try to install them.
+> **What's approved?** Tools like Google Drive, Slack, Zoom, 1Password, Docker and GitHub Desktop are all in the catalog. What's prohibited? Huawei/ZTE devices, TikTok, Kaspersky, consumer "free VPN" apps, and ad-ware — Iru will block these automatically if you try to install them.
 
 ### Home Workspace Security
 
 Working from home? Here are the basics:
 
 - Position your screen so others can't see it (especially during video calls)
-- If you print anything work-related, **shred it the same day** using a cross-cut shredder
-- Keep your device with you — don't leave it unattended in a common area
-- Protect your device from spills, heat, pets, and other environmental hazards
-- Use a **surge-protected outlet** for your laptop and monitor
+- Don't print anything that is Confidential or Restricted unless you have a cross-cut shredder and **shred it the same day**
+- Protect your laptop from spills, heat, pets, and other environmental hazards
+- If possible, use a **surge-protected outlet** for your laptop and monitor
 
 > **Example:** You're on a Zoom call discussing a client's infrastructure when a friend stops by. Close your laptop lid or lock the screen before answering the door — and don't forget to close any admin consoles, CI/CD dashboards, or cloud management tabs you had open in the background.
 
 ### Networks and Wi-Fi
 
-Your network connection matters just as much as your device.
+Your network connection matters just as much as your laptop.
 
 - Use **WPA2 or WPA3** encrypted Wi-Fi, or a wired Ethernet connection
+  - If secure Wi-Fi isn't available, use your phone's **personal hotspot**
+- **No VPNs** unless required by the company or a client
 - **Change the default admin password** on your home router (many people skip this) and keep the firmware updated
-- If secure Wi-Fi isn't available, use your phone's **personal hotspot**
 - **Never click through TLS/SSL warnings** — they exist for a reason
 
 > **Example:** You're at a coffee shop between meetings. The shop has open Wi-Fi — no password required. Skip it. Tether to your phone's hotspot instead. It takes 30 seconds and keeps your connection encrypted.
@@ -85,7 +87,8 @@ Your network connection matters just as much as your device.
 
 On the go? Extra caution is needed:
 
-- Keep your device **physically with you** at all times
+- Keep your laptop **physically with you** at all times
+  - Of course, leaving it lid-closed, in a locked hotel room to go out to dinner is fine
 - **Lock your screen** every time you step away, even for a minute
 - Avoid displaying sensitive info where others can see your screen
 - Use encrypted Wi-Fi or your personal hotspot — **never connect to open public Wi-Fi**
@@ -93,17 +96,13 @@ On the go? Extra caution is needed:
 
 > **Example:** You're at an airport waiting for a flight and need to review a client proposal. Find a seat where nobody can read over your shoulder, and use your phone's hotspot instead of the airport Wi-Fi. When you get up to grab coffee, lock the screen — don't just close the lid, since it might not trigger a lock immediately.
 
-### Non-Compliant Devices
+### Keeping Your Laptop Secure
 
-CivicActions' MDM system enforces minimum **OS and patch levels**. If your device falls behind:
-
-1. You'll get a notification that it's **non-compliant**
-2. A support ticket is automatically created
-3. If the issue isn't fixed, your device may be **automatically blocked** until it's remediated
+CivicActions' Iru Mobile Device Management (MDM) system enforces minimum **OS and patch levels**. If your laptop falls behind you'll get a reminder to allow the update to occur. If you don't, your laptop may **automatically update** at a time that could be disruptive to your work.
 
 Don't ignore update prompts — they keep you and the organization safe.
 
-> **Example:** Kandji detects your Mac is two patch versions behind. You get a notification and a Jira ticket is created. If you don't update within the grace period, Kandji can restrict your access to CivicActions systems until you're current. A quick restart is a lot easier than being locked out mid-sprint.
+> **Example:** Iru detects your laptop is two patch versions behind. You get a notification and if you don't update within the grace period, Iru can restrict your access to CivicActions systems until you're current. A quick restart is a lot easier than being locked out mid-sprint.
 
 ### Module A Quiz
 
@@ -111,11 +110,11 @@ Your CivicActions laptop prompts you to install a system update. You're in the m
 
 - [( )] Dismiss the update permanently to avoid interruption
 - [(X)] Install the update at the next reasonable opportunity — don't postpone indefinitely
-- [( )] Disable the MDM agent so updates stop appearing
+- [( )] Disable the Iru Mobile Device Management system so updates stop appearing
 - [( )] Uninstall the update software
 ***
 
-**Correct!** System updates patch security vulnerabilities. You don't need to drop everything, but you should install them as soon as reasonably possible. Never disable MDM or dismiss updates permanently — your device could be blocked for non-compliance.
+**Correct!** System updates patch security vulnerabilities. You don't need to drop everything, but you should install them as soon as reasonably possible. Never disable Iru or dismiss updates permanently — your laptop could be blocked for non-compliance.
 
 ***
 
@@ -402,7 +401,7 @@ If a device is lost or stolen, report it **immediately** through the incident ch
 
 This applies to **both CivicActions laptops and personal devices** that have authenticated to CivicActions systems (like a phone used for MFA).
 
-> **Example:** You left your CivicActions MacBook in a rideshare. DM an IT team member on Slack right away with: "Lost my laptop in a Lyft at 3 PM, last had it at the airport, serial number XXXX, had access to Client B's Shared Drive." IT can trigger a remote wipe through Kandji immediately — FileVault encryption means the data is already protected, but the wipe makes sure.
+> **Example:** You left your CivicActions MacBook in a rideshare. DM an IT team member on Slack right away with: "Lost my laptop in a Lyft at 3 PM, last had it at the airport, serial number XXXX, had access to Client B's Shared Drive." IT can trigger a remote wipe through Iru immediately — FileVault encryption means the data is already protected, but the wipe makes sure.
 
 ### Incident Confidentiality
 
@@ -553,7 +552,7 @@ Here's what you covered:
 
 **Remember the basics:**
 
-- Use your managed device with approved software
+- Use your CivicActions laptop with approved software
 - Protect your identity with hardware MFA keys and strong passwords
 - Handle data according to its classification level
 - Never put sensitive data into AI tools
