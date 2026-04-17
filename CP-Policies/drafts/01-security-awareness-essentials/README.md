@@ -139,10 +139,8 @@ Your digital identity is how CivicActions verifies that *you* are *you*. This mo
 **Multi-Factor Authentication (MFA)** adds a second layer of proof that you are who you say you are.
 
 - Enroll your [**YubiKey as a Passkey**](https://civicactions.atlassian.net/wiki/spaces/ITSM/pages/732856328/Yubikey+Passkey+Setup+Process) for quick authentication to CivicActions Google Workspace
-- **Phishing-resistant MFA** (hardware keys) is preferred over SMS codes or authenticator apps
-- SMS and TOTP (app-based codes) are fallbacks, not the first choice
 
-> **Why a hardware key?** They can't be phished. Even if someone tricks you into entering your password on a fake site, they can't intercept a hardware key.
+> **Why a hardware key?** They are phishing resistant and are preferred over SMS codes or authenticator apps. Even if someone tricks you into entering your password on a fake site, they can't intercept a hardware key.
 
 If you lose your YubiKey, report it immediately to security@civicactions.com - IT will disable the lost key, verify your identity, and send you a replacement. If you are locked out of your laptop or Google Account, follow the procedure for [Internal Technical Support](https://guidebook.civicactions.com/en/latest/common-practices-tools/software-and-support/#emergency-locked-out) in the Guidebook
 
@@ -156,9 +154,9 @@ Strong passwords are your first line of defense:
 - **Memorize** your primary password and use a **password manager** for everything else
 - **Never reuse passwords** across different services — if one gets compromised, they all do
 
-> **Example:** Use your password manager to generate and store unique, strong passwords for any service that doesn't support Google SSO. Your Google Workspace password is the one you memorize — make it long, unique, and keep it out of your password manager so a single breach can't unlock everything.
+> **Example:** Use your password manager to generate and store unique, strong passwords/passphrases for any service that doesn't support Google SSO. Your Google Workspace passphrase is the one you memorize - make it long and unique - four or five words that only mean something to you is recommended.
 
-> **Tip:** LastPass, 1Password, BitWarden and Proton Pass are some of the best known password managers.
+> **Tip:** 1Password, BitWarden, LastPass and Proton Pass are some of the best known password managers.
 
 ### Access Requests
 
@@ -168,7 +166,7 @@ Need access to a new system or project?
 2. Access is granted based on **least privilege** — you get only what you need
 3. If your role changes or you leave, **notify IT promptly** so access can be adjusted
 
-> **Example:** You're joining a new federal project that uses a GitLab group and a dedicated Google Shared Drive. You'd file a ticket with the project name, the specific GitLab group and Drive folder, and your role. Your manager or the project's System Owner approves it — and IT grants only what the ticket specifies.
+> **Note:** Access to client systems is managed separately by the client project managers and security team.
 
 ### Project Boundary Awareness
 
