@@ -336,16 +336,6 @@ Want to use an AI tool that isn't on the approved list?
 
 > **Example:** You hear about a new AI transcription tool that could save time on meeting notes. Before signing up, check with the CTO — even a free trial counts. If it touches CivicActions data, it needs vetting first.
 
-### Client Project AI Restrictions
-
-Different clients may have different AI rules:
-
-- Always **comply with client-specific AI policies**
-- **Never put CUI** (Controlled Unclassified Information) or any Confidential/Restricted information into an AI tool
-- Check your **onboarding/wrapper docs** for project-specific restrictions
-
-> **Example:** You're on a federal project and want to use Gemini to draft a status report. Check the project's wrapper document first — some federal clients prohibit all AI tool usage on their projects, even for general text. When in doubt, ask your project manager.
-
 ### Module D Quiz
 
 A colleague asks you to paste a client's internal financial data into ChatGPT to summarize it. What should you do?
