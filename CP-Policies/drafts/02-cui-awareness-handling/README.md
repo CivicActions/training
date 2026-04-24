@@ -21,7 +21,7 @@ This course builds on what you learned in *Security Awareness Essentials* (Train
 
 **Prerequisite:** Training 1 — Security Awareness Essentials.
 
-**How long?** About 10–15 minutes.
+**How long?** About 5-10 minutes.
 
 **When?** Before you're granted CUI access, then annually, and whenever there's a contract or policy change.
 
@@ -43,36 +43,13 @@ CUI isn't classified (like "Secret" or "Top Secret"), but it's still sensitive. 
 
 - **Vulnerability scan results** from federal systems
 - **Any document marked** "CUI" or "Controlled Unclassified Information"
-- **Contractor bids and proposals**
-- **Non-public contract data**
+- **Bids, proposals, and non-public contract data** -- also known as Federal Contract Informattion (FCI)
 
-> **Example:** Your team runs a vulnerability scan on a federal client's infrastructure and saves the results to a Shared Drive. Those scan results are CUI — they reveal system weaknesses that could be exploited if leaked. They need to stay inside the CUI Security Boundary, not in a general project folder.
+> **Example:** Your team runs a vulnerability scan on a federal client's infrastructure and saves the results to a folder marked "CUI" within an access controlled Shared Drive. Those scan results are CUI — they reveal system weaknesses that could be exploited if leaked. They need to stay inside the CUI Security Boundary, not in a general project folder.
 
-> **Key point:** CUI has its own handling rules that go beyond CivicActions' standard "Confidential" classification. Even if you already know the data handling rules from Training 1, CUI adds an extra layer.
+> **Key point:** CUI has its own handling rules that go beyond CivicActions' standard "Confidential" classification. Even if you already know the data handling rules from the Security Essentials training, CUI adds an extra layer.
 
-### Need-to-Know Principle
-
-Not everyone on a federal contract automatically gets CUI access. Access is restricted to people with a **legitimate business need** on a specific contract or project.
-
-- If you don't need CUI to do your job, you shouldn't have access
-- If you change projects, your CUI access is reviewed and may be revoked
-- If you're unsure whether you should have access to something, ask your project lead
-
-> **Example:** You're a developer on a federal contract and need access to vulnerability data stored in the CUI Shared Drive. You'd file a ticket with your justification and the specific Drive folder. Your manager and the Data Owner approve it. When you roll off the project, that access is revoked as part of the rights review — even if you're moving to another federal project.
-
-### Compliance Context
-
-CUI handling requirements come from federal law and regulation:
-
-| Regulation | What it does |
-|-----------|-------------|
-| **DFARS** | Defense Federal Acquisition Regulation Supplement — requires CUI protection for defense contracts |
-| **FAR 52.204-21** | Basic safeguarding requirements for all federal contractor information systems |
-| **NIST 800-171** | The 110 security controls that define how CUI must be protected |
-
-**Why it matters to you:** Failure to comply with these rules can affect CivicActions' contract eligibility. That means protecting CUI isn't just a best practice — it's a business requirement.
-
-> **Example:** If a CMMC assessment finds that CUI was stored outside the Security Boundary, it could jeopardize CivicActions' ability to bid on future defense contracts. Every person on the project plays a role in maintaining compliance.
+> **Why it matters:** Failure to comply with these rules can affect CivicActions' contract eligibility. That means protecting CUI isn't just a best practice — it's a business requirement.
 
 ### Module A Quiz
 
@@ -97,20 +74,12 @@ CUI can only live in specific, approved places. This module explains exactly whe
 CUI may only be stored or processed in these three places:
 
 1. **Secured client network** — the client's own system, operating within their Authority to Operate (ATO) security boundary
-2. **CivicActions Google Workspace** — specifically in **access-controlled Shared Drives** that are explicitly marked **"CUI"**
+2. **CivicActions Google Workspace** — specifically in **access-controlled Shared Drives** in folders that are explicitly marked **"CUI"**
 3. **CivicActions managed workstations** — your CivicActions-issued laptop or an approved hardened BYOD device
 
 That's it. If a location isn't on this list, CUI doesn't belong there.
 
 > **Example:** Your team is working on a federal project. CUI goes in the project's dedicated CUI Shared Drive in Google Workspace — not in the team's general project folder, not in Confluence, and not in a Slack channel. If you need to collaborate on a CUI document, share it by individual @civicactions.com email within that Shared Drive.
-
-### Auto-Tagging in Google Workspace
-
-CivicActions has set up Google Workspace to **auto-tag documents containing "CUI"** for easier discovery and audit. This means:
-
-- Documents in CUI Shared Drives are automatically tracked
-- Auditors can verify that CUI is staying where it belongs
-- You benefit from this without needing to do anything extra — just use the correct Shared Drives
 
 ### Prohibited CUI Locations
 
@@ -134,7 +103,7 @@ CUI requires **FIPS 140–validated cryptography** for protection:
 
 Before using any SaaS platform for CUI, verify that the provider's encryption meets the FIPS 140 standard. If you're not sure, ask IT.
 
-> **Example:** A teammate suggests storing CUI in a new cloud service that advertises "AES-256 encryption." That's not enough — for CUI, the encryption module itself must be FIPS 140-2 or 140-3 *validated*, which is a specific federal certification. The cloud provider also needs to meet FedRAMP Moderate equivalency. Check with IT before putting CUI anywhere new.
+> **Example:** A teammate suggests storing CUI in a new cloud service that advertises "AES-256 encryption." That's not enough — for CUI, the encryption module itself must be FIPS 140-2 or 140-3 *validated*, which is a specific federal certification. The cloud provider also needs to meet FedRAMP Moderate compliance as well as be explicitly defined as within the CUI Security Boundary. Check with IT before putting CUI anywhere new.
 
 ### Module B Quiz
 
@@ -217,83 +186,9 @@ A project involving CUI is ending. What must happen to CUI copies held by CivicA
 
 ***
 
-## Module D — CUI Document Markings
-
-When CUI leaves the Security Boundary — for example, when shared with a partner agency or subcontractor — it must be **properly marked**. This module covers what those markings look like.
-
-### When to Mark
-
-Marking is **required when sharing CUI outside a security boundary**. For example:
-
-- Sending a document to a partner agency
-- Sharing with a subcontractor on the same contract
-- Providing deliverables to the government client
-
-> **Example:** Your team is submitting a security assessment report to the federal client. Before you send it, add "CUI" in the document header and "Sensitive in accordance with 32 CFR 2002" centered at the bottom of the first page. Documents that stay inside your CUI Shared Drive are already covered by the folder marking and auto-tagging.
-
-### Header Marking
-
-The top of the document must include:
-
-> **CONTROLLED UNCLASSIFIED INFORMATION**
-
-or the abbreviation:
-
-> **CUI**
-
-This goes in the **document header** — visible on every page if possible.
-
-### Footer Marking
-
-The bottom of the **first page** must include:
-
-> **Sensitive in accordance with 32 CFR 2002**
-
-This marking should be **centered** at the bottom of the page.
-
-### Optional Originator Line
-
-Some agencies or contracts require an **originator line** — a line identifying who created the document and under what authority. Include this if your contract or agency guidance requires it.
-
-### Internal Working Documents
-
-For documents that stay **within the CUI Shared Drive** (i.e., they don't leave the Security Boundary):
-
-- The **folder-level marking** and **auto-tagging** already satisfy the requirement
-- You don't *need* to mark each document individually — but it's **best practice** to do so
-
-> **Tip:** When in doubt, mark it. An extra "CUI" header never hurts, and it helps anyone who opens the document understand its sensitivity immediately.
-
-> **Example:** You're drafting a proposal response in the CUI Shared Drive. Even though the Drive itself is marked "CUI" and Google auto-tags the document, adding "CUI" to the header is a good habit. If that document is ever exported, printed, or shared outside the boundary, the marking is already in place.
-
-### Handling Unmarked CUI
-
-Sometimes you'll come across a file that looks like CUI but doesn't have the right markings. Don't ignore it — follow these four steps:
-
-1. **Identify** — notice that the file appears sensitive (e.g., a technical drawing from a client or vulnerability data) but lacks a "CUI" header or label
-2. **Report** — notify your manager or compliance officer about the unmarked data immediately
-3. **Ensure correct marking** — work with the responsible party to apply the correct electronic labels, banners, or filename tags before any further storage or sharing
-4. **Store and share securely** — once labeled, keep the data only within approved CUI boundaries (e.g., the designated CUI Shared Drive)
-
-> **Example:** A teammate drops a client's infrastructure diagram into the general project folder. It has no "CUI" marking, but it clearly contains sensitive technical details about a federal system. Don't just move it yourself — flag it to your manager, get it properly labeled, and then store it in the CUI Shared Drive where it belongs.
-
-### Module D Quiz
-
-You need to share a document containing CUI with a federal client. Which marking must appear in the document header?
-
-- [( )] "CONFIDENTIAL"
-- [( )] "FOR OFFICIAL USE ONLY"
-- [(X)] "CONTROLLED UNCLASSIFIED INFORMATION" or "CUI"
-- [( )] No marking required for federal clients
-***
-
-**Correct!** When sharing CUI outside the Security Boundary, the header must read "CONTROLLED UNCLASSIFIED INFORMATION" or "CUI." "Confidential" is a CivicActions internal classification — it's not the same as the federally defined CUI marking. "For Official Use Only" (FOUO) was a legacy marking that has been replaced by CUI.
-
-***
-
 ## Bonus Quiz
 
-You've completed all four modules — well done! Here's one final question on a key CUI concept.
+You've completed all three modules — well done! Here's one final question on a key CUI concept.
 
 A teammate suggests pasting CUI data into an approved AI tool (like ChatGPT for Teams) to help draft a report. Is this allowed?
 
