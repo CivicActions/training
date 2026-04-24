@@ -72,9 +72,6 @@ Go to your laptop deployment wave Slack channel and post this message:
 
 You can find your laptop wave channel here:
 
-
-- [**#it-laptops-wave-2**](https://civicactions.slack.com/archives/C0A72LVNVNZ)
-- [**#it-laptops-wave-3**](https://civicactions.slack.com/archives/C0A79MJDX7W)
 - [**#it-laptops-wave-4**](https://civicactions.slack.com/archives/C0A6ZNB255Z)
 
 
