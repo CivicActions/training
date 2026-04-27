@@ -43,12 +43,12 @@ CivicActions' incident response documentation has three layers:
 |----------|---------|
 | [**Incident Response Policy**](https://civicactions.atlassian.net/wiki/spaces/MGPOL/pages/755367940/Incident+Response+Policy) | Defines principles, authority, and roles |
 | [**Incident Response Plan (IRP)**](https://guidebook.civicactions.com/en/latest/common-practices-tools/security/incident-response-plan/) | The procedures followed when responding to security incidents |
-| [**Incident Response Checklist**](https://guidebook.civicactions.com/en/latest/common-practices-tools/security/incident-response-checklist/) | Step-by-step procedures for responders |
+| [**Incident Response Checklist**](https://guidebook.civicactions.com/en/latest/common-practices-tools/security/incident-response-checklist/) | A condensed IRP with step-by-step procedures for responders |
 | [**Contingency Plan**](https://guidebook.civicactions.com/en/latest/common-practices-tools/security/contingency-plan/) | Recovery targets and integration with Disaster Recovery |
 
-During an active incident, the **Checklist** is your go-to reference. The IRP provides the authority behind what you're doing, and the Contingency Plan tells you how to prioritize recovery.
+During an active incident, the **Checklist** is your go-to reference. The IRP provides detailed procedures, and the Contingency Plan tells you how to prioritize recovery.
 
-> **Example:** A SIRT member gets pulled into an active phishing investigation. They don't need to re-read the full IRP — they open the Incident Response Checklist, which walks them through each step: what to document, who to notify, how to contain. The IRP is why they have authority to act; the Checklist is *how* they act.
+> **Example:** A SIRT member gets pulled into an active phishing investigation. They don't need to re-read the full IRP — they open the Incident Response Checklist which walks them through each step: what to document, who to notify, how to contain.
 
 ### Six Phases
 
@@ -128,7 +128,7 @@ If you find something relevant, **report it and wait for guidance** — unless i
 
 ### Controlled Records
 
-All incident records are **Controlled Records**, which means they're subject to retention policy:
+All incident records are [**Controlled Records**](https://civicactions.atlassian.net/wiki/spaces/MGPOL/pages/194019329/Document+and+Record+Control+Policy), which means they're subject to retention policy:
 
 - Incident logs and timelines
 - Decision records (who decided what, and when)
@@ -219,7 +219,7 @@ Once the threat is contained, the focus shifts to getting systems back to normal
 
 Recovery is prioritized by **system criticality**, as defined in the Contingency Plan:
 
-- **Google Workspace** is always the highest priority — it's the identity provider, and everything else depends on it
+- **Google Workspace** is always the highest priority — it's the identity provider, and many other services depend on it
 - Other systems are prioritized based on their impact on business operations and client deliverables
 
 The Contingency Plan defines specific recovery time objectives for each critical system. Know the ones for the systems you manage.
