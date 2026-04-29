@@ -122,6 +122,8 @@ Your CivicActions laptop prompts you to install a system update. You're in the m
 
 Your digital identity is how CivicActions verifies that *you* are *you*. This module covers your CivicActions account, multi-factor authentication (MFA), passwords, and the rules around who gets access to what.
 
+Links to the full [**Identification Policy**](https://civicactions.atlassian.net/wiki/spaces/MGPOL/pages/709951516/Identification+Policy) and [**Access Control Policy**](https://civicactions.atlassian.net/wiki/spaces/MGPOL/pages/744947714/Access+Control+Policy)
+
 ### Your CivicActions Identity
 
 - Your **@civicactions.com account** is your primary identity for all work systems
@@ -195,6 +197,8 @@ You're setting up MFA for your CivicActions account. Which method is the preferr
 ## Module C — Data Handling and Classification
 
 Not all data is created equal. CivicActions classifies data into levels so everyone knows how to handle, store, and share it properly. This module teaches you the classification system and the rules that go with each level.
+
+Here's a limk to the full [**Data Security and Handling Policy**](https://civicactions.atlassian.net/wiki/spaces/MGPOL/pages/710213662/Data+Security+and+Handling+Policy)
 
 ### Four Classification Levels
 
@@ -282,6 +286,8 @@ You need to share a Google Doc with Internal project data with a colleague. Whic
 ## Module D — Acceptable Use and AI
 
 CivicActions systems are tools for getting work done. This module covers the rules around how you use those tools — including the rapidly evolving area of AI.
+
+Links to the full [**Acceptable Use Policy**](https://civicactions.atlassian.net/wiki/spaces/MGPOL/pages/755957762/Acceptable+Use+Policy) and [**AI Usage Policy**](https://civicactions.atlassian.net/wiki/spaces/MGPOL/pages/582418435/AI+Usage+Policy)
 
 ### Core Principles
 
