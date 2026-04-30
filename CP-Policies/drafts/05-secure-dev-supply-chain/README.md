@@ -107,9 +107,8 @@ AI coding tools can make you faster, but they come with real responsibilities. T
 
 ### GitHub Copilot — The Only Approved Coding AI
 
-For writing source code, **GitHub Copilot is the only approved AI tool**:
+For **source code creation**, use only **GitHub Copilot** or a client-approved tool
 
-- Use it exclusively for **source code creation**
 - Other approved AI tools (like ChatGPT for Teams or Gemini) can be used for **non-code technical queries** — architecture questions, documentation help, etc.
 - Don't use non-approved AI tools for any development work
 
