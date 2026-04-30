@@ -1,0 +1,14 @@
+# Maintenance Policy — Training Outcomes
+
+Source: [Maintenance Policy](../policies/Maintenance-Policy_744882179.md)
+
+| Policy | Section | Learning Outcome | Audience |
+|--------|---------|-----------------|----------|
+| MP | Policy Awareness | Know that the Maintenance Policy and its sub-policies (Configuration Management, Change Enablement, Vulnerability & Patch Management) exist and are managed by IT; if you observe something that may be a maintenance issue or incident, raise a flag in Slack #general, DM an IT team member or your manager, or email security@civicactions.com | All Staff |
+| MP | Configuration Management | Understand that complete CI inventories and baselines are maintained as code; know that configuration drift is detected, ticketed, and resolved; identify the Configuration Management Policy for detailed guidelines | IT / Service Desk; Developers; System/Data Owners |
+| MP | Change Enablement | Classify production changes as Standard, Normal, Significant, or Emergency; know that peer review, automated tests, and progressive rollouts serve as approvals for low-risk changes; identify the Change Enablement Policy for detailed guidelines | IT / Service Desk; Developers; System/Data Owners |
+| MP | Vulnerability and Patch Management | Understand the vulnerability lifecycle (discover, prioritize, remediate, verify); know that anti-malware protections are maintained with periodic and real-time scanning; identify the Vulnerability and Patch Management Policy for detailed guidelines | IT / Service Desk; Developers; System/Data Owners |
+| MP | Endpoints and Mobile Devices | Explain that managed laptops are required for Internal/Confidential/client data with baseline controls (FDE, EDR, firewall, auto-lock, patching); understand that BYOD mobile is MFA/communications only with MDM profile isolation; know that non-compliant devices are blocked | All Staff |
+| MP | Software Management and Prohibited Technology | Use only software from the Approved Software Catalog; identify the Prohibited Hardware and Software list; understand that MDM blocks unapproved software and that new software requests follow the access and authorization workflow | All Staff |
+| MP | Scheduling, Communication, and Freezes | Know that maintenance windows are published per service; understand that emergency changes follow IR communications; explain what change freezes are and when they may be applied | IT / Service Desk; Developers; System/Data Owners |
+| MP | Evidence, Monitoring, and Metrics | Understand that change tickets, pipeline/scan results, CMDB entries, and metrics are Controlled Records; know the key program metrics (patch-SLA compliance, mean time to remediate, drift rate, emergency change volume, MDM violations, SBOM coverage) | IT / Service Desk; System/Data Owners |
