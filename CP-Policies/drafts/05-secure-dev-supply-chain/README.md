@@ -105,6 +105,8 @@ You need test data that mirrors production for a new feature. What is the correc
 
 AI coding tools can make you faster, but they come with real responsibilities. This module covers the rules for using AI in your development workflow.
 
+Here's a link to the full [**AI Usage Policy**](https://civicactions.atlassian.net/wiki/spaces/MGPOL/pages/582418435/AI+Usage+Policy)
+
 ### GitHub Copilot — The Only Approved Coding AI
 
 For **source code creation**, use only **GitHub Copilot** or a client-approved tool
@@ -162,6 +164,8 @@ You are using GitHub Copilot and it suggests a function that handles authenticat
 ## Module C — Open-Source and Supply Chain
 
 Every open-source library you add to a project is a dependency — and a potential attack surface. This module covers how to treat third-party software with the care it deserves.
+
+Links to related [**Third‑Party Management Policy**](https://civicactions.atlassian.net/wiki/spaces/MGPOL/pages/745373710/Third+Party+Management+Policy) and [**Vulnerability and Patch Management Policy**](https://civicactions.atlassian.net/wiki/spaces/MGPOL/pages/768344065/Vulnerability+and+Patch+Management+Policy)
 
 ### FOSS as Suppliers
 

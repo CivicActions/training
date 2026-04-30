@@ -198,7 +198,7 @@ You're setting up MFA for your CivicActions account. Which method is the preferr
 
 Not all data is created equal. CivicActions classifies data into levels so everyone knows how to handle, store, and share it properly. This module teaches you the classification system and the rules that go with each level.
 
-Here's a limk to the full [**Data Security and Handling Policy**](https://civicactions.atlassian.net/wiki/spaces/MGPOL/pages/710213662/Data+Security+and+Handling+Policy)
+Here's a link to the full [**Data Security and Handling Policy**](https://civicactions.atlassian.net/wiki/spaces/MGPOL/pages/710213662/Data+Security+and+Handling+Policy)
 
 ### Four Classification Levels
 
