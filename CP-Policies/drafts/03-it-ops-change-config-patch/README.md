@@ -35,6 +35,8 @@ Let's get started!
 
 Configuration management is how we make sure our systems stay in a known, approved state. If someone changes something — intentionally or not — we need to know about it.
 
+Here's a link to the full [**Configuration Management Policy**](https://civicactions.atlassian.net/wiki/spaces/MGPOL/pages/767983618/Configuration+Management+Policy)
+
 ### CI Scope
 
 CivicActions formally tracks five classes of **Configuration Items (CIs)**:
@@ -110,6 +112,8 @@ Automated drift detection flags a configuration deviation on a production system
 ## Module B — Change Enablement
 
 Changes are inevitable — new features, security patches, configuration updates. Change enablement makes sure those changes happen safely, with the right reviews and approvals.
+
+Here's a link to the full [**Change Enablement Policy**](https://civicactions.atlassian.net/wiki/spaces/MGPOL/pages/768114689/Change+Enablement+Policy)
 
 ### Change Classes
 
@@ -192,6 +196,8 @@ You need to change a Google Workspace security setting that affects all CivicAct
 ## Module C — Vulnerability and Patch Management
 
 Finding and fixing vulnerabilities before attackers exploit them is one of the most impactful things we do. This module covers how CivicActions discovers, prioritizes, and remediates vulnerabilities.
+
+Here's a link to the full [**Vulnerability and Patch Management Policy**](https://civicactions.atlassian.net/wiki/spaces/MGPOL/pages/768344065/Vulnerability+and+Patch+Management+Policy)
 
 ### Discovery Methods
 
@@ -334,6 +340,8 @@ Why must admin accounts be separate from your daily-use account?
 ## Module E — Disaster Recovery Operations
 
 When critical systems go down, we need a plan. This module covers how CivicActions classifies outages, recovers systems, and learns from incidents.
+
+Here's a link to the full [**Disaster Recovery Plan**](https://civicactions.atlassian.net/wiki/spaces/MGPOL/pages/915963911/Disaster+Recovery+Plan)
 
 ### Incident Classification
 
