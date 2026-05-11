@@ -54,7 +54,7 @@ During an active incident, the **Checklist** is your go-to reference. The IRP pr
 
 CivicActions follows six incident response phases:
 
-1. **Breath** — Pause. Assess the situation calmly before acting.
+1. **Breathe** — Pause. Assess the situation calmly before acting.
 2. **Document** — Start recording what you see, when you see it, and what you do.
 3. **Initiate** — Activate the response: notify the right people, assemble the team.
 4. **Assess** — Determine scope, severity, and impact. What systems are affected? What data is at risk?
@@ -138,6 +138,10 @@ All incident records are [**Controlled Records**](https://civicactions.atlassian
 Keep everything organized. Auditors and legal teams may need these records long after the incident is closed.
 
 > **Example:** During a phishing incident, the SIRT collects: the original phishing email (screenshot + headers), the Slack thread where it was first reported, the timeline of containment actions, the IC's severity assignment and decision log, and screenshots of the compromised account's recent activity. All of it goes into the incident's Jira ticket as attachments — organized and timestamped. Six months later, an auditor asks for the records. They're all in one place.
+
+### CUI During Response
+
+Incident urgency does not suspend CUI handling rules. Keep CUI on approved systems only — no Slack, personal email, or unauthorized tools. Apply CUI markings to incident records that reference it. The IC confirms which SIRT members are authorized to handle CUI for that engagement.
 
 ### Module B Quiz
 
@@ -225,6 +229,10 @@ Recovery is prioritized by **system criticality**, as defined in the Contingency
 The Contingency Plan defines specific recovery time objectives for each critical system. Know the ones for the systems you manage.
 
 > **Example:** Google Workspace goes down on a Tuesday morning. Since it's the SSO provider, nobody can authenticate to Slack, Jira, or most other tools. The recovery priority is clear: Google first. The team shifts communication to Zoom (which has independent auth) and monitors the Google Workspace Status Dashboard. Once Google is restored, other services come back online as authentication resumes.
+
+### When IR Becomes Continuity
+
+The IC activates the Contingency Plan when a critical system won't recover within its recovery time objective, multiple systems are affected beyond normal IR scope, or recovery requires reconstitution from backups or failover. If recovery is clearly going to miss its recovery target, flag it to the IC immediately.
 
 ### Emergency Changes
 
