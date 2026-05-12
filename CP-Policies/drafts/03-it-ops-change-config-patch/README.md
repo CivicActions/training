@@ -49,7 +49,17 @@ CivicActions formally tracks five classes of **Configuration Items (CIs)**:
 
 If it falls into one of these classes, it's under formal configuration control.
 
-> **Example:** Think about the Iru MDM profiles that enforce FileVault encryption and auto-lock on every CivicActions laptop. Those profiles are CIs under "Managed endpoints." The Google Workspace SAML configuration that provides SSO across the company? That's a "Production SaaS configuration." Both are formally tracked.
+> **Example:** Think about the Iru MDM profiles that enforce FileVault encryption and auto-lock on every CivicActions laptop. Those profiles are CIs under "Managed endpoints." And the Google Workspace SAML configuration that provides SSO across the company? That's a "Production SaaS configuration." Both are formally tracked.
+
+### CI Lifecycle
+
+Every CI follows three stages:
+
+1. **register** it when it enters service (add it to the CMDB with its baseline and owner),
+2. **modify** it only through the change process (Standard, Normal, Significant, or Emergency — no cowboy changes), and
+3. **retire** it when it's decommissioned (revoke access, archive the record, confirm no dependencies break). 
+
+> If it's not tracked through all three stages, we can't prove we controlled it — and auditors will notice.
 
 ### Configuration-as-Code
 
@@ -84,14 +94,14 @@ Ignoring drift isn't an option.
 
 > **Example:** Iru detects that a developer's laptop no longer has the required EDR agent running. A Jira ticket is automatically created. The Service Desk triages it within two business days and finds the agent crashed after an OS update. They reinstall the agent, confirm compliance in Iru, and close the ticket — reconciled back to baseline.
 
-### Evidence and Audit
+### Program Metrics, Evidence and Audit
 
 Configuration management produces records that auditors care about:
 
 - CI inventories
 - Baselines and their change histories
 - Drift reports
-- Approval records
+- MDM violations
 
 All of these are **Controlled Records** — keep them organized and up to date.
 
