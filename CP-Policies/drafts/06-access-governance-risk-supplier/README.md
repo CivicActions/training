@@ -36,6 +36,17 @@ Let's get started!
 
 As a manager or system owner, you're the gatekeeper for who gets access to what. This module covers your approval responsibilities, the access lifecycle, and the reviews that keep permissions current.
 
+See also: [**Access Control Policy**](https://civicactions.atlassian.net/wiki/spaces/MGPOL/pages/744947714/Access+Control+Policy)
+
+### Common Access Governance Themes
+
+- **Default-Deny / Zero Trust:** No access until there's a justified reason. Every request is untrusted until proven otherwise — being on the network doesn't count.
+- **SSO-First:** Google Workspace is the front door. If a tool supports SSO, native passwords get disabled. No shadow accounts, no shared logins.
+- **Separation of Duties:** Requester, approver, and implementer must be three different people. You cannot approve your own access.
+- **Privileged Access:** If an account can change permissions, bypass controls, access all data, alter configs, touch audit logs, or do something irreversible — it's privileged. Separate admin accounts, just-in-time elevation, two-person authorization for destructive actions.
+- **Non-Person Identities:** Service accounts, bots, API keys, and tokens follow the same lifecycle as human accounts - registered, scoped, reviewed quarterly, revoked when done. Every one has a human owner on record.
+- **The 24-Hour Rule:** Access is disabled the day someone separates. Full removal — accounts, tokens, group memberships - within 24 hours, no exceptions.
+
 ### The Approval Role
 
 When someone requests access to a system or project, you're the one who decides whether to approve it. Here's what guides that decision:
@@ -117,6 +128,8 @@ A team member is transferring from Project A to Project B. As their manager, wha
 
 Risk management can sound complicated, but at its core it's about answering three questions: *What could go wrong? How bad would it be? What are we doing about it?* This module covers your role in that process.
 
+See also: [**Risk and Security Assessment Policy**](https://civicactions.atlassian.net/wiki/spaces/MGPOL/pages/710213648/Risk+and+Security+Assessment+Policy)
+
 ### Risk Assessment Participation
 
 As a system or data owner, you contribute to risk assessments for the systems you manage:
@@ -190,6 +203,8 @@ A risk assessment identifies a High residual risk for a system you own. Who must
 
 CivicActions relies on vendors and partners for many critical services. This module covers how to evaluate, onboard, and monitor those relationships securely.
 
+See also: [**Third‑Party Management Policy**](https://civicactions.atlassian.net/wiki/spaces/MGPOL/pages/745373710/Third+Party+Management+Policy)
+
 ### Three SCRM Tracks
 
 CivicActions uses three Supply Chain Risk Management tracks, depending on the type of supplier:
@@ -202,7 +217,7 @@ CivicActions uses three Supply Chain Risk Management tracks, depending on the ty
 
 Know which track applies to the suppliers you manage.
 
-> **Example:** Google Workspace is **SCRM-DS** — it's a digital service/SaaS platform. An npm library your developers want to add is **SCRM-S** — it's software. A consulting firm providing security assessment support is **SCRM-PS** — professional services. Each track has different intake requirements, evidence expectations, and monitoring cadences.
+> Each track has different intake requirements, evidence expectations, and monitoring cadences.
 
 ### Risk Tiering
 
@@ -309,6 +324,8 @@ A new SaaS vendor is proposed that will process CivicActions data. What must hap
 
 Controlled Documents are the policies, procedures, and records that define how CivicActions operates. This module covers how they're managed.
 
+See also: [**Document and Record Control Policy**](https://civicactions.atlassian.net/wiki/spaces/MGPOL/pages/194019329/Document+and+Record+Control+Policy)
+
 ### Document Identification
 
 Controlled Documents are tracked in the **Controlled Document Jira board**. Each document gets a unique ID:
@@ -381,6 +398,15 @@ A colleague submits a change to a Controlled Document that corrects a typo and u
 ## Module E — AI Governance for Managers
 
 AI tools are becoming part of how work gets done. As a manager, you have specific governance responsibilities around their use.
+
+See also: [**AI Usage Policy**](https://civicactions.atlassian.net/wiki/spaces/MGPOL/pages/582418435/AI+Usage+Policy)
+
+### Condensed AI Usage Policy
+
+- **No Sensitive Data in AI Tools:** Never input confidential, proprietary, or CUI data into any AI tool — external or internal. If you wouldn't paste it into a public chat, don't paste it into a prompt.
+- **IT-Managed Accounts Only:** Use CivicActions-approved AI tools through IT-managed accounts. No personal accounts, no free-tier signups, no "I just wanted to try it."
+- **Label and Review:** AI-generated content must be clearly labeled as AI-assisted and peer-reviewed by a human before any business use. AI drafts it, a person owns it.
+- **GitHub Copilot for Code:** Copilot is the approved tool for AI-assisted code generation. Other code-generation tools require CTO approval before use.
 
 ### AI Approval Authority
 

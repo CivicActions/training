@@ -99,9 +99,10 @@ Ignoring drift isn't an option.
 Configuration management produces records that auditors care about:
 
 - CI inventories
+- Access approvals
 - Baselines and their change histories
 - Drift reports
-- MDM violations
+- MDM (endpoint compliance) violations
 
 All of these are **Controlled Records** — keep them organized and up to date.
 
