@@ -35,6 +35,8 @@ Let's get started!
 
 Before you can handle CUI properly, you need to understand what it is, who can access it, and why the rules exist.
 
+Here's a link to the full [**Controlled Unclassified Information (CUI) Policy**](https://civicactions.atlassian.net/wiki/spaces/MGPOL/pages/621641798/Controlled+Unclassified+Information+CUI+Policy)
+
 ### CUI Defined
 
 **CUI** stands for **Controlled Unclassified Information**. It's government-created or government-owned information that requires safeguarding under federal regulation — specifically [**32 CFR Part 2002**](https://www.ecfr.gov/current/title-32/subtitle-B/chapter-XX/part-2002).
