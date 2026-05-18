@@ -1,15 +1,15 @@
 # CivicAction Training Program
 
-## Information Security Training catalog
+## Information Security Policies Training catalog
 
-| # | File | Title | Audience | Duration | Outcomes |
-|---|------|-------|----------|----------|----------|
-| 1 | [CP-01-security-awareness-essentials.md](CP-01-security-awareness-essentials.md) | Security Awareness Essentials | All Staff | 30–45 min | ~81 |
-| 2 | [CP-02-cui-awareness-handling.md](CP-02-cui-awareness-handling.md) | CUI Awareness & Handling | Staff on federal/CUI contracts | 10–15 min | ~10 |
-| 3 | [CP-03-it-ops-change-config-patch.md](CP-03-it-ops-change-config-patch.md) | IT Operations: Change, Configuration & Patch Management | IT / Service Desk, Developers, System/Data Owners | 15–20 min | ~35 |
-| 4 | [CP-04-incident-response-responders.md](CP-04-incident-response-responders.md) | Incident Response for Responders | IT / SIRT members, Managers | 10–15 min | ~10 |
-| 5 | [CP-05-secure-dev-supply-chain.md](CP-05-secure-dev-supply-chain.md) | Secure Development & Supply Chain | Developers | 20–30 min | ~14 |
-| 6 | [CP-06-access-governance-risk-supplier.md](CP-06-access-governance-risk-supplier.md) | Access Governance, Risk & Supplier Oversight | Managers, System/Data Owners, Document Controllers | 25-30 min | ~25 |
+| # | File | Title | Audience | Duration |
+|---|------|-------|----------|----------|
+| 1 | [CP-01-security-awareness-essentials](CP-01-security-awareness-essentials) | Security Awareness Essentials | All Staff | 30–45 min |
+| 2 | [CP-02-cui-awareness-handling](CP-02-cui-awareness-handling) | CUI Awareness & Handling | Staff on federal/CUI contracts | 10–15 min |
+| 3 | [CP-03-it-ops-change-config-patch](CP-03-it-ops-change-config-patch) | IT Operations: Change, Configuration & Patch Management | IT / Service Desk, Developers, System/Data Owners | 15–20 min |
+| 4 | [CP-04-incident-response-responders](CP-04-incident-response-responders) | Incident Response for Responders | IT / SIRT members, Managers | 10–15 min |
+| 5 | [CP-05-secure-dev-supply-chain](CP-05-secure-dev-supply-chain) | Secure Development & Supply Chain | Developers | 20–30 min |
+| 6 | [CP-06-access-governance-risk-supplier](CP-06-access-governance-risk-supplier) | Access Governance, Risk & Supplier Oversight | Managers, System/Data Owners, Document Controllers | 25-30 min |
 
 ### Who takes what
 
