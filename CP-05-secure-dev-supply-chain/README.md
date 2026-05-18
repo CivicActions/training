@@ -1,14 +1,8 @@
 <!--
-author:   CivicActions Security Team
-email:    security@civicactions.com
-version:  0.1.0
-language: en
-narrator: US English Female
-
-comment:  Secure Development & Supply Chain — training for developers
-          on secure engineering, AI-assisted coding rules, DevSecOps
-          data handling, and open-source supply chain management.
-
+author:              CivicActions Security/compliance Team
+language:            en
+comment:             This CivicActions internal training course is updated and maintained by CivicActions.
+controlled_document: 
 -->
 
 # Secure Development & Supply Chain

@@ -1,14 +1,8 @@
 <!--
-author:   CivicActions Security Team
-email:    security@civicactions.com
-version:  0.1.0
-language: en
-narrator: US English Female
-
-comment:  Incident Response for Responders — training for IT,
-          SIRT members, and managers on how to handle security
-          incidents from detection through post-incident learning.
-
+author:              CivicActions Security/compliance Team
+language:            en
+comment:             This CivicActions internal training course is updated and maintained by CivicActions.
+controlled_document: 
 -->
 
 # Incident Response for Responders

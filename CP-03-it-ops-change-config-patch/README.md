@@ -1,14 +1,8 @@
 <!--
-author:   CivicActions Security Team
-email:    security@civicactions.com
-version:  0.1.0
-language: en
-narrator: US English Female
-
-comment:  IT Operations: Change, Configuration & Patch Management —
-          training for IT, developers, and system owners on the
-          technical policies they need to execute day to day.
-
+author:              CivicActions Security/compliance Team
+language:            en
+comment:             This CivicActions internal training course is updated and maintained by CivicActions.
+controlled_document: 
 -->
 
 # IT Operations: Change, Configuration & Patch Management

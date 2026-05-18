@@ -1,15 +1,8 @@
 <!--
-author:   CivicActions Security Team
-email:    security@civicactions.com
-version:  0.1.0
-language: en
-narrator: US English Female
-
-comment:  Security Awareness Essentials — the foundational security
-          training every CivicActions team member completes.
-          Covers device security, identity and access, data handling,
-          acceptable use and AI, incident reporting, and governance.
-
+author:              CivicActions Security/compliance Team
+language:            en
+comment:             This CivicActions internal training course is updated and maintained by CivicActions.
+controlled_document: 
 -->
 
 # Security Awareness Essentials
