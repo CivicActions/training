@@ -1,8 +1,8 @@
 <!--
-author:              CivicActions Security/compliance Team
+author:              CivicActions Security/Compliance Team
 language:            en
 comment:             This CivicActions internal training course is updated and maintained by CivicActions.
-controlled_document: 
+controlled_document: IS7058 Security Awareness Essentials Training
 -->
 
 # Security Awareness Essentials
@@ -13,7 +13,9 @@ This course covers the core behaviors and responsibilities you need to protect C
 
 **Who takes this?** Everyone — full-time staff, contractors, interns, and any third party with access to CivicActions systems.
 
-**How long?** About 30–40 minutes.
+**How long?** About 30–40 minutes (plus an optional 1-2 minutes for feedback)
+
+**Note on links:** Links are sometimes provided for additional information. Following them is not required for the training.
 
 **When?** Within 30 days of onboarding, then annually, and whenever there's a major policy change.
 
@@ -35,11 +37,11 @@ CivicActions issues employees a [**managed laptop**](https://civicactions.atlass
 - **Auto-lock** — your screen locks automatically after a short idle period
 - **Automatic patching** — your OS and security software stay up to date
 
-> **Important:** You must use your CivicActions laptop for all work involving Internal, Confidential, or client data. Personal (BYOD) mobile devices can only be used for MFA prompts and communication apps
+> **Important:** You must use your CivicActions laptop for all work involving Internal, Confidential, or client data. Personal (BYOD) mobile devices can only be used for approved communications and collaboration tools.
 
 > **Example:** Your CivicActions Laptop comes with the Iru Mobile Device Management (MDM) system that manages FileVault encryption, security scanning, firewall, and patching out of the box. You don't need to configure any of this yourself — IT handles it before your laptop ships to you.
 
-> **Tip:** It's smart to keep your personal devices protected with a strong password, an idle screen lock and attention to security updates. Also, use multi-factor authentication (MFA) whereever possible and stay alert to avoid phishing scams. More tips [here](https://ssd.eff.org/).
+> **Tip:** It's smart to keep your personal devices protected with a strong password, an idle screen lock and attention to security updates. Also, use passkeys or multi-factor authentication (MFA) whereever possible and stay alert to avoid phishing scams. More tips [here](https://ssd.eff.org/).
 
 ### Software Rules
 
@@ -69,12 +71,12 @@ Working from home? Here are the basics:
 Your network connection matters just as much as your laptop.
 
 - Use **WPA2 or WPA3** encrypted Wi-Fi, or a wired Ethernet connection
-  - If secure Wi-Fi isn't available, use your phone's **personal hotspot**
+  - If unsure about the security of available Wi-Fi, use your phone's **personal hotspot**
 - **No VPNs** unless required by the company or a client
 - **Change the default admin password** on your home router (many people skip this) and keep the firmware updated
 - **Never click through TLS/SSL warnings** — they exist for a reason
 
-> **Example:** You're at a coffee shop between meetings. The shop has open Wi-Fi — no password required. Skip it. Tether to your phone's hotspot instead. It takes 30 seconds and keeps your connection encrypted.
+> **Tip:** Most all remote connections (Gmail, Slack, web sites, etc.) - certainly the ones required for your work - are secured with strong end-to-end cryptography, creating a safe network path for your communications.
 
 ### Travel and Public Locations
 
@@ -84,10 +86,10 @@ On the go? Extra caution is needed:
   - Of course, leaving it lid-closed, in a locked hotel room to go out to dinner is fine
 - **Lock your screen** every time you step away, even for a minute
 - Avoid displaying sensitive info where others can see your screen
-- Use encrypted Wi-Fi or your personal hotspot — **never connect to open public Wi-Fi**
+- When on public Wi-Fi, connect only to well-known secure sites; if unsure, use your personal hotspot.
 - Avoid printing sensitive documents while traveling
 
-> **Example:** You're at an airport waiting for a flight and need to review a client proposal. Find a seat where nobody can read over your shoulder, and use your phone's hotspot instead of the airport Wi-Fi. When you get up to grab coffee, lock the screen — don't just close the lid, since it might not trigger a lock immediately.
+> **Example:** You're at an airport waiting for a flight and need to review a client proposal located outside the CivicActions Google Workspace. Find a seat where nobody can read over your shoulder and use your phone's hotspot instead of the airport Wi-Fi.
 
 ### Keeping Your Laptop Secure
 
@@ -127,13 +129,11 @@ Links to the full [**Identification Policy**](https://civicactions.atlassian.net
 
 ### SSO and MFA
 
-**Single Sign-On (SSO)** lets you log in once and access multiple work systems. Use SSO wherever it's available.
+**Single Sign-On (SSO)** lets you log in once and access multiple work systems. Use CivicActions SSO wherever it's available.
 
-> **In practice:** Your Google Workspace login is the front door. When you sign in there, SSO automatically connects you to Slack, Zoom, Jira, Confluence, GitLab, and other CivicActions systems — no separate passwords needed.
+> **In practice:** Your CivicActions Google Workspace login is the front door. When you sign in there, SSO automatically connects you to Slack, Zoom, Jira, Confluence, GitLab, and other CivicActions systems — no separate passwords needed.
 
-**Multi-Factor Authentication (MFA)** adds a second layer of proof that you are who you say you are.
-
-- Enroll your [**YubiKey as a Passkey**](https://civicactions.atlassian.net/wiki/spaces/ITSM/pages/732856328/Yubikey+Passkey+Setup+Process) for quick authentication to CivicActions Google Workspace
+Your [**YubiKey is a Passkey**](https://civicactions.atlassian.net/wiki/spaces/ITSM/pages/732856328/Yubikey+Passkey+Setup+Process) for quick and secure authentication to CivicActions Google Workspace
 
 > **Why a hardware key?** They are phishing resistant and are preferred over SMS codes or authenticator apps. Even if someone tricks you into entering your password on a fake site, they can't intercept a hardware key.
 
@@ -141,17 +141,28 @@ If you lose your YubiKey, report it immediately to security@civicactions.com - I
 
 > **Tip:** Consider buying a second YubiKey and keep one on your keychain and store the backup in a secure spot at home.
 
+To authenticate to sites that don't use CivicActions SSO, use **Multi-Factor Authentication (MFA)** to add a second layer of proof that you are who you say you are.
+
+> **Tip:** When you personally manage MFA, **you must have a backup second factor** for all your MFA accounts. Imagine that you lose the YubiKey used to unlock your password manager. Without a backup second factor, you would be effectively locked out of all of your accounts. So you need a backup.
+
 ### Password Standards
 
 Strong passwords are your first line of defense:
 
-- **20 characters minimum** for human accounts
-- **Memorize** your primary password and use a **password manager** for everything else
-- **Never reuse passwords** across different services — if one gets compromised, they all do
+- Passwords must be a **minimum of 16 characters** long
 
-> **Example:** Use your password manager to generate and store unique, strong passwords/passphrases for any service that doesn't support Google SSO. Your Google Workspace passphrase is the one you memorize - make it long and unique - four or five words that only mean something to you is recommended.
+> **Tip:** Make your passwords long and unique - four or five words that only mean something to you is recommended for security and easy memorization.
 
-> **Tip:** 1Password, BitWarden, LastPass and Proton Pass are some of the best known password managers.
+There are two passwords that you will need to remember:
+
+1. Your **Google Workspace SSO** password for most CivicActions services
+2. The password to your **password manager** for everything else
+
+**Never reuse passwords** across different services — if one gets compromised, they all do
+
+Any site or service that doesn't use Google Workspace SSO should use Multi-Factor Authentication (MFA) - such as your YubiKey - for added security. This includes your password manager.
+
+> **Tip:** 1Password, LastPass and your managed Chrome browser store are some of the best known and recommended password managers.
 
 ### Access Requests
 
@@ -175,7 +186,7 @@ Your access is **scoped to your assigned projects**. This means:
 
 ### Module B Quiz
 
-You're setting up MFA for your CivicActions account. Which method is the preferred primary factor?
+You're setting up MFA for your password manager. Which method is the preferred primary factor?
 
 - [( )] SMS text message code
 - [( )] Voice call one-time password
@@ -202,7 +213,7 @@ CivicActions uses four levels of data classification:
 | **Public** | Approved for release — website content, published marketing materials, open-source code. Anyone in the organization can access and share this data. | Minimal risk. |
 | **Internal** | Non-sensitive internal procedures — meeting notes, project timelines, internal process documents. Should not be shared outside the organization. | Minor operational disruptions, but no severe compliance consequences. |
 | **Confidential** | High-stakes data — client contracts, technical drawings, other Federal Contract Information (FCI), Controlled Unclassified Information (CUI). Access limited to those with a legitimate business need. | Could jeopardize contract eligibility or lead to regulatory penalties. |
-| **Restricted** | The most sensitive data — payroll records, login credentials, Social Security Numbers, Personal Health Information (PHI). Access strictly controlled and monitored. | Severe harm, including legal action or significant financial loss. |
+| **Restricted** | The most sensitive data — payroll records, login credentials, Social Security Numbers, Personal Health Information (PHI). Access strictly controlled and monitored. | Severe harm, including legal action, significant financial loss, or compromise of personal data. |
 
 > **Default rule:** All data is treated as **Internal** until someone explicitly classifies it otherwise.
 
@@ -306,7 +317,7 @@ Some things are never OK:
 AI can be a powerful productivity tool, but it comes with real risks. Here are the ground rules:
 
 1. **Use only [CivicActions-approved AI tools](https://civicactions.atlassian.net/wiki/spaces/MGPOL/pages/582418435/AI+Usage+Policy)** with IT-managed accounts
-2. **Never input sensitive, confidential, or client-internal data** into any AI tool — even approved ones
+2. **Do not expose sensitive or confidential information** to AI tools outside an approved system or client-approved environment.
 3. **Human oversight is required** for all AI-generated output
   - While it may have been generated by AI, **you are responsible** for shared output
 4. **Clearly label AI-generated or AI-assisted content** internally
@@ -337,15 +348,15 @@ Want to use an AI tool that isn't on the approved list?
 
 ### Module D Quiz
 
-A colleague asks you to paste a client's internal financial data into ChatGPT to summarize it. What should you do?
+To keep track of multiple projects, you want to install a new AI scheduling assistant called "OpenClaw." You don't see it on the company's approved list. Is this a good idea?
 
-- [( )] Go ahead — ChatGPT is on the approved tools list
-- [(X)] Refuse — never input sensitive, confidential, or client-internal data into any AI tool, even approved ones
-- [( )] Ask the client for permission first, then proceed
-- [( )] Use Gemini instead since it's a Google product
+- [( )] Yes, as long as it improves your productivity and efficiency
+- [( )] Yes, but you should sign up using your personal email address to protect the company
+- [(X)] No. You must only use approved software configurations and must submit a request before using any new AI tools
+- [( )] No, because AI is strictly prohibited for project management purposes
 ***
 
-**Good call!** Even approved AI tools must never receive sensitive, confidential, or client-internal data. The "approved" status means the tool itself is OK to use for general work — it doesn't mean all data is safe to put into it. Data classification rules always apply.
+**Good call!** Installing unapproved software - often referred to as Shadow IT - bypasses the organization's security controls. Even if a tool seems helpful or promises great productivity boosts, it has not been evaluated by the security team for vulnerabilities, malicious code or data leakage.
 
 ***
 
@@ -418,7 +429,7 @@ You receive a suspicious email with an attachment claiming to be an invoice. Wha
 - [( )] Delete it and forget about it
 ***
 
-**Correct!** Never open suspicious attachments. Report the email immediately so the security team can analyze it and warn others if needed. Deleting it silently means the team can't investigate — and others might fall for the same phishing attempt.
+**Correct!** Never open suspicious attachments. Report the email immediately so the security team can analyze it and warn others if needed. Deleting it silently means the team can't investigate — and others might fall for the same phishing attempt. Reporting suspicious email messages using the Report phishing option in Gmail is also encouraged.
 
 ***
 
@@ -536,14 +547,18 @@ Here's what you covered:
 3. **Data handling** — classification levels, approved storage, safe sharing
 4. **Acceptable use and AI** — approved tools, data restrictions, human oversight of AI
 5. **Incident reporting** — see something say something, blame-free culture, lost devices
-6. **Governance and compliance** — policy structure, frameworks, risk, DR communication
+6. **Governance and compliance** — policy structure, frameworks, risk and third-party awareness
 
 **Remember the basics:**
 
 - Use your CivicActions laptop with approved software
-- Protect your identity with hardware MFA keys and strong passwords
+- Protect your identity with passkeys, hardware MFA keys and strong passwords
 - Handle data according to its classification level
-- Never put sensitive data into AI tools
+- Never put sensitive data into any unapproved tool
 - Report anything suspicious — fast
 
-Questions? Reach out to **security@civicactions.com** or post in **Slack #general**.
+Questions? Reach out to **security@civicactions.com** or post in **Slack `#loving-security`**.
+
+---
+
+Please take 2 minutes to fill out our [**Policy Training Feedback Form**](https://docs.google.com/forms/d/e/1FAIpQLSfYwiMB4fsg32jzzrEDnGC3DEYJyloeSy91NPVj4GuPEoFfRw/viewform?usp=header)

@@ -4,7 +4,7 @@
 
 | # | File | Title | Audience | Duration |
 |---|------|-------|----------|----------|
-| 1 | [CP-01-security-awareness-essentials](CP-01-security-awareness-essentials) | Security Awareness Essentials | All Staff | 30–45 min |
+| 1 | [CP-01-security-awareness-essentials](CP-01-security-awareness-essentials) | Security Awareness Essentials | All Staff | 30–40 min |
 | 2 | [CP-02-cui-awareness-handling](CP-02-cui-awareness-handling) | CUI Awareness & Handling | Staff on federal/CUI contracts | 10–15 min |
 | 3 | [CP-03-it-ops-change-config-patch](CP-03-it-ops-change-config-patch) | IT Operations: Change, Configuration & Patch Management | IT / Service Desk, Developers, System/Data Owners | 15–20 min |
 | 4 | [CP-04-incident-response-responders](CP-04-incident-response-responders) | Incident Response for Responders | IT / SIRT members, Managers | 10–15 min |
