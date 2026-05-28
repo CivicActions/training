@@ -16,24 +16,7 @@ This ensures accurate shipping, smooth enrollment, and a clean setup experience.
 
 ---
 
-# Step 1: Complete the Company Managed Device Rollout Form
-
-Please complete the rollout form:
-
-👉 https://docs.google.com/forms/d/e/1FAIpQLSeFr-2WdNqumHbsj8jKtDdho5blSOQHZy3Qz637BJzvRSZFnw/viewform?usp=dialog
-
-This form confirms:
-
-- Your shipping address & phone number
-- Signature availability for delivery
-- Preferred delivery timing
-- Alternate shipping notes (if needed)
-- Tech stipend timing
-
-After submitting the form, continue to the next step.
-
-
-# Step 2: Prepare Your Google Password
+# Step 1: Prepare Your Google Password
 
 You will log into your new laptop using:
 
@@ -59,32 +42,25 @@ You can update your password anytime via your [Google Account page](https://myac
 
 ---
 
-# Step 3: Deployment Readiness Confirmation
+# Step 2: Deployment Readiness Confirmation
 
 Once you have:
 
 - [ ] Submitted the rollout form
 - [ ] Reviewed this training
 
-Go to your laptop deployment wave Slack channel and post this message:
+Go to the [#it-laptops](https://civicactions.slack.com/archives/C066DV37FU4) Slack channel and post this message:
 
 > I am ready to deploy my laptop and have completed the Company Managed Device Rollout form and required training.
-
-You can find your laptop wave channel here:
-
-
-- [**#it-laptops-wave-2**](https://civicactions.slack.com/archives/C0A72LVNVNZ)
-- [**#it-laptops-wave-3**](https://civicactions.slack.com/archives/C0A79MJDX7W)
-- [**#it-laptops-wave-4**](https://civicactions.slack.com/archives/C0A6ZNB255Z)
-
-
 
 After posting:
 
 1. Click the **three dots (...)** on your message
 2. Click Connect to Apps >> **Raise a Request**
-2. Select **Create ticket**
-3. Submit the ticket
+3. Select **Create ticket**
+4. Submit the ticket
+
+![Raise Request](assets/request.png)
 
 This creates your official deployment ticket and signals IT to begin ordering your device.
 
@@ -334,6 +310,8 @@ Once:
 - Your device is enrolled successfully
 
 Your laptop is ready for use and you can begin customizing it to fit your needs. Once the laptop is operational, you can close the Laptop Deployment ticket.
+
+> Please consider giving us feedback on this training so we can improve. [Give Feedback](https://docs.google.com/forms/d/e/1FAIpQLSfYwiMB4fsg32jzzrEDnGC3DEYJyloeSy91NPVj4GuPEoFfRw/viewform?usp=pp_url&entry.1599899478=IT+Laptops)
 
 > To complete this training, close this browser tab.
 
