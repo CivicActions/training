@@ -562,3 +562,7 @@ Questions? Reach out to **security@civicactions.com** or post in **Slack `#lovin
 ---
 
 Please take 2 minutes to fill out our [**Policy Training Feedback Form**](https://docs.google.com/forms/d/e/1FAIpQLSfYwiMB4fsg32jzzrEDnGC3DEYJyloeSy91NPVj4GuPEoFfRw/viewform?usp=header)
+
+---
+
+> **Tip:** Close this window to record your completion of this training in Rippling.
