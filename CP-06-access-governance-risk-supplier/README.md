@@ -21,6 +21,8 @@ While Training 3 covers the technical operations, this course covers the **gover
 
 **Compliance:** CMMC L2 (AC, RA, SR controls), ISO 27001 A.5.1–A.5.23.
 
+> **Note on links:** Links are sometimes provided for additional information. Following them is not required for the training.
+
 ---
 
 Let's get started!
@@ -484,3 +486,11 @@ Here's what you covered:
 - Controlled Documents are immutable — changes create new versions
 
 Questions? Reach out to **security@civicactions.com** or the Compliance team.
+
+---
+
+Please take 2 minutes to fill out our [**Policy Training Feedback Form**](https://docs.google.com/forms/d/e/1FAIpQLSfYwiMB4fsg32jzzrEDnGC3DEYJyloeSy91NPVj4GuPEoFfRw/viewform?usp=header)
+
+---
+
+> **Tip:** Close this window to record your completion of this training in Rippling.

@@ -21,6 +21,8 @@ Training 1 taught all staff to *report* incidents. This course teaches you how t
 
 **Compliance:** CMMC L2 (IR.L2-3.6.1–3.6.3), ISO 27001 A.5.24–A.5.28.
 
+> **Note on links:** Links are sometimes provided for additional information. Following them is not required for the training.
+
 ---
 
 Let's get started!
@@ -359,3 +361,11 @@ Here's what you covered:
 - Retrospectives are blameless — focus on conditions, not individuals
 
 Questions? Reach out to **security@civicactions.com** or your SIRT lead.
+
+---
+
+Please take 2 minutes to fill out our [**Policy Training Feedback Form**](https://docs.google.com/forms/d/e/1FAIpQLSfYwiMB4fsg32jzzrEDnGC3DEYJyloeSy91NPVj4GuPEoFfRw/viewform?usp=header)
+
+---
+
+> **Tip:** Close this window to record your completion of this training in Rippling.

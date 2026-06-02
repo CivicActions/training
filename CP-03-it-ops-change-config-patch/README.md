@@ -21,6 +21,8 @@ While all staff got a high-level awareness of these programs in Training 1, this
 
 **Compliance:** CMMC L2 (CM, MA, SI controls), ISO 27001 A.8.9, A.8.32.
 
+> **Note on links:** Links are sometimes provided for additional information. Following them is not required for the training.
+
 ---
 
 Let's get started!
@@ -452,3 +454,11 @@ Here's what you covered:
 - Google Workspace is the #1 recovery priority because it's the identity provider
 
 Questions? Reach out to **security@civicactions.com** or your IT lead.
+
+---
+
+Please take 2 minutes to fill out our [**Policy Training Feedback Form**](https://docs.google.com/forms/d/e/1FAIpQLSfYwiMB4fsg32jzzrEDnGC3DEYJyloeSy91NPVj4GuPEoFfRw/viewform?usp=header)
+
+---
+
+> **Tip:** Close this window to record your completion of this training in Rippling.

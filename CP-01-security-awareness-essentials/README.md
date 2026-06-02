@@ -15,9 +15,9 @@ This course covers the core behaviors and responsibilities you need to protect C
 
 **How long?** About 30–40 minutes (plus an optional 1-2 minutes for feedback)
 
-**Note on links:** Links are sometimes provided for additional information. Following them is not required for the training.
-
 **When?** Within 30 days of onboarding, then annually, and whenever there's a major policy change.
+
+> **Note on links:** Links are sometimes provided for additional information. Following them is not required for the training.
 
 ---
 

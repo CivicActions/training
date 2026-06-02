@@ -21,6 +21,8 @@ You already know the security basics from Training 1, and your IT Ops colleagues
 
 **Compliance:** CMMC L2 (SC, SI, SR controls), ISO 27001 A.8.25–A.8.28.
 
+> **Note on links:** Links are sometimes provided for additional information. Following them is not required for the training.
+
 ---
 
 Let's get started!
@@ -310,3 +312,11 @@ Here's what you covered:
 - Know which systems are CIA "High" and apply proportional controls
 
 Questions? Reach out to **security@civicactions.com** or your engineering lead.
+
+---
+
+Please take 2 minutes to fill out our [**Policy Training Feedback Form**](https://docs.google.com/forms/d/e/1FAIpQLSfYwiMB4fsg32jzzrEDnGC3DEYJyloeSy91NPVj4GuPEoFfRw/viewform?usp=header)
+
+---
+
+> **Tip:** Close this window to record your completion of this training in Rippling.

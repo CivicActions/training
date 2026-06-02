@@ -2,7 +2,7 @@
 author:              CivicActions Security/compliance Team
 language:            en
 comment:             This CivicActions internal training course is updated and maintained by CivicActions.
-controlled_document: 
+controlled_document: IS7059 CUI Awareness and Handling Training
 -->
 
 # CUI Awareness & Handling
@@ -20,6 +20,12 @@ This course builds on what you learned in *Security Awareness Essentials* (Train
 **When?** Before you're granted CUI access, then annually, and whenever there's a contract or policy change.
 
 **Compliance:** CMMC L2 (NIST 800-171), FAR 52.204-21.
+
+**Links:**
+- [Data Security and Handling Policy](https://civicactions.atlassian.net/wiki/spaces/MGPOL/pages/710213662/Data+Security+and+Handling+Policy)
+  - [Controlled Unclassified Information (CUI) Policy](https://civicactions.atlassian.net/wiki/spaces/MGPOL/pages/621641798/Controlled+Unclassified+Information+CUI+Policy)
+
+> **Note on links:** Links are sometimes provided for additional information. Following them is not required for the training.
 
 ---
 
@@ -39,7 +45,7 @@ CUI isn't classified (like "Secret" or "Top Secret"), but it's still sensitive. 
 
 - **Vulnerability scan results** from federal systems
 - **Any document marked** "CUI" or "Controlled Unclassified Information"
-- **Bids, proposals, and non-public contract data** -- also known as Federal Contract Informattion (FCI)
+- The legacy labels "Sensitive but Unclassified (SBU)" or "For Official Use Only (FOUO)" have now largely replaced by CUI and should be treated as such.
 
 > **Example:** Your team runs a vulnerability scan on a federal client's infrastructure and saves the results to a folder marked "CUI" within an access controlled Shared Drive. Those scan results are CUI — they reveal system weaknesses that could be exploited if leaked. They need to stay inside the CUI Security Boundary, not in a general project folder.
 
@@ -71,7 +77,7 @@ CUI may only be stored or processed in these three places:
 
 1. **Secured client network** — the client's own system, operating within their Authority to Operate (ATO) security boundary
 2. **CivicActions Google Workspace** — specifically in **access-controlled Shared Drives** in folders that are explicitly marked **"CUI"**
-3. **CivicActions managed workstations** — your CivicActions-issued laptop or an approved hardened BYOD device
+3. **CivicActions workstation** — your client or CivicActions-issued laptop or an approved hardened BYOD device
 
 That's it. If a location isn't on this list, CUI doesn't belong there.
 
@@ -111,7 +117,7 @@ Where may CUI be stored?
 - [( )] Any encrypted USB drive
 ***
 
-**Right!** CUI has a strict Security Boundary. It can only live on the secured client network, in CivicActions Google Workspace Shared Drives that are explicitly marked "CUI" and access-controlled, or on CivicActions managed workstations. No personal cloud, no unapproved SaaS, no removable media without CISO approval, and no AI tools.
+**Right!** CUI has a strict Security Boundary. It can only live on the secured client network, in CivicActions Google Workspace access-controlled Shared Drives that are explicitly marked "CUI", or on CivicActions managed workstations. No personal cloud, no unapproved SaaS, no removable media without CISO approval, and no AI tools.
 
 ***
 
@@ -144,7 +150,7 @@ Don't hold onto CUI longer than you need it.
 - Don't keep "just in case" copies
 - The less CUI you retain, the smaller the risk if something goes wrong
 
-> **Example:** You downloaded a contractor bid document to review on your CivicActions laptop. Once you've finished your review and added your notes to the CUI Shared Drive, delete the local copy. Don't leave it sitting in your Downloads folder.
+> **Example:** You downloaded a system architecture document marked "CUI" to review on your CivicActions laptop. Once you've finished your review and added your notes to the CUI Shared Drive, delete the local copy. Don't leave it sitting in your Downloads folder.
 
 ### Project Closeout
 
@@ -161,7 +167,7 @@ This isn't optional — it's a project closeout requirement.
 If you suspect CUI has been **compromised, exposed, or mishandled**:
 
 - Report it as a **security incident immediately**
-- Use the same channels: **Slack #general**, **DM an IT team member or your manager**, or email **security@civicactions.com**
+- Use the same channels: **Slack `#loving-security`**, **DM an IT team member or your manager**, or email **security@civicactions.com**
 - Don't try to "fix it" yourself first — speed is critical
 
 CUI incidents may trigger notification obligations to the government client, so the security team needs to know right away.
@@ -194,7 +200,7 @@ A teammate suggests pasting CUI data into an approved AI tool (like ChatGPT for 
 - [( )] Yes — but only if the project lead approves
 ***
 
-**Correct!** AI tools are explicitly listed as a **prohibited CUI location**, regardless of whether the tool is on the CivicActions Approved Software Catalog. The CUI Security Boundary is limited to the secured client network, CUI-marked Google Workspace Shared Drives, and managed workstations. No exceptions for AI tools.
+**Correct!** AI tools are explicitly listed as a **prohibited CUI location**, regardless of whether the tool is on the CivicActions Approved Software Catalog. The CUI Security Boundary is limited to the secured client network, CUI-marked folders within CivicActions Workspace Shared Drives, and CivicActions or client managed workstations. No exceptions for AI tools.
 
 ***
 
@@ -218,3 +224,11 @@ Here's what you covered:
 - Report any suspected CUI compromise immediately
 
 Questions? Reach out to **security@civicactions.com** or your project lead.
+
+---
+
+Please take 2 minutes to fill out our [**Policy Training Feedback Form**](https://docs.google.com/forms/d/e/1FAIpQLSfYwiMB4fsg32jzzrEDnGC3DEYJyloeSy91NPVj4GuPEoFfRw/viewform?usp=header)
+
+---
+
+> **Tip:** Close this window to record your completion of this training in Rippling.
