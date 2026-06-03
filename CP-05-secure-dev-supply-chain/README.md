@@ -2,7 +2,7 @@
 author:              CivicActions Security/compliance Team
 language:            en
 comment:             This CivicActions internal training course is updated and maintained by CivicActions.
-controlled_document: 
+controlled_document: IS7062 Secure Development and Supply Chain Training
 -->
 
 # Secure Development & Supply Chain

@@ -223,8 +223,11 @@ Each sensitivty classification level has specific rules for sharing, storage, an
 
 - **Public:** No special handling needed
 - **Internal:** Keep within CivicActions systems; don't post externally
-- **Confidential/Restricted:** Must be **encrypted in transit and at rest**; access on a need-to-know basis only
-  - **Controlled Unclassified Information (CUI)** has additional handling controls over other Confidential data
+- **Confidential/Restricted:**
+  - Access on a **need-to-know** basis only
+  - Employ **data minimization**. Do not copy to other tools or services.
+  - Must be **encrypted in transit and at rest**
+  - **Note:** Controlled Unclassified Information (CUI) has additional handling controls over other Confidential data
 
 When in doubt, treat data as Confidential and ask your manager or IT.
 

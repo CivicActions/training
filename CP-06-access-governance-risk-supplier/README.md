@@ -2,7 +2,7 @@
 author:              CivicActions Security/compliance Team
 language:            en
 comment:             This CivicActions internal training course is updated and maintained by CivicActions.
-controlled_document: 
+controlled_document: CP7063 Access Governance, Risk and Supplier Oversight Training
 -->
 
 # Access Governance, Risk & Supplier Oversight

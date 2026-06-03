@@ -2,7 +2,7 @@
 author:              CivicActions Security/compliance Team
 language:            en
 comment:             This CivicActions internal training course is updated and maintained by CivicActions.
-controlled_document: 
+controlled_document: IT7060 IT Operations Training - Change, Configuration, and Patch Management
 -->
 
 # IT Operations: Change, Configuration & Patch Management
