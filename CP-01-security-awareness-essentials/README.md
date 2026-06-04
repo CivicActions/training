@@ -168,7 +168,7 @@ Any site or service that doesn't use Google Workspace SSO should use Multi-Facto
 
 Need access to a new system or project?
 
-1. Submit a request through the **defined access request process** — file a ticket or use a Rippling workflow with the system name, your justification, how long you need it, and which project it's for
+1. Submit a request including the system name, your justification and how long you need it using a project ticket or via [**Atlassian Assist**](https://civicactions.atlassian.net/wiki/spaces/ITSM/pages/607584257/Atlassian+Assist)
 2. Access is granted based on **least privilege** — you get only what you need
 3. If your role changes or you leave, **notify IT promptly** so access can be adjusted
 
@@ -253,12 +253,12 @@ If it's work data, it belongs on work systems — period.
 Sharing data the wrong way is one of the most common security mistakes:
 
 - **Google Docs:** Share by **individual email address**, not "anyone with the link"
-- **Confidential files sent externally:** Use a **password-protected AES-256 archive** with a **20+ character passphrase**
+- **Confidential files sent externally:** Use a **password-protected AES-256 archive** with a **16+ character passphrase**
   - **Send the passphrase through a separate channel** (e.g., share the file by email, send the password via Slack)
-- **Never use email for Confidential or Restricted data** — use Google Drive sharing instead
+- **Never use email for Confidential or Restricted data that is not encrypted** — use Google Drive sharing instead
 - **Slack is for Public, Internal and some Confidential information** — never paste or upload CUI or Restricted data (including system vulnerability scans and login credentials) in Slack channels or DMs
 
-> **Example:** A partner organization needs a Confidential deliverable but doesn't have access to your Google Drive. Create a password-protected ZIP archive with a 20+ character passphrase, email the archive, and then send the passphrase via Slack DM — never in the same email.
+> **Example:** A partner organization needs a Confidential deliverable but doesn't have access to your Google Drive. Create a password-protected ZIP archive with a 16+ character passphrase, email the archive, and then send the passphrase via Slack DM — never in the same email.
 
 ### Removable Media and Printing
 
@@ -373,7 +373,7 @@ If you observe **anything** that might be a security incident, outage, or suspic
 
 **How to report:**
 
-- Post in **Slack #general**
+- Post in **Slack `loving-security`**
 - **DM an IT team member** directly
 - **DM your manager**
 - Email **security@civicactions.com**

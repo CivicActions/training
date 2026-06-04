@@ -7,17 +7,17 @@ controlled_document: IS7061 Incident Response for Responders
 
 # Incident Response for Responders
 
-Welcome to **Incident Response for Responders** — the training for CivicActions team members who actively handle security incidents.
+Welcome to **Incident Response for Responders** — training for CivicActions team members who actively manage internal security incidents. Delivery teams will also follow these procedures if a client-owned incident response plan is insufficient.
 
 Training 1 taught all staff to *report* incidents. This course teaches you how to *respond* to them: the IRP phases, evidence preservation, communications protocol, recovery objectives, and post-incident improvement.
 
-**Who takes this?** IT / Service Desk, Security Incident Response Team (SIRT) members, and Managers.
+**Who takes this?** The Security Incident Response Team (SIRT) members, comprised of IT, Service Desk and some Managers.
 
 **Prerequisite:** Training 1 — Security Awareness Essentials.
 
 **How long?** About 10–15 minutes.
 
-**When?** Within 30 days of onboarding, then annually, and after any significant incident (lessons learned).
+**When?** Within 30 days of onboarding with SIRT, then annually, and after any significant incident (lessons learned).
 
 **Compliance:** CMMC L2 (IR.L2-3.6.1–3.6.3), ISO 27001 A.5.24–A.5.28.
 
@@ -38,7 +38,7 @@ CivicActions' incident response documentation has three layers:
 | Document | Purpose |
 |----------|---------|
 | [**Incident Response Policy**](https://civicactions.atlassian.net/wiki/spaces/MGPOL/pages/755367940/Incident+Response+Policy) | Defines principles, authority, and roles |
-| [**Incident Response Plan (IRP)**](https://guidebook.civicactions.com/en/latest/common-practices-tools/security/incident-response-plan/) | The procedures followed when responding to security incidents |
+| [**Incident Response Plan (IRP)**](https://guidebook.civicactions.com/en/latest/common-practices-tools/security/incident-response-plan/) | A guide to CivicActions' incident response procedures for mitigating threats to system security and data privacy |
 | [**Incident Response Checklist**](https://guidebook.civicactions.com/en/latest/common-practices-tools/security/incident-response-checklist/) | The IRP again, stripped down to just the procedures for responders |
 | [**Contingency Plan**](https://guidebook.civicactions.com/en/latest/common-practices-tools/security/contingency-plan/) | Recovery targets and integration with Disaster Recovery |
 

@@ -250,18 +250,6 @@ Pipelines need credentials too, and they have their own rules:
 
 > **Example:** Your GitHub Actions workflow needs a deploy token for the production environment. Instead of putting it in a `.env` file committed to the repo, you store it in the repository's encrypted secrets (or an external vault). The pipeline pulls it at runtime, and it never appears in logs, code, or config files. If someone forks the repo, the secret doesn't come with it.
 
-### Risk Context
-
-Not all systems are equal, and you should know the difference:
-
-- Understand which systems are classified as **CIA "High"** — these require extra controls
-- Apply **proportional controls**: more peer review, formal change records, stronger encryption
-- Know how to check the **Risk Register** for system classifications
-
-If you're unsure whether a system requires elevated controls, check the Risk Register or ask your project lead.
-
-> **Example:** You're assigned to a new project and aren't sure about its CIA classification. You check the Jira Continual Improvement project where the Risk Register lives and see the system is rated CIA "High" for confidentiality. That means: additional code review rigor, formal change records for significant changes, FIPS-validated encryption for data at rest and in transit, and quarterly access reviews. Knowing this upfront shapes how you work from day one.
-
 ### Module D Quiz
 
 Where should CI/CD pipeline secrets (like API keys and service account credentials) be stored?
