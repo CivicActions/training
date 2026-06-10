@@ -23,6 +23,6 @@
 | IT / Service Desk | 1, 2, 3, 4, 5 | ~90 min |
 | SIRT members | 1, 2, 3, 4 | ~65 min |
 | P*M | 1 + 4 + 6 | ~65 min |
-| System / Data Owners | 1 + 4 + 6 | ~70 min |
+| System / Data Owners | 1 + 4 + 6 | ~65 min |
 
 Add Training 2 (CUI) to any role working with federal CUI data.
