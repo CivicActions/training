@@ -21,7 +21,7 @@
 | Staff on CUI contracts | 1 + 2 | ~45 min |
 | Developers | 1 + 5 | ~50 min |
 | IT / Service Desk | 1, 2, 3, 4, 5 | ~90 min |
-| SIRT members | 1 + 3 + 4 | ~70 min |
+| SIRT members | 1, 2, 3, 4 | ~65 min |
 | P*M | 1 + 4 + 6 | ~65 min |
 | System / Data Owners | 1 + 4 + 6 | ~70 min |
 
