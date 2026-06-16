@@ -6,12 +6,12 @@ controlled_document: DE7055 Human Centered Design Foundations
 -->
 
 # Human-Centered Design Training
-?[HCDwelcome.webm](https://github.com/user-attachments/assets/ea26fbe0-2228-4271-bdfe-ab8e233970bd)
+?[HCDwelcome.webm](assets/HCDwelcome.webm)
 
 Welcome to the Human-Centered Design training. In this module, we'll define human-centered design (HCD), outline the standards we strive to meet, and explain what it means to us here at CivicActions. This training is key to raising awareness across the company and provides the context for us to understand and embrace this initiative.
 
 ## Overview
-?[Overview.webm](https://github.com/user-attachments/assets/7a327c59-42be-4649-a95a-c98d1c3ddcf0)
+?[Overview.webm](assets/Overview.webm)
 
 * What HCD is
 * Our standards
@@ -19,7 +19,7 @@ Welcome to the Human-Centered Design training. In this module, we'll define huma
 * Design amplifier award
 
 ## What Is Design?
-?[Whatisdesign.webm](https://github.com/user-attachments/assets/40a68326-5d36-462f-99cc-295a3eb1abff)
+?[Whatisdesign.webm](assets/Whatisdesign.webm)
 
 | Design Methodologies | Design Specialties | Design Artifacts |
 | :--------------------: |:--------------------:| :--------------------:|
@@ -33,14 +33,14 @@ Welcome to the Human-Centered Design training. In this module, we'll define huma
 | Participatory design | User research | Design system components |
 
 ## Human-Centered Design
-?[HCD.webm](https://github.com/user-attachments/assets/6913aee3-401d-4e5d-858d-41cbe5583879)
+?[HCD.webm](assets/HCD.webm)
 
-<img width="202" height="182" alt="HCD logo" src="https://github.com/user-attachments/assets/b70efebc-be67-4cdc-9a16-2e09558a923b" />
+<img width="202" height="182" alt="HCD logo" src="assets/hcd-logo.png" />
 
 Human-centered design at CivicActions is the approach we use to solve problems by keeping the user at the forefront of our designs.
 
 ### The HCD umbrella
-?[HCDumbrella.webm](https://github.com/user-attachments/assets/e3e36500-2581-4f3e-8df7-ab71615a0259)
+?[HCDumbrella.webm](assets/HCDumbrella.webm)
 
 | Design Methods | Design Specialties | Design Artifacts |
 | :--------------------: |:--------------------:| :--------------------:|
@@ -56,14 +56,14 @@ Human-centered design at CivicActions is the approach we use to solve problems b
 We treat HCD as the overarching approach that unifies all our methods, practices, and ways of working. No matter which design method we use or which discipline we apply, our work always centers around real people and real experiences. 
 
 ## Design at CivicActions
-?[DesignatCA.webm](https://github.com/user-attachments/assets/6ed55578-a2c2-49e8-97bd-4e5fcfd69482)
+?[DesignatCA.webm](assets/DesignatCA.webm)
 
-<img width="1104" height="200" alt="" src="https://github.com/user-attachments/assets/ffd15b94-7401-4538-9332-82afa108d76d" />
+<img width="1104" height="200" alt="" src="assets/hcd-design-at-ca-decorative-banner.png" />
 
 Design at CivicActions spans many dimensions. We're both generalists and specialists, and design titles can be confusing from the outside. So instead of thinking about which design roles we have at CA, let's reframe our thinking to what the design team does.
 
 ### What we do
-?[whatwedoatCA.webm](https://github.com/user-attachments/assets/60467824-26cd-4909-b5ea-99bf2f30085f)
+?[whatwedoatCA.webm](assets/whatwedoatCA.webm)
 
 | Practical designs | Usable designs | Design experiences | Design needs | Accessible designs |
 | :--------------------: |:--------------------:|:--------------------:|:--------------------:| :--------------------: |
@@ -71,48 +71,48 @@ Design at CivicActions spans many dimensions. We're both generalists and special
 | Processes | Governance | Interactions | Connections | Outcomes |
 
 ## HCD in our Quality Management System
-?[HCDinQMS.webm](https://github.com/user-attachments/assets/c13c6362-cc78-4ef9-949f-eeb8d81af5ad)
+?[HCDinQMS.webm](assets/HCDinQMS.webm)
 
 >> CivicActions **partners**<!-- style="color: purple" --> with government agencies to make a **positive impact**<!-- style="color: orange" --> by creating human-centered services that are **accessible to everyone**<!-- style="color: red" -->. CivicActions' commitment to quality means not only meeting customer expectations and complying with all necessary requirements, but also exceeding quality expectations through **company culture**<!-- style="color: blue" -->, **continual improvement**<!-- style="color: indigo" -->, and **free and open technologies**<!-- style="color: green" -->.
 
 ### HCD demonstrated
-?[HCDdemonstrated.webm](https://github.com/user-attachments/assets/12aa24ef-209e-4280-93bf-083e9c9305c3)
+?[HCDdemonstrated.webm](assets/HCDdemonstrated.webm)
 
 You might be asking, "How can we demonstrate our HCD competency?"
 
-<img width="210" height="180" alt="" src="https://github.com/user-attachments/assets/8d5d4fec-b7be-4737-bc54-4ad740f3bcce" />
+<img width="210" height="180" alt="Checklist icon with a checkmark representing task completion" src="assets/hcd-demonstrated-training-checklist-icon.png" />
  
 One way is by providing this HCD training. This training is mandatory for all employees to ensure they understand what HCD is and how to incorporate it into their practice areas. We share our best practices across the company so that everyone is an HCD advocate. But we don't stop there.
 
-<img width="210" height="180" alt="" src="https://github.com/user-attachments/assets/7ab658e1-cdc4-4af6-bc23-4a692099208f" />
+<img width="210" height="180" alt="Drupal logo" src="assets/hcd-demonstrated-drupal-logo.png" />
 
 We also expand our certifications beyond the design umbrella, bringing our HCD knowledge and expertise into them. For example, some of our designers are also Drupal Site Builder certified. Some of our designers have earned their Certified Professional in Accessibility Core Competencies (CPACC) certifications.
 
-<img width="210" height="180" alt="" src="https://github.com/user-attachments/assets/c2efed06-8d2d-48c5-8b06-e824426dda25" />
+<img width="210" height="180" alt="Building icon representing professional development and learning" src="assets/hcd-demonstrated-learning-institution-icon.png" />
 
 Additionally, we continuously pursue professional development opportunities, including courses in data science, AI, analytics, and more. Bringing the HCD lens to these new certifications and courses helps bridge the gap across practice areas here at CA.
 
 ### QMS relevance
-?[QMSrelevance.webm](https://github.com/user-attachments/assets/c502f6bd-15aa-48bd-9147-5a70ad1bf63f)
+?[QMSrelevance.webm](assets/QMSrelevance.webm)
 
-| ![](image.png) | Human-centered design: |
+| | **Human-centered design:** |
 |----|------------------------------|
-| <img width="55" height="84" alt="" src="https://github.com/user-attachments/assets/580d2057-cb3a-4292-885a-03de3758b8fb" /> | Reduces defects, rework, and downstream risk. |
-| <img width="55" height="84" alt="" src="https://github.com/user-attachments/assets/4ea06b7d-4009-4f1c-a381-95be4475352f" /> | Improve  consistency and repeatability. |
-| <img width="55" height="84" alt="" src="https://github.com/user-attachments/assets/5b43702c-6b77-49ad-af26-73449b6545fb" /> | Enhances stakeholder engagement and communication. |
-| <img width="55" height="84" alt="" src="https://github.com/user-attachments/assets/a7d4ccd3-e619-4799-a7e6-931413a1cbb3" /> | Drives continual improvement. |
-| <img width="55" height="84" alt="image" src="https://github.com/user-attachments/assets/b96e4cf3-5b0d-48bc-9c97-59854fe14174" /> | Supports objective, evidence-based decision making. |
-| <img width="55" height="84" alt="image" src="https://github.com/user-attachments/assets/5a80d7d4-4beb-4f48-a2b9-2120026395d5" /> | Strengthens outcomes for mission-critical, high-impact services. |
+| <img width="55" height="84" alt="Warning icon with exclamation mark representing risk reduction" src="assets/hcd-qms-reduces-defects-warning-icon.png" /> | Reduces defects, rework, and downstream risk. |
+| <img width="55" height="84" alt="Cycle arrows icon representing iteration and feedback loops" src="assets/hcd-qms-consistency-cycle-icon.png" /> | Improve  consistency and repeatability. |
+| <img width="55" height="84" alt="Icon of three people representing teamwork and stakeholder engagement" src="assets/hcd-qms-stakeholder-engagement-people-icon.png" /> | Enhances stakeholder engagement and communication. |
+| <img width="55" height="84" alt="Interlocking gears icon representing processes and continual improvement" src="assets/hcd-qms-continual-improvement-gears-icon.png" /> | Drives continual improvement. |
+| <img width="55" height="84" alt="Brain merged with circuit board icon representing evidence-based design thinking" src="assets/hcd-qms-evidence-based-decisions-brain-circuit-icon.png" /> | Supports objective, evidence-based decision making. |
+| <img width="55" height="84" alt="Rocket icon representing high-impact mission-critical outcomes" src="assets/hcd-qms-mission-critical-outcomes-rocket-icon.png" /> | Strengthens outcomes for mission-critical, high-impact services. |
 
 ## The International Standard
-?[ISOstandard.webm](https://github.com/user-attachments/assets/287e0847-10d8-4679-9956-425525c10155)
+?[ISOstandard.webm](assets/ISOstandard.webm)
 
-<img width="1474" height="821" alt="Internationl Standards include understanding context, focusing on needs, incorporating feedback, and improving user experience." src="https://github.com/user-attachments/assets/0ec3e87b-5169-45f5-a873-d86673bd0905" />
+<img width="1474" height="821" alt="International Standards include understanding context, focusing on needs, incorporating feedback, and improving user experience." src="assets/hcd-iso-international-standards-diagram.png" />
 
 The International Standard for Human-Centered Design for interactive systems, ISO 9214-210, specifies what must be true of a human-centered design approach, regardless of the tools or methods a team uses. It focuses on outcomes and behaviors rather than specific deliverables. Let's take a look at the foundational principles of our HCD processes regarding this standard.
 
 ### The principles
-?[principles.webm](https://github.com/user-attachments/assets/cc3cc5ed-b304-43ab-9a70-cc3c3c7d57c1)
+?[principles.webm](assets/principles.webm)
 
 A human-centered design process must adhere to six core principles:
 
@@ -124,16 +124,16 @@ A human-centered design process must adhere to six core principles:
 6. The design team includes multidisciplinary skills and perspectives.
 
 ### The activities
-?[activities.webm](https://github.com/user-attachments/assets/3f8c4dd6-a173-4c93-91d1-dc1b4d43f1be)
+?[activities.webm](assets/activities.webm)
 
-<img width="778" height="412" alt="HCD standard activities cycle" src="https://github.com/user-attachments/assets/cc4db776-9d6b-4b4b-aa14-833dea65fc75" />
+<img width="778" height="412" alt="HCD standard activities cycle" src="assets/hcd-standard-activities-cycle.png" />
 
 The international standard for HCD in interactive systems defines four required activities, often shown as a cycle. You can use any methods you want as long as these four activities are demonstrably performed. We'll break down each of these four activities and provide examples over the next few slides.
 
 ### Understand and specify the context of use
-?[firstactivity.webm](https://github.com/user-attachments/assets/426a83f5-745c-4440-a970-374433a1c02f)
+?[firstactivity.webm](assets/firstactivity.webm)
 
-<img width="644" height="364" alt="Understand and specify the context of use" src="https://github.com/user-attachments/assets/268f0fec-e398-4a2b-9431-5e61bfa5b862" />
+<img width="644" height="364" alt="Understand and specify the context of use" src="assets/hcd-activity-1-understand-context-of-use.png" />
 
 The first activity is "Understand and specify the context of use." Tasks could include:
 * Identifying users and stakeholders
@@ -143,9 +143,9 @@ The first activity is "Understand and specify the context of use." Tasks could i
 Outputs typically include personas, journey maps, workflow diagrams, environment analyses, and constraints. 
 
 ### Specify user requirements
-?[secondactivity.webm](https://github.com/user-attachments/assets/28e2ca6e-5bf8-44eb-a3fe-9777a6be1028)
+?[secondactivity.webm](assets/secondactivity.webm)
 
-<img width="624" height="338" alt="Specify user requirements" src="https://github.com/user-attachments/assets/c31c75a3-fa13-4685-adce-29cf8bb1e344" />
+<img width="624" height="338" alt="Specify user requirements" src="assets/hcd-activity-2-specify-user-requirements.png" />
 
 
 The next activity is "Specify user requirements." In the first activity, you specified the context, now you'll articulate the following requirements:
@@ -160,9 +160,9 @@ The next activity is "Specify user requirements." In the first activity, you spe
 This activity focuses on what must be true for the design to be successful, not the design solutions.
 
 ### Produce design solutions
-?[thirdactivity.webm](https://github.com/user-attachments/assets/5bca4205-5382-4430-9203-643ee80dc104)
+?[thirdactivity.webm](assets/thirdactivity.webm)
 
-<img width="650" height="356" alt="Produce design solutions" src="https://github.com/user-attachments/assets/7e325d10-98d3-42aa-baea-df2b114c6d2d" />
+<img width="650" height="356" alt="Produce design solutions" src="assets/hcd-activity-3-produce-design-solutions.png" />
 
 The third activity is "Produce design solutions." Design solutions evolve from conceptual to detailed:
 
@@ -176,9 +176,9 @@ The third activity is "Produce design solutions." Design solutions evolve from c
 This activity emphasizes traceability back to user needs.
 
 ### Evaluate designs against requirements
-?[fourthactivity.webm](https://github.com/user-attachments/assets/d8a8e4df-346c-4cac-bfab-8c71a4d7ca36)
+?[fourthactivity.webm](assets/fourthactivity.webm)
 
-<img width="658" height="364" alt="Evaluate designs against requirements" src="https://github.com/user-attachments/assets/d82fa1ee-1d72-4376-8733-128f5d001cf1" />
+<img width="658" height="364" alt="Evaluate designs against requirements" src="assets/hcd-activity-4-evaluate-designs.png" />
 
 The last activity is "Evaluate designs against requirements." Evaluations must:
 
@@ -189,7 +189,7 @@ The last activity is "Evaluate designs against requirements." Evaluations must:
 This includes usability testing, heuristic reviews, participatory design exercises, and analytics review.
 
 ### Supporting Requirements
-?[supportingrequirements.webm](https://github.com/user-attachments/assets/5a3c2fbe-5422-4ddb-a840-d1d885d88aed)
+?[supportingrequirements.webm](assets/supportingrequirements.webm)
 
 While the core activities are fixed, ISO 9214-210 also asserts a few supporting expectations:
 * Organizational commitment
@@ -199,7 +199,7 @@ While the core activities are fixed, ISO 9214-210 also asserts a few supporting 
 HCD must fit into agile, waterfall, or hybrid structures without being sidelined. 
 
 ## Checkpoint quiz
-?[quizstartinstructions.webm](https://github.com/user-attachments/assets/3b78b460-583e-4ce9-981b-3c40509427ab)
+?[quizstartinstructions.webm](assets/quizstartinstructions.webm)
 
 
 Let's take a moment to review what we've covered so far. Select the correct answer or answers for the next few questions.
@@ -233,12 +233,12 @@ Let's take a moment to review what we've covered so far. Select the correct answ
 - [(X)] It provides evidence-based methods to understand and meet user needs
 
 ## How You Can Practice HCD
-?[practic.webm](https://github.com/user-attachments/assets/5ca1c9e5-9dda-4139-b4da-651b1187cbbd)
+?[practic.webm](assets/practic.webm)
 
 Taking a human-centered approach to our solutioning and product delivery involves collaboration from everyone in our organization. Let's break down the different roles and give examples of how they can practice HCD. Pay close attention to your specific role, but also take the time to reflect on all the roles. In many ways, the examples are similar, and incorporating HCD is a shared responsibility.
 
 ### Program manager
-?[programmanager.webm](https://github.com/user-attachments/assets/2928fd54-d174-4996-9d6c-a49447d7d232)
+?[programmanager.webm](assets/programmanager.webm)
 
 As a program manager, you can practice HCD by:
 
@@ -249,7 +249,7 @@ As a program manager, you can practice HCD by:
 + Driving continuous learning loops.
 
 ### Product manager
-?[productmanager.webm](https://github.com/user-attachments/assets/56805640-0ea9-4491-85cd-355644b43d4e)
+?[productmanager.webm](assets/productmanager.webm)
 
 As a product manager, you can practice HCD by:
 
@@ -261,7 +261,7 @@ As a product manager, you can practice HCD by:
 + Championing early testing of ideas.
 
 ### Project manager
-?[projectmanager.webm](https://github.com/user-attachments/assets/961d647d-ae1a-4983-9ba2-85ab4f7f8afa)
+?[projectmanager.webm](assets/projectmanager.webm)
 
 As a project manager, you can practice HCD by:
 
@@ -273,7 +273,7 @@ As a project manager, you can practice HCD by:
 + Tracking user-impact metrics.
 
 ### Scrum master
-?[scrummaster.webm](https://github.com/user-attachments/assets/7288bb26-4913-461c-bbdf-8e621083411a)
+?[scrummaster.webm](assets/scrummaster.webm)
 
 As a scrum master, you can practice HCD by:
 
@@ -285,7 +285,7 @@ As a scrum master, you can practice HCD by:
 + Removing barriers to user contact.
 
 ### Frontend engineer
-?[frontend.webm](https://github.com/user-attachments/assets/ac356f7e-a62b-410d-993f-10f92d9c3b27)
+?[frontend.webm](assets/frontend.webm)
 
 As a frontend engineer, you can practice HCD by:
 
@@ -297,7 +297,7 @@ As a frontend engineer, you can practice HCD by:
 + Optimizing for real-world use and performance.
 
 ### Backend engineer
-?[backendengineer.webm](https://github.com/user-attachments/assets/4c4b1f16-4d9b-43f7-bab0-cea2ed15c99b)
+?[backendengineer.webm](assets/backendengineer.webm)
 
 As a backend engineer, you can practice HCD by:
 
@@ -309,7 +309,7 @@ As a backend engineer, you can practice HCD by:
 + Simplifying complexity when it benefits users.
 
 ### Data analyst
-?[data.webm](https://github.com/user-attachments/assets/0ecb98bb-cfd6-48da-9be2-4f0a00a778a8)
+?[data.webm](assets/data.webm)
 
 As a data analyst, you can practice HCD by:
 
@@ -321,7 +321,7 @@ As a data analyst, you can practice HCD by:
 + Illustrating insights through stories and visuals.
 
 ### Leadership
-?[leadership.webm](https://github.com/user-attachments/assets/a7910a16-9480-4e17-8749-528f44fec24c)
+?[leadership.webm](assets/leadership.webm)
 
 As a member of the company leadership, you can practice HCD by:
 
@@ -333,9 +333,9 @@ As a member of the company leadership, you can practice HCD by:
 + Rewarding learning-driven course correction.
 
 ## When to Include Design
-?[redflags.webm](https://github.com/user-attachments/assets/f13e0bce-6d22-4090-b308-95ff0a2aca9d)
+?[redflags.webm](assets/redflags.webm)
 
-<img width="234" height="184" alt="An HCD designer waving a red flag" src="https://github.com/user-attachments/assets/e7f4fea5-a07e-499d-880a-b3a71509bbfb" />
+<img width="234" height="184" alt="An HCD designer waving a red flag" src="assets/hcd-designer-red-flag-warning.png" />
 
 The best time to include design is from the very beginning. However, if you see any of these red flags, it means you're deviating from the CivicActions approach to human-centered design. These are clear, practical indicators that should prompt project managers, engineers, product owners, or leadership to bring designers in:
 
@@ -366,7 +366,7 @@ Lastly, if your team starts saying any of the following or similar phrases, it s
 * "We'll know if it works once it's in production."
 
 ## Checkpoint quiz
-?[quizstartinstructions.webm](https://github.com/user-attachments/assets/3b78b460-583e-4ce9-981b-3c40509427ab)
+?[quizstartinstructions.webm](assets/quizstartinstructions.webm)
 
 Let's take a moment to review what we've covered so far. Select the correct answer or answers for the next few questions.
 
@@ -387,34 +387,34 @@ Let's take a moment to review what we've covered so far. Select the correct answ
 - [( )] "Let's schedule usability testing."
 
 ## Looking Forward
-?[future.webm](https://github.com/user-attachments/assets/59f49e39-4575-463f-93ee-6ee97914eeb9)
+?[future.webm](assets/future.webm)
 
 Now that you understand the international standards and how we can all participate in human-centered design, let's look to the future of design. There are many things changing in our world, not only year after year but sometimes as quickly as week to week. It's more important than ever that we take a human-centered approach. The way we work and our design processes are changing. For us, there are two key things we're tracking.
 
 ### AI
-?[AI.webm](https://github.com/user-attachments/assets/b802c01b-333a-43e1-b761-937d1e92ef46)
+?[AI.webm](assets/AI.webm)
 
-<img width="466" height="528" alt="AI generated website images" src="https://github.com/user-attachments/assets/867eaca0-999c-4666-9b13-5724315e0b38" />
+<img width="466" height="528" alt="AI generated website images" src="assets/hcd-ai-generated-website-examples.png" />
 
 With the rapid acceleration of Artificial Intelligence, we can build high-fidelity prototypes faster than ever before. This allows us to prototype earlier and more often, get quick feedback, and validate ideas with users in mere hours instead of weeks.</br>
 This also means we'll likely begin discussing what prototype-first HCD will look like in 2026 and beyond. We also know that our clients are asking for AI-driven efficiency gains, and those can come from both the design and development sides of the house. Close collaboration with design, product, and engineering ensures AI-enhanced work meets real needs.</br>
 Humans must also remain in the review loop for any client-facing or public-facing visual assets generated with AI. Please bring the design team in for help and collaboration when you're experimenting with or creating AI assets. You can reach out in the #design-collabs Slack channel.
 
 ### National design studio
-?[designstudio.webm](https://github.com/user-attachments/assets/5812db86-4950-48f3-a29c-a46d21624b25)
+?[designstudio.webm](assets/designstudio.webm)
 
-<img width="772" height="439" alt="National design studio website snapshot" src="https://github.com/user-attachments/assets/67f39b97-5d04-4bf2-87d9-6475b54ec03d" />
+<img width="772" height="439" alt="National design studio website snapshot" src="assets/hcd-national-design-studio-website.png" />
 
 Another important administrative priority we're monitoring is the National Design Studio. The Studio was formed in 2025, and while it's a somewhat elusive entity, we're beginning to see its influence in new bespoke government websites and its presence in other agencies related to our work at CivicActions. Most recently, a representative of theirs appeared in our Department of the Interior oral presentation.
 
 ## Design Amplifier Award
-?[amplifier.webm](https://github.com/user-attachments/assets/95ef0dfe-75c1-4cd8-bec6-9d2ef70bdef3)
+?[amplifier.webm](assets/amplifier.webm)
 
 Officially kicking off in 2026, we are proud to introduce the Design Amplifier Award. We want to formally recognize people across all roles who elevate design best practices. The award highlights behaviors such as curiosity, collaboration, user advocacy, and a willingness to engage with evidence, users, and designers.</br>
 This isn't a design award. It's a teamwork award that celebrates HCD leadership across the company. The first nominations to celebrate design amplifiers across the company open in the spring of 2026.
 
 ## Checkpoint quiz
-?[quizstartinstructions.webm](https://github.com/user-attachments/assets/3b78b460-583e-4ce9-981b-3c40509427ab)
+?[quizstartinstructions.webm](assets/quizstartinstructions.webm)
 
 Let's take a moment to review what we've covered so far. Select the correct answer or answers for the next few questions.
 
@@ -433,7 +433,7 @@ Let's take a moment to review what we've covered so far. Select the correct answ
 - [( )] To select finalists for design conferences
 
 ## Conclusion
-?[summary.webm](https://github.com/user-attachments/assets/386a0bab-cc02-4499-9e31-2b2222beb0b4)
+?[summary.webm](assets/summary.webm)
 
 Being human-centered makes us all better partners to clients. It helps us:
 

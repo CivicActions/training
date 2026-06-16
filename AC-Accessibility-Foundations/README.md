@@ -7,17 +7,17 @@ controlled_document: AC7042 Accessibility Foundations
 -->
 
 # Accessibility Training
-?[axwelcome.webm](https://github.com/user-attachments/assets/718b78d3-4583-4b51-9098-a474d760d57e)
+?[axwelcome.webm](assets/axwelcome.webm)
 
 Welcome to the Accessibility training. In this module, we'll provide the foundational knowledge you need to champion accessibility on your projects. This training is key for the awareness of everyone across the company and provides the context for us to understand and embrace this initiative.
 
 ## Accessibility at CivicActions
-?[axatCA.webm](https://github.com/user-attachments/assets/c231d887-acc8-46fc-8af7-31bfefb2cdd7)
+?[axatCA.webm](assets/axatCA.webm)
 
 At CivicActions, our mission is to build better public services. A core part of that mission is ensuring that everything we create, from websites to internal tools, is fully accessible. It's not just about compliance; it's about building inclusion from the very start.
 
 ## Agenda
-?[axagenda.webm](https://github.com/user-attachments/assets/160ff367-3a14-44b3-ad3c-f502eaa1ce49)
+?[axagenda.webm](assets/axagenda.webm)
 
 Throughout this course, we'll cover
 - What accessibility is
@@ -27,34 +27,34 @@ Throughout this course, we'll cover
 - How you can be an accessibility champion
 
 ## Accessibility Defined
-?[axdefined.webm](https://github.com/user-attachments/assets/e0bf58b8-7ea9-4a92-b250-51988a610151)
+?[axdefined.webm](assets/axdefined.webm)
 
 What do we mean by accessibility in the digital world? Accessibility is an ongoing process to ensure that all users, especially those with disabilities, have equal access to the website content we create. This work requires commitment at every stage: from the initial planning and design phases to the final engineering and deployment. It's a fundamental part of quality and inclusivity. 
 
 ## Benefits
-?[axbenefits.webm](https://github.com/user-attachments/assets/33cde940-f736-458c-8104-863dc4d705d1)
+?[axbenefits.webm](assets/axbenefits.webm)
 
 When we focus on digital products like websites, content management, and procedures, everyone benefits. But let's look closer at how disability impacts the use of technology:
 
-?[aximpairments.webm](https://github.com/user-attachments/assets/3af3c268-cf41-4eff-9ea1-7a7d0ec51e0b)
+?[aximpairments.webm](assets/aximpairments.webm)
 
 |  | Disability type | Technology use |
 | :-----: | :---------- | :--------------------------------------- |
-| <img width="148" height="196" alt="outline of an ear" src="https://github.com/user-attachments/assets/a560a83e-1e15-44b6-abc5-f96f497ff243" /> | Hearing impairments | Deaf and hard of hearing people need **captioned videos** and **audio transcripts**. Ambient sounds should be included in transcripts when they convey context or meaning. |
-| <img width="158" height="162" alt="a person in a wheelchair" src="https://github.com/user-attachments/assets/68ac8527-515e-43dc-862a-50a4e68c5334" /> | Motor impairments | People with mobility issues or injury may navigate with **keyboard**, **stylus**, **large touch input**, **eye-tracker**, or **voice control**. |
-| <img width="140" height="148" alt="a human brain" src="https://github.com/user-attachments/assets/ff574b02-b3d2-4dff-aaa0-1c7195e16fcd" /> | Cognitive impairments | Peope with cognitive issues may require **custom fonts** or **tools**, or **control over animations** and **movements**. **Plain language** and **contextual help** improve guidance. |
-| <img width="198" height="114" alt="an eyeball" src="https://github.com/user-attachments/assets/a76ecd74-5384-44a7-bb87-676d2920bec3" /> | Visual impairments | Blind, low-vision, and color-blind people may use **screen readers** or **magnifiers**, adjust **browser zoom settings**, or **customize colors** or **contrast levels**.
+| <img width="148" height="196" alt="outline of an ear" src="assets/disability-type-hearing-ear-icon.png" /> | Hearing impairments | Deaf and hard of hearing people need **captioned videos** and **audio transcripts**. Ambient sounds should be included in transcripts when they convey context or meaning. |
+| <img width="158" height="162" alt="a person in a wheelchair" src="assets/disability-type-motor-wheelchair-icon.png" /> | Motor impairments | People with mobility issues or injury may navigate with **keyboard**, **stylus**, **large touch input**, **eye-tracker**, or **voice control**. |
+| <img width="140" height="148" alt="a human brain" src="assets/disability-type-cognitive-brain-icon.png" /> | Cognitive impairments | Peope with cognitive issues may require **custom fonts** or **tools**, or **control over animations** and **movements**. **Plain language** and **contextual help** improve guidance. |
+| <img width="198" height="114" alt="an eyeball" src="assets/disability-type-visual-eye-icon.png" /> | Visual impairments | Blind, low-vision, and color-blind people may use **screen readers** or **magnifiers**, adjust **browser zoom settings**, or **customize colors** or **contrast levels**.
 
-?[axtemporary.webm](https://github.com/user-attachments/assets/f9ca3388-4f16-4515-952b-b7ee6c0c3c99)
+?[axtemporary.webm](assets/axtemporary.webm)
 
 It's also crucial to remember that disability isn't always permanent. An injury might cause a **temporary** motor disability. Being stressed or exhausted might create a **situational** cognitive difficulty. **Environmental** factors matter, too. Things like distractions nearby, current mental health, slow internet speed, or oudated services can all influence how someone sees, hears, moves, or concentrates on the content. Our work must account for the full range of human experience, which includes permanent, temporary, situational, and environmental barriers. 
 
 ## Assistive technology
-?[axassistive.webm](https://github.com/user-attachments/assets/f40d4ecf-c5b9-4337-9d4e-4b8297ad2f50)
+?[axassistive.webm](assets/axassistive.webm)
 
 Assistive technology is the hardware and software people use to interact with the digital world. Examples include screen readers for the visually impaired, voice recognition software for motor disabilities, and text-to-speech for cognitive issues. These tools are essential aids for communication and interaction.
 
-?[axatbenefits.webm](https://github.com/user-attachments/assets/8f488026-2984-46c1-804b-73ce18320fac)
+?[axatbenefits.webm](assets/axatbenefits.webm)
 
 Let's take a look at some assistive technology examples:
 
@@ -66,7 +66,7 @@ Let's take a look at some assistive technology examples:
 | Visual impairments | <ul><li>Screen readers</li><li>Screen magnifiers/browser zoom</li><li>Eyeglasses</li></ul> |
 
 ### Inaccessible content
-?[axinaccessibility.webm](https://github.com/user-attachments/assets/3d43569d-b6cd-4515-aeec-51fc4cd1678b)
+?[axinaccessibility.webm](assets/axinaccessibility.webm)
 
 When content is inaccessible, assistive technology doesn't function as intended. Barriers we design or build into a website cannot be overcome with assistive technology.
 
@@ -91,7 +91,7 @@ When content is inaccessible, assistive technology doesn't function as intended.
 - Required fields indicated only with an asterisk
 
 ## Checkpoint quiz
-?[quizstart.webm](https://github.com/user-attachments/assets/d7c1e995-c489-4c3d-bbd7-6bf5e6d39466)
+?[quizstart.webm](assets/quizstart.webm)
 
 Let's take a moment to review what we've covered so far. Select the correct answer or answers for the next few questions.
 
@@ -118,7 +118,7 @@ Let's take a moment to review what we've covered so far. Select the correct answ
 - [[X]] Environmental
 
 ## Accessible Roles and Responsibilities Mapping
-?[ARRM.webm](https://github.com/user-attachments/assets/5d831286-aed0-4e03-b254-9d3305e077b5)
+?[ARRM.webm](assets/ARRM.webm)
 
 To manage the complexity of web accessibility, we use the W3C's **Accessible Roles and Responsibilities Mapping (ARRM)**. ARRM is an initiative to break down accessibility work by digital role, aligning with the international standard: the **Web Content Accessibility Guidelines (WCAG)**. WCAG 2.2 currently has 86 success criteria. 
 
@@ -127,17 +127,17 @@ ARRM helps us answer:
 - Who's responsible for what?
 
 ### ARRM and RACI
-?[axRACI.webm](https://github.com/user-attachments/assets/0bfa4a0f-6e4d-41db-bf56-c45b67bd1482)
+?[axRACI.webm](assets/axRACI.webm)
 
 ARRM is designed to emulate a **Responsible, Accountable, Consulted, and Informed (RACI)** matrix. The goal is to embed accessibility into the definition of every digital role to catch issues earlier. For example, finding a color contrast issue is more costly if it's discovered late rather than in the design phase. ARRM uses primary, secondary, and contributor roles to help teams address complex, multi-role issues. 
 
 ## Tasks and roles
-?[axtasks.webm](https://github.com/user-attachments/assets/baf5ce0f-2bd5-43d6-aad9-9ab43a3da017)
+?[axtasks.webm](assets/axtasks.webm)
 
 ARRM breaks down WCAG criteria into smaller, role-specific tasks. This task-based system allows different roles to consider their  specific WCAG responsibilities, moving beyond the simple WCAG success criteria numbers. 
 
 ### Content design (Author role)
-?[axcontent.webm](https://github.com/user-attachments/assets/71a855a3-5baa-4efc-913a-4b915cd5174a)
+?[axcontent.webm](assets/axcontent.webm)
 
 Content authors are responsible for providing text alternatives for images. Other key duties include:
 - Using meaningful page titles and headings
@@ -146,7 +146,7 @@ Content authors are responsible for providing text alternatives for images. Othe
 - Using plain language and everyday words
 
 ### Visual design (Design role 1)
-?[axvisual.webm](https://github.com/user-attachments/assets/dfe2f3ad-e50b-4b81-a89e-aab7dc5e6005)
+?[axvisual.webm](assets/axvisual.webm)
 
 Visual designers must be mindful of the intentional use of color and its limitations. Other key duties include:
 - Avoiding images that contain text
@@ -155,7 +155,7 @@ Visual designers must be mindful of the intentional use of color and its limitat
 - Ensuring consistency in the use of objects and calls to action
 
 ### Human-centered design (Design role 2)
-?[axHCD.webm](https://github.com/user-attachments/assets/3217cb16-9efd-4984-a5c3-c2e6081a87df)
+?[axHCD.webm](assets/axHCD.webm)
 
 HCD roles, including UX and UX research, focus on user interactions. Other key duties include:
 - Ensuring that hover and focus actions move as expected
@@ -164,7 +164,7 @@ HCD roles, including UX and UX research, focus on user interactions. Other key d
 - Giving users control over any triggered elements
 
 ### Frontend/Backend engineering (Dev roles)
-?[axfrontend.webm](https://github.com/user-attachments/assets/91bd707f-c328-460d-a7bd-f30b3cabd0f4)
+?[axfrontend.webm](assets/axfrontend.webm)
 
 Developers are responsible for the technical foundation. Other key duties include:
 - Ensuring pages use semantic HTML and aria labels
@@ -173,7 +173,7 @@ Developers are responsible for the technical foundation. Other key duties includ
 - Using proper CSS techniques to ensure content displays properly regardless of screen magnification
 
 ## Checkpoint quiz
-?[quizstart.webm](https://github.com/user-attachments/assets/d7c1e995-c489-4c3d-bbd7-6bf5e6d39466)
+?[quizstart.webm](assets/quizstart.webm)
 
 Let's take a moment to review what we've covered so far. Select the correct answer or answers for the next few questions.
 
@@ -202,7 +202,7 @@ Let's take a moment to review what we've covered so far. Select the correct answ
 - [( )] To provide color-contrast tools
 
 ## Accessibility Quality Objectives
-?[axQMS.webm](https://github.com/user-attachments/assets/1db1f0c0-b7dc-4228-924b-49163a569aa6)
+?[axQMS.webm](assets/axQMS.webm)
 
 As part of our ISO 9001 certification and Quality Management System (QMS) implementation, accessibility is a key quality objective in our practice area. We monitor our competency and investment in this area by tracking:
 
@@ -212,7 +212,7 @@ As part of our ISO 9001 certification and Quality Management System (QMS) implem
 - Engagement in accessibility communities through feedback, social media posts, and speaking opportunities
 
 ## Get Involved
-?[axinvolved.webm](https://github.com/user-attachments/assets/6dfca86b-8aba-49df-be45-38bcd59268fe)
+?[axinvolved.webm](assets/axinvolved.webm)
 
 There are several ways to get involved in our accessibility practice area:
 
@@ -222,6 +222,6 @@ There are several ways to get involved in our accessibility practice area:
 - Contribute to our accessibility site: https://accessibility.civicactions.com
 
 ## Summary
-?[axsummary.webm](https://github.com/user-attachments/assets/db139558-0f1c-45fb-9911-106695106dcd)
+?[axsummary.webm](assets/axsummary.webm)
 
 As we close out this training, please remember that we all have a responsibility to design, build, and ensure accessible content for all. Take some time to jot down a few ways you can start today as an accessibility champion. Thank you for playing your part in helping CivicActions deliver on our commitment to accessible digital content for all. 
