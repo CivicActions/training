@@ -1,0 +1,100 @@
+# CODEOWNERS file for CivicActions/training repository
+# GitHub will request reviews from these owners whenever a PR modifies matching files
+# Docs: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Teams
+# @CivicActions/civicactions-accessibility
+# @CivicActions/civicactions-deia-team
+# @CivicActions/civicactions-team
+# @CivicActions/design
+# @CivicActions/docs
+# @CivicActions/engineering
+# @CivicActions/internal-developers
+# @CivicActions/it
+# @CivicActions/legal
+# @CivicActions/management
+# @CivicActions/open-data
+# @CivicActions/pm
+# @CivicActions/policy
+
+
+
+
+# =============================================================================
+# BASE DEFAULT RULES
+# =============================================================================
+
+# Default: All changes to trainings require internal-developers + at least 2 from combined teams
+* @CivicActions/internal-developers @CivicActions/legal @CivicActions/security
+
+# Exclude top-level files from CODEOWNERS review
+LICENSE
+*.code-workspace
+.gitignore
+.github/
+
+
+# =============================================================================
+# COMPLIANCE & POLICY TRAININGS (CP-*)
+# These require security + legal expertise
+# =============================================================================
+
+# CP-01: Security Awareness Essentials
+CP-01-security-awareness-essentials/ @CivicActions/security @CivicActions/internal-developers @CivicActions/legal
+
+# CP-02: CUI Awareness & Handling (Legal + Security critical)
+CP-02-cui-awareness-handling/ @CivicActions/legal @CivicActions/security
+
+# CP-03: IT Ops, Change & Configuration
+CP-03-it-ops-change-config-patch/ @CivicActions/it @CivicActions/internal-developers
+
+# CP-04: Incident Response (Security lead)
+CP-04-incident-response-responders/ @CivicActions/security @CivicActions/internal-developers @CivicActions/it
+
+# CP-05: Secure Development & Supply Chain
+CP-05-secure-dev-supply-chain/ @CivicActions/security @CivicActions/internal-developers
+
+# CP-06: Access Governance & Risk
+CP-06-access-governance-risk-supplier/ @CivicActions/legal @CivicActions/security
+
+# CP-Quality Management System (Compliance/Governance)
+CP-Quality-Management-System/ @CivicActions/legal @CivicActions/internal-developers
+
+
+# =============================================================================
+# ACCESSIBILITY TRAININGS (AC-*)
+# =============================================================================
+
+AC-Accessibility-Foundations/ @CivicActions/internal-developers @CivicActions/legal
+
+
+# =============================================================================
+# DESIGN TRAININGS (DE-*)
+# =============================================================================
+
+DE-Human-Centered-Design-Foundations/ @CivicActions/internal-developers
+
+
+# =============================================================================
+# IT & INFRASTRUCTURE TRAININGS (IT-*)
+# =============================================================================
+
+IT-Laptop/ @CivicActions/it @CivicActions/internal-developers
+
+
+# =============================================================================
+# SPECIAL RULES & PATTERNS (Examples of CODEOWNERS capability)
+# =============================================================================
+
+# Asset files (images, diagrams) require design/accessibility review
+**/assets/ @CivicActions/internal-developers
+
+# Any CODEOWNERS file changes require special attention
+CODEOWNERS @CivicActions/internal-developers @CivicActions/legal
+
+# Documentation updates (if you want to track separately)
+# **/docs/ @CivicActions/internal-developers
+
+# Configuration files might need security review
+# wrangler.toml @CivicActions/security
+# .env* @CivicActions/security
