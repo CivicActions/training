@@ -28,3 +28,13 @@
 Add Training 2 (CUI) to any role working with federal contract information (FCI).
 
 Unanet: log this meeting as \<Practice Area\>: Training
+
+### Some Audience Definitions
+
+**Internal Developers:** anyone who has made non-document (*.md) commits to the CivicActions Github or Gitlab
+
+**P*M:** Project and Product Managers
+
+**System/Data Owners:** The listed owner or co-owner of a CivicActions Asset (e.g. Slack, Unanet...)
+
+**Management:** Includes Leadership
