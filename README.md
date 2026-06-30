@@ -27,4 +27,4 @@
 
 Add Training 2 (CUI) to any role working with federal contract information (FCI).
 
-Unanet log this meeting as <Practice Area>: Training
+Unanet: log this meeting as \<Practice Area\>: Training
