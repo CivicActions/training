@@ -230,7 +230,6 @@ Developers often have elevated access — to production systems, CI/CD pipelines
 
 Your SSH keys and API tokens are as sensitive as passwords.
 
-- Use **CivicActions naming conventions** so keys and tokens can be identified and traced to their owner.
 - Every SSH key or personal access token must be **linked to your individual identity** - never shared between people.
 - **Store tokens securely.** Never commit them to source code, tickets, chat, or documentation.
 - **Remove or rotate keys and tokens** immediately after role changes, suspected exposure, or when no longer needed.
