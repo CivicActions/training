@@ -243,7 +243,7 @@ Signed commits help prove that a repository change really came from the person l
 * **All repository commits must be signed** unless a specific exception has been granted.
 * Configure Git to sign commits by default before contributing to CivicActions repositories.
 * Use your own signing key — never share signing keys or commit under someone else’s identity.
-* Follow the (CivicActions commit-signing instructions)[https://guidebook.civicactions.com/en/latest/practice-areas/engineering/git/#commit-signing] for setting up GPG keys and adding them to GitHub and GitLab.
+* Follow the [CivicActions commit-signing instructions](https://guidebook.civicactions.com/en/latest/practice-areas/engineering/git/#commit-signing) for setting up GPG keys and adding them to GitHub and GitLab.
 
 > **Unsigned commits weaken trust in the code history.** Signed commits support accountability, traceability, and non-repudiation for code changes.
 
