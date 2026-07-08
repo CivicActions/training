@@ -236,6 +236,17 @@ Your SSH keys and API tokens are as sensitive as passwords.
 
 > **A leaked API token is an open door.** Treat your keys with the same care as your password — and rotate them regularly even if you don't think they've been exposed.
 
+### Signed Commits
+
+Signed commits help prove that a repository change really came from the person listed as the author.
+
+* **All repository commits must be signed** unless a specific exception has been granted.
+* Configure Git to sign commits by default before contributing to CivicActions repositories.
+* Use your own signing key — never share signing keys or commit under someone else’s identity.
+* Follow the (CivicActions commit-signing instructions)[https://guidebook.civicactions.com/en/latest/practice-areas/engineering/git/#commit-signing] for setting up GPG keys and adding them to GitHub and GitLab.
+
+> **Unsigned commits weaken trust in the code history.** Signed commits support accountability, traceability, and non-repudiation for code changes.
+
 ### CI/CD Pipeline Credentials
 
 Pipelines need credentials too, and they have their own rules:
@@ -286,7 +297,7 @@ Here's what you covered:
 1. **Secure engineering principles** — shift-left security, design principles (least privilege, zero trust, defense in depth), no real data in test environments, mandatory code review
 2. **AI-assisted development** — Copilot only for code, review and test all AI output, document AI usage in PRs, no sensitive data in prompts
 3. **Open-source and supply chain** — treat FOSS as suppliers, SCA/SAST/DAST in CI/CD, assess unmaintained components, SBOM at intake, screen against prohibited tech lists
-4. **Access and identity** — rotate SSH keys and tokens quarterly, separate pipeline service accounts, use secret management tools, know your CIA "High" systems
+4. **Access and identity** — protect SSH keys and tokens, sign repository commits, separate pipeline service accounts, use secret management tools, and know your CIA "High" systems
 
 **Remember the essentials:**
 
