@@ -327,9 +327,9 @@ Controlled Documents are tracked in the **Controlled Document Jira board**. Each
 
 **Format:** Two-character department prefix + document type digit + three-digit unique number
 
-For example: `IT-1-001` might be an IT policy document.
+For example: `IT1001` might be an IT policy document.
 
-> **Example:** The IT department (prefix "IT") publishes a new policy (type digit "1"), and it's the third document in the series (serial "003"). Its ID is `IT-1-003`. A security team checklist would be something like `SC-4-012` — Security (SC), checklist (4), twelfth document. These IDs live on the Controlled Document Jira board and never get reused, even if a document is retired.
+> **Example:** The IT department (prefix "IT") publishes a new policy (type digit "1"), and it's the third document in the series (serial "003"). Its ID is `IT1003`. A security team checklist would be something like `SC4012` — Security (SC), checklist (4), twelfth document. These IDs live on the Controlled Document Jira board and never get reused, even if a document is retired.
 
 ### Classification
 

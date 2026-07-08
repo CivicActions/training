@@ -39,7 +39,7 @@ Security isn't something you bolt on at the end. It's something you build in fro
 - Set up **automated baseline enforcement** in your pipelines — security checks run on every commit
 - Catch problems in CI, not in production
 
-> **Example:** Your project uses a pre-approved authentication library that integrates with Google Workspace SAML. Your CI pipeline runs SAST and SCA checks on every pull request. A developer opens a PR that accidentally downgrades the library to a version with a known vulnerability — the pipeline catches it before the PR is even reviewed. That's shift-left in action.
+> **Example:** A developer opens a PR that accidentally includes a library with a known vulnerability. Your CI pipeline runs SAST and SCA checks on every pull request  — the pipeline catches it before the PR is even reviewed. That's shift-left in action.
 
 > **Think of it this way:** Fixing a security bug in a pull request costs minutes. Fixing one in production costs days — plus the incident response overhead.
 
@@ -58,7 +58,7 @@ This one is simple but critical:
 
 - **Never use real PII, Confidential, or CUI data** in test or development environments
 - **Do not export PII from SaaS platforms** for testing purposes
-- **Use synthetic or masked datasets** instead — and submit masking scripts for review and approval before use
+- **Use synthetic or sanitized datasets** instead — and submit masking scripts for review and approval before use
 - **Store test data only in approved environments** — never on personal devices or unapproved platforms
 
 Production data in a test environment is a breach waiting to happen. Synthetic data gives you what you need without the risk.
@@ -228,16 +228,14 @@ Developers often have elevated access — to production systems, CI/CD pipelines
 
 ### SSH Keys and API Tokens
 
-Your SSH keys and API tokens are as sensitive as passwords:
+Your SSH keys and API tokens are as sensitive as passwords.
 
-- Follow the **CivicActions naming conventions** so keys are identifiable
-- Every key must be **linked to your individual identity** — no shared keys
-- **Rotate** keys and tokens on schedule — **quarterly minimum**
-- **Revoke immediately** on role change or departure
+- Use **CivicActions naming conventions** so keys and tokens can be identified and traced to their owner.
+- Every SSH key or personal access token must be **linked to your individual identity** - never shared between people.
+- **Store tokens securely.** Never commit them to source code, tickets, chat, or documentation.
+- **Remove or rotate keys and tokens** immediately after role changes, suspected exposure, or when no longer needed.
 
-> **A leaked API token is an open door.** Treat your keys with the same care as your password — and rotate them on schedule even if you don't think they've been exposed.
-
-> **Example:** Your SSH key for GitLab follows the naming convention `firstname.lastname-gitlab-projectx` so it's immediately identifiable. It's linked to your `firstname.lastname@civicactions.com` identity, and you have a quarterly Jira reminder to rotate it. When you move to a different project, you revoke the old key as part of the transition — don't leave stale keys lying around.
+> **A leaked API token is an open door.** Treat your keys with the same care as your password — and rotate them regularly even if you don't think they've been exposed.
 
 ### CI/CD Pipeline Credentials
 
