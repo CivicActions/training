@@ -181,7 +181,7 @@ A colleague submits a change to a Controlled Document that corrects a typo and u
 
 You've completed both modules — great work! Here's a final question that brings them together.
 
-During an annual review, a System Owner identifies a risk that exceeds the organization's tolerance. The policy document describing the mitigation controls is two years old with no version history. What are the two immediate actions?
+During an annual review, a System Owner identifies a risk that exceeds CivicActions' tolerance. The policy document describing the mitigation controls is two years old with no version history. What are the two immediate actions?
 
 - [( )] Accept the risk and leave the document as-is until the next scheduled review
 - [( )] Update the document informally and email the team
@@ -189,7 +189,7 @@ During an annual review, a System Owner identifies a risk that exceeds the organ
 - [( )] Only the document matters — fix that first, risk acceptance can wait
 ***
 
-**Correct!** Both issues require action — neither can wait for the other. The risk must move through the acceptance authority chain (System Owner → CISO → CEO, depending on severity) or be assigned a treatment option; it cannot simply be left unresolved. The outdated policy document must be updated through the formal Change Request process, producing a new versioned controlled document — informal edits and email notifications are not sufficient. Handling only one of these would leave either an unaccepted risk or an inaccurate controlled document on the record.
+**Correct!** Both issues require action — neither can wait for the other. The risk must move through the acceptance authority chain (System Owner → CISO → CEO/CTO, depending on severity) or be assigned a treatment option; it cannot simply be left unresolved. The outdated policy document must be updated through the formal Change Request process, producing a new versioned controlled document — informal edits and email notifications are not sufficient. Handling only one of these would leave either an unaccepted risk or an inaccurate controlled document on the record.
 
 ***
 

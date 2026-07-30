@@ -213,10 +213,10 @@ You've completed both modules — great work! Here's a final question that bring
 
 A project team wants to use a new AI-powered analytics SaaS tool that will ingest CUI from a federal engagement. What is required before it can be deployed?
 
-- [( )] CTO approval only — it's an AI tool, so AI governance policy applies
-- [( )] Vendor due diligence only — it's a SaaS product, so SCRM-DS intake applies
-- [( )] Client sign-off only — it's their data, so their approval is all that's needed
-- [(X)] CTO approval, tier-appropriate vendor due diligence (SCRM-DS, likely High tier given CUI handling), and client approval are all required — no deployment until all three are complete
+- [( )] CTO approval only - it's an AI tool, so AI governance policy applies
+- [( )] Vendor due diligence only - it's a SaaS product, so SCRM-DS intake applies
+- [( )] Client sign-off only - it's their data, so their approval is all that's needed
+- [(X)] CTO approval, tier-appropriate vendor due diligence (SCRM-DS, likely High tier given CUI handling), and client approval are all required - no deployment until all three are complete
 ***
 
 **Correct!** This tool is simultaneously a *supplier* and an *AI tool*, so both sets of rules apply. As a SaaS product handling CUI, it goes through SCRM-DS intake — CIAX scoring would land it at High tier, requiring full due diligence including a security questionnaire and evidence review. As a new AI tool, it requires CTO approval plus client approval since it's on a federal project. And because it handles CUI, the risk assessment must also confirm the tool meets the data handling requirements of the AI Usage Policy — AI tools are not automatically cleared for sensitive data just because they've been approved for other uses.
