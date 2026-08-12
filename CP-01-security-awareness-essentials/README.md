@@ -219,7 +219,7 @@ CivicActions uses four levels of data classification:
 
 ### Handling Rules by Sensitivity Level
 
-Each sensitivty classification level has specific rules for sharing, storage, and transmission:
+Each sensitivity classification level has specific rules for sharing, storage, and transmission:
 
 - **Public:** No special handling needed
 - **Internal:** Keep within CivicActions systems; don't post externally
