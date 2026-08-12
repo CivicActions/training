@@ -252,7 +252,7 @@ If it's work data, it belongs on work systems — period.
 
 Sharing data the wrong way is one of the most common security mistakes:
 
-- **Google Docs:** Share by **individual email address**, not "anyone with the link"
+- **Google Docs:** Share by **individual email address** or approved group (e.g. **CivicActions Team**); not "Anyone with the link"
 - **Confidential files sent externally:** Use a **password-protected AES-256 archive** with a **16+ character passphrase**
   - **Send the passphrase through a separate channel** (e.g., share the file by email, send the password via Slack)
 - **Never use email for Confidential or Restricted data that is not encrypted** — use Google Drive sharing instead
