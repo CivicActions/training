@@ -367,18 +367,25 @@ To keep track of multiple projects, you want to install a new AI scheduling assi
 
 Security incidents happen — even to careful people. What matters most is how quickly you respond. This module teaches you what to look for, how to report it, and what happens next.
 
+Here are links to the full [Incident Response Policy](https://civicactions.atlassian.net/wiki/spaces/MGPOL/overview#:~:text=Incident%20Response%20Policy) and [Incident Response Plan](https://guidebook.civicactions.com/en/latest/common-practices-tools/security/incident-response-plan/).
+
+But this link is more useful for general staff: [What is an incident](https://guidebook.civicactions.com/en/latest/common-practices-tools/security/incidents/) and how to report one.
+
 ### See Something, Say Something
 
 If you observe **anything** that might be a security incident, outage, or suspicious activity — **raise a flag immediately**. Don't wait until you're sure.
 
-**How to report:**
+#### How to report a suspected incident
 
-- Post in **Slack `loving-security`**
-- **DM an IT team member** directly
-- **DM your manager**
-- Email **security@civicactions.com**
+Post what you observed and what systems may be affected in the Slack [`loving-security`](https://civicactions.slack.com/messages/loving-security/) channel and mention the `@security` group.
+
+You can also DM an IT team member or send an email to `security@civicactitons.com`.
+
+If the issue may be critical or if you don't get a response within 15 minutes, (re-)post the above in [`#it-support`](https://civicactions.slack.com/messages/it-support/). Include the word "Incident" to alert the Security Incident Response Team (SIRT).
 
 Use whichever channel is fastest. Speed matters more than formality.
+
+After reporting, follow the Responder's lead: they may ask you to preserve evidence, or provide more detail.
 
 > **Examples of things to report:** A phishing email, a lost laptop, an unfamiliar login alert, a SaaS app behaving strangely, a colleague who seems to have access they shouldn't, a physical security concern at a co-working space.
 
@@ -416,7 +423,7 @@ When an incident is under investigation:
 
 ### Post-Incident Participation
 
-After an incident is resolved, you may be asked to participate in a **retrospective** (or "post-mortem"). These are learning sessions, not blame sessions:
+After an incident is resolved, you may be asked to participate in a **retrospective**. These are learning sessions, not blame sessions:
 
 - Share what you observed honestly
 - Focus on **what happened** and **how to prevent recurrence**
@@ -428,11 +435,11 @@ You receive a suspicious email with an attachment claiming to be an invoice. Wha
 
 - [( )] Open the attachment to check if it looks legitimate
 - [( )] Forward it to your personal email for safekeeping
-- [(X)] Report it immediately to security@civicactions.com
+- [(X)] Report (forward) it to security@civicactions.com
 - [( )] Delete it and forget about it
 ***
 
-**Correct!** Never open suspicious attachments. Report the email immediately so the security team can analyze it and warn others if needed. Deleting it silently means the team can't investigate — and others might fall for the same phishing attempt. Reporting suspicious email messages using the Report phishing option in Gmail is also encouraged.
+**Correct!** Never open suspicious attachments. Report the email immediately so the security team can analyze it and warn others if needed. Deleting it silently means the team can't investigate — and others might fall for the same phishing attempt. Reporting suspicious email messages using the `Report phishing` option in Gmail is also encouraged.
 
 ***
 
