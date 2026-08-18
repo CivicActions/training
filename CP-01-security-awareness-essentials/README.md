@@ -168,7 +168,7 @@ Any site or service that doesn't use Google Workspace SSO should use Multi-Facto
 
 Need access to a new system or project?
 
-1. Submit a request including the system name, your justification and how long you need it using a project ticket or via [**Atlassian Assist**](https://civicactions.atlassian.net/wiki/spaces/ITSM/pages/607584257/Atlassian+Assist)
+1. Submit a request including the system name, your justification and how long you need it using a project ticket or via [**internal technical support**](https://guidebook.civicactions.com/en/latest/common-practices-tools/software-and-support/#to-request-support)
 2. Access is granted based on **least privilege** — you get only what you need
 3. If your role changes or you leave, **notify IT promptly** so access can be adjusted
 
@@ -337,7 +337,7 @@ CivicActions has approved specific AI tools for different purposes:
 - **Specialist:** Grammarly, Paxton AI
 - **Service integrations:** Zoom AI, Mural, Confluence/Jira, Greenhouse, Figma
 
-> **Note:** ChatGPT's Atlas browser feature is **not approved**. Stick to the approved configurations.
+> **Note:** This list changes frequently, refer to the [**AI Usage Policy**](https://civicactions.atlassian.net/wiki/spaces/MGPOL/pages/582418435/AI+Usage+Policy#Approved-Generative-AI-Tools) for the latest list.
 
 ### New AI Tools
 
@@ -493,7 +493,7 @@ Clients and partners are notified only if the outage impacts deliverables.
 
 Want to suggest a change to a policy or controlled document?
 
-- Submit an [**internal IT support request**](https://civicactions.atlassian.net/wiki/spaces/ITSM/pages/607584257/Atlassian+Assist)
+- Contact the Document Owner, or add a ticket to the appropriate Jira board.
 - Controlled Documents are **reviewed annually**
 - Access to documents is managed via **security groups**
 
