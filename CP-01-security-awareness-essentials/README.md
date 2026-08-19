@@ -37,11 +37,11 @@ CivicActions issues employees a [**managed laptop**](https://civicactions.atlass
 - **Auto-lock** — your screen locks automatically after a short idle period
 - **Automatic patching** — your OS and security software stay up to date
 
-> **Important:** You must use your CivicActions laptop for all work involving Internal, Confidential, or client data. Personal (BYOD) mobile devices can only be used for approved communications and collaboration tools.
+> **Important:** You must use your CivicActions laptop for all work involving Internal, Confidential, or client data. Personal BYOD (Bring Your Own Device) mobile devices can only be used for approved communications and collaboration tools.
 
 > **Example:** Your CivicActions Laptop comes with the Iru Mobile Device Management (MDM) system that manages FileVault encryption, security scanning, firewall, and patching out of the box. You don't need to configure any of this yourself — IT handles it before your laptop ships to you.
 
-> **Tip:** It's smart to keep your personal devices protected with a strong password, an idle screen lock and attention to security updates. Also, use passkeys or multi-factor authentication (MFA) whereever possible and stay alert to avoid phishing scams. More tips [here](https://ssd.eff.org/).
+> **Tip:** It's smart to keep your personal devices protected with a strong password, an idle screen lock and attention to security updates. Also, use passkeys or multi-factor authentication (MFA) wherever possible and stay alert to avoid phishing scams. More tips [here](https://ssd.eff.org/).
 
 ### Software Rules
 
@@ -76,7 +76,7 @@ Your network connection matters just as much as your laptop.
 - **Change the default admin password** on your home router (many people skip this) and keep the firmware updated
 - **Never click through TLS/SSL warnings** — they exist for a reason
 
-> **Tip:** Most all remote connections (Gmail, Slack, web sites, etc.) - certainly the ones required for your work - are secured with strong end-to-end cryptography, creating a safe network path for your communications.
+> **Tip:** Practically all remote connections (Gmail, Slack, web sites, etc.) - certainly the ones required for your work - are secured with strong end-to-end cryptography, creating a safe network path for your communications.
 
 ### Travel and Public Locations
 
@@ -137,7 +137,7 @@ Your [**YubiKey is a Passkey**](https://civicactions.atlassian.net/wiki/spaces/I
 
 > **Why a hardware key?** They are phishing resistant and are preferred over SMS codes or authenticator apps. Even if someone tricks you into entering your password on a fake site, they can't intercept a hardware key.
 
-If you lose your YubiKey, report it immediately to security@civicactions.com - IT will disable the lost key, verify your identity, and send you a replacement. If you are locked out of your laptop or Google Account, follow the procedure for [Internal Technical Support](https://guidebook.civicactions.com/en/latest/common-practices-tools/software-and-support/#emergency-locked-out) in the Guidebook
+If you lose your YubiKey, report it immediately to security@civicactions.com - the Information Technology (IT) team will disable the lost key, verify your identity, and send you a replacement. If you are locked out of your laptop or Google Account, follow the procedure for [Internal Technical Support](https://guidebook.civicactions.com/en/latest/common-practices-tools/software-and-support/#emergency-locked-out) in the Guidebook
 
 > **Tip:** Consider buying a second YubiKey and keep one on your keychain and store the backup in a secure spot at home.
 
@@ -172,7 +172,7 @@ Need access to a new system or project?
 2. Access is granted based on **least privilege** — you get only what you need
 3. If your role changes or you leave, **notify IT promptly** so access can be adjusted
 
-> **Note:** Access to client systems is managed separately by the client project managers and security team.
+> **Note:** Access to client systems is managed separately by the client project managers and their security team.
 
 ### Project Boundary Awareness
 
@@ -244,7 +244,7 @@ If it's work data, it belongs on work systems — period.
 
 > **General rule:** All work related information should be stored in the cloud in the appropriate CivicActions Google Shared Drive or in GitHub/GitLab.
 
-> **Example:** You're drafting a proposal and want to save it locally "just in case." Don’t save your draft proposal locally. Sync it to your [**CivicActions Google Drive**](https://civicactions.atlassian.net/wiki/spaces/ITSM/pages/620462113/Google+Drive+User+Guide) instead. That way it's backed up, access-controlled, and covered by DLP monitoring. If something happens to your laptop, the file is still safe in the cloud.
+> **Example:** You're drafting a proposal and want to save it locally "just in case." Don’t save your draft proposal locally. Sync it to your [**CivicActions Google Drive**](https://civicactions.atlassian.net/wiki/spaces/ITSM/pages/620462113/Google+Drive+User+Guide) instead. That way it's backed up, access-controlled, and covered by Data Loss Prevention (DLP) monitoring. If something happens to your laptop, the file is still safe in the cloud.
 
 > **Tip:** Learn to spot labeled files in Google Workspace — look for banners, filename tags (like `[CUI]` or `[Confidential]`), or workspace labels on documents and folders. If a file contains sensitive information but doesn't have any of these markers, flag it to your manager or IT so it can be properly labeled before anyone shares it further.
 
@@ -419,7 +419,7 @@ When an incident is under investigation:
 - Treat incident details on a **need-to-know basis**
 - **Don't share details** outside the designated channels (Slack incident thread, email to security team, etc.)
 
-> **Example:** You hear that a SaaS vendor CivicActions uses had a breach. Don't post about it in a public Slack channel or mention it to a client. Wait for the Incident Commander or Communications Officer to share approved updates through the proper channels.
+> **Example:** You hear that a Software as a Service (SaaS) vendor CivicActions uses had a breach (e.g., Slack, Unanet). Don't post about it in a public Slack channel or mention it to a client. Wait for the Incident Commander or Communications Officer to share approved updates through the proper channels.
 
 ### Post-Incident Participation
 
