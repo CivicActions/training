@@ -71,6 +71,7 @@ Peer review isn't optional:
 
 - **All production code requires peer review** — no exceptions
 - For **CIA "High" systems**, additional review rigor applies (more reviewers, more scrutiny)
+   - Here, "CIA" stands for Confidentiality, Integrity, Availability, not the spy agency. A "CIA High" system is one where it would be really bad — think national security or people's safety — if the data leaked, got corrupted, or went offline.
 - Code review is a security control, not just a quality check
 
 > **Example:** You're working on a CIA "High" system for a federal client. Your PR gets the usual peer review, but because of the system's classification, it also requires a second reviewer with security expertise. The extra rigor isn't bureaucracy — it's proportional to the risk.
@@ -169,11 +170,12 @@ CivicActions treats open-source libraries and containers the same way we treat c
 
 - **Data touched** and required privileges
 - **Security posture** (SBOM, disclosure policy, signed releases), and vendor trust/community health.
+   - An SBOM, or Software Bill of Materials, is like a nutrition label for software: a complete list of every ingredient (library, package, component) baked into an app, so you can check for anything dangerous before it causes problems.
 - **Assess maintainer health** — is the project actively maintained? How many contributors does it have? What is the update/patch velocity?
 - **Triage known vulnerabilities** before adding a dependency
 - **Verify license compliance** — some licenses have restrictions that may conflict with client contracts
 
-> **Example:** Before adding a new npm package to your project, you check: Does it have an SBOM? Are there any known CVEs? What's its license — is it compatible with the client's contract? When was the last commit? If the package has 1 contributor, no releases in 8 months, and 30 open security issues, that's a red flag — even if the API is exactly what you need.
+> **Example:** Before adding a new npm package to your project, you check: Does it have an SBOM? Are there any known vulnerabilities? What's its license — is it compatible with the client's contract? When was the last commit? If the package has 1 contributor, no releases in 8 months, and 30 open security issues, that's a red flag — even if the API is exactly what you need.
 
 ### SCA in CI/CD
 
@@ -202,11 +204,10 @@ An open-source library that nobody is maintaining is a ticking time bomb:
 
 Before adding any new dependency or tool:
 
-- **Screen it against the [prohibited technology list](https://guidebook.civicactions.com/en/latest/company-policies/prohibited-hardware-and-software/)**
-- Check for **DFARS restrictions** — some technologies are not permitted on DoD-related projects
+- **Screen it against the [Federal Acquisition Regulation (FAR) prohibited technology list](https://guidebook.civicactions.com/en/latest/company-policies/prohibited-hardware-and-software/)** — some technologies are not permitted on Federal projects
 - Do this at intake, not after you've already integrated it
 
-> **Example:** A developer on a DoD project wants to add a container image from a public registry. Before integrating it, they check: Is this image on the prohibited technology list? Are there DFARS restrictions that apply? Does the image come with an SBOM? These checks happen *before* writing the Dockerfile, not after the feature is built.
+> **Example:** A developer on a Federal project wants to add a container image from a public registry. Before integrating it, they check: Is this image on the prohibited technology list? Are there FAR restrictions that apply? Does the image come with an SBOM? These checks happen *before* writing the Dockerfile, not after the feature is built.
 
 ### Module C Quiz
 
