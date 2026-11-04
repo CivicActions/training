@@ -348,7 +348,11 @@ Why must admin accounts be separate from your daily-use account?
 
 When critical systems go down, we need a plan. This module covers how CivicActions classifies outages, recovers systems, and learns from incidents.
 
-Here's a link to the full [**Disaster Recovery Plan**](https://civicactions.atlassian.net/wiki/spaces/MGPOL/pages/915963911/Disaster+Recovery+Plan)
+Useful links:
+- The [**Incident Response Contingency Plan** (IRCP)](https://guidebook.civicactions.com/en/latest/common-practices-tools/security/contingency-plan/)
+   - Primary [External Dependencies](https://guidebook.civicactions.com/en/latest/common-practices-tools/security/contingency-plan/#external-dependencies)
+- The [**Disaster Recovery Plan**](https://civicactions.atlassian.net/wiki/spaces/MGPOL/pages/915963911/Disaster+Recovery+Plan)
+
 
 ### Incident Classification
 
