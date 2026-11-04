@@ -40,7 +40,7 @@ CivicActions' incident response documentation has three layers:
 | [**Incident Response Policy**](https://civicactions.atlassian.net/wiki/spaces/MGPOL/pages/755367940/Incident+Response+Policy) | Defines principles, authority, and roles |
 | [**Incident Response Plan (IRP)**](https://guidebook.civicactions.com/en/latest/common-practices-tools/security/incident-response-plan/) | A guide to CivicActions' incident response procedures for mitigating threats to system security and data privacy |
 | [**Incident Response Checklist**](https://guidebook.civicactions.com/en/latest/common-practices-tools/security/incident-response-checklist/) | The IRP again, stripped down to just the procedures for responders |
-| [**Contingency Plan**](https://guidebook.civicactions.com/en/latest/common-practices-tools/security/contingency-plan/) | Recovery targets and integration with Disaster Recovery |
+| [**Contingency Plan**](https://guidebook.civicactions.com/en/latest/common-practices-tools/security/contingency-plan/) | Recovery targets and integration with the [Disaster Recovery Plan](https://civicactions.atlassian.net/wiki/spaces/MGPOL/pages/915963911/Disaster+Recovery+Plan) |
 
 During an active incident, the **Checklist** is your go-to reference. The IRP provides detailed procedures, and the Contingency Plan tells you how to prioritize recovery.
 
